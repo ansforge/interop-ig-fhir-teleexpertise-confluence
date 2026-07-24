@@ -6,7 +6,6 @@ Description: "Profil issu de FRCorePatientINSProfile"
 
 * identifier[NSS-NIR] 0..1
 * identifier[INS-NIR] 1..1
-* extension contains patient-birthPlace named birthPlace 1..1
 * name 1..*
 * name.use from NameUseUsualOrOfficial (required)
 * name.family 1..1

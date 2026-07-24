@@ -1,0 +1,19 @@
+{
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/ImplementationGuide/ans.fhir.fr.teleexpertise-confluence",
+  "name" : "ConfluencesTeleexpertise",
+  "title" : "Confluences Téléexpertise",
+  "description" : "Mise en relation entre un requérant et un requis de téléexpertise, chacun depuis son logiciel métier, via les API REST FHIR.",
+  "status" : "draft",
+  "package-id" : "ans.fhir.fr.teleexpertise-confluence",
+  "ig-ver" : "0.1.0",
+  "date" : "Fri, 24 Jul, 2026 11:58:53 +0000",
+  "dateISO8601" : "2026-07-24T11:58:53+00:00",
+  "errs" : 38,
+  "warnings" : 20,
+  "hints" : 94,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 1749421336
+}

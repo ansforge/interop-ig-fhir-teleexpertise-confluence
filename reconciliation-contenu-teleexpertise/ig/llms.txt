@@ -1,0 +1,55 @@
+# ans.fhir.fr.teleexpertise-confluence#0.1.0: Confluences Téléexpertise(fr)
+
+## Pages
+
+* [Accueil](fr/index.md)
+* [Informations sur la traduction](fr/translationinfo.md)
+* [Sécurité](fr/annexe-securite.md)
+* [Autres Ressources](fr/autres_ressources.md)
+* [Résumé des artefacts](fr/artifacts.md)
+* [Flux de la demande](fr/specification_enrichi.md)
+* [Historique des versions](fr/change-log.md)
+* [Contexte administratif de la demande](fr/specification_requerant.md)
+* [Flux des statuts](fr/specification_statuts.md)
+* [Téléchargements et usages](fr/annexe-downloads.md)
+
+## Resources
+
+### CodeSystems
+
+* [ActiveStatusCS](fr/CodeSystem-active-status-cs.md)
+
+### ValueSets
+
+* [NameUse Usual Or Official](fr/ValueSet-NameUseUsualOrOfficial.md)
+* [ActiveStatus](fr/ValueSet-activestatus.md)
+
+### Complex-type Profiles
+
+* [Adresse de la Structure](fr/StructureDefinition-AsAddressExtendedProfile.md)
+* [Adresse du Patient](fr/StructureDefinition-FRCoreAddressProfile.md)
+* [Contact Patient](fr/StructureDefinition-FRCoreContactPointProfile.md)
+* [Mailbox MSS](fr/StructureDefinition-as-mailbox-mss.md)
+
+### Resource Profiles
+
+* [CFL HealthcareService Profile](fr/StructureDefinition-CFL-HealthcareService-profile.md)
+* [CFL Organization Profile](fr/StructureDefinition-cfl-Organization.md)
+* [CFL ServiceRequest Enrichi Profile](fr/StructureDefinition-cfl-ServiceRequest-enrichi.md)
+* [CFL ServiceRequest Requerant Profile](fr/StructureDefinition-cfl-ServiceRequest-requerant.md)
+* [CFL Practitioner Profile](fr/StructureDefinition-cfl-practitioner.md)
+* [CFL PractitionerRole Profile](fr/StructureDefinition-cfl-practitionerrole.md)
+* [Cfl Transaction Response](fr/StructureDefinition-cfl-transaction-response-bundle.md)
+* [FR Core Patient CFL](fr/StructureDefinition-fr-core-patient-cfl.md)
+
+### Extensions
+
+* [Patient Consent](fr/StructureDefinition-patient-consent.md)
+* [Patient Multiple Birth](fr/StructureDefinition-patient-multiple-birth.md)
+* [Redirect Url](fr/StructureDefinition-redirect-url.md)
+* [Split Active Status](fr/StructureDefinition-split-active-status.md)
+* [Url Ltle](fr/StructureDefinition-url-ltle.md)
+
+### ImplementationGuides
+
+* [Confluences Téléexpertise](fr/ImplementationGuide-ans.fhir.fr.teleexpertise-confluence.md)

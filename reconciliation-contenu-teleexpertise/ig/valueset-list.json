@@ -1,0 +1,27 @@
+{
+  "codeSystems" : [{
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/ValueSet/NameUseUsualOrOfficial",
+    "version" : "0.1.0",
+    "status" : "active",
+    "name" : "NameUseUsualOrOfficial",
+    "title" : "NameUse Usual Or Official",
+    "description" : "",
+    "systems" : ["http://hl7.org/fhir/name-use"],
+    "uses" : {
+    },
+    "StructureDefinition-cfl-practitioner.html" : "CFL Practitioner Profile",
+    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/ValueSet/activestatus",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ActiveStatus",
+    "title" : null,
+    "description" : "",
+    "systems" : ["https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/CodeSystem/active-status-cs"],
+    "uses" : {
+    },
+    "StructureDefinition-split-active-status.html" : "Split Active Status"
+  }]
+}

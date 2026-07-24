@@ -1,0 +1,55 @@
+# ans.fhir.fr.teleexpertise-confluence#0.1.0: Confluences Téléexpertise(fr)
+
+## Pages
+
+* [Accueil](index.md)
+* [Informations sur la traduction](translationinfo.md)
+* [Sécurité](annexe-securite.md)
+* [Autres Ressources](autres_ressources.md)
+* [Résumé des artefacts](artifacts.md)
+* [Flux de la demande](specification_enrichi.md)
+* [Historique des versions](change-log.md)
+* [Contexte administratif de la demande](specification_requerant.md)
+* [Flux des statuts](specification_statuts.md)
+* [Téléchargements et usages](annexe-downloads.md)
+
+## Resources
+
+### CodeSystems
+
+* [ActiveStatusCS](CodeSystem-active-status-cs.md)
+
+### ValueSets
+
+* [NameUse Usual Or Official](ValueSet-NameUseUsualOrOfficial.md)
+* [ActiveStatus](ValueSet-activestatus.md)
+
+### Complex-type Profiles
+
+* [Adresse de la Structure](StructureDefinition-AsAddressExtendedProfile.md)
+* [Adresse du Patient](StructureDefinition-FRCoreAddressProfile.md)
+* [Contact Patient](StructureDefinition-FRCoreContactPointProfile.md)
+* [Mailbox MSS](StructureDefinition-as-mailbox-mss.md)
+
+### Resource Profiles
+
+* [CFL HealthcareService Profile](StructureDefinition-CFL-HealthcareService-profile.md)
+* [CFL Organization Profile](StructureDefinition-cfl-Organization.md)
+* [CFL ServiceRequest Enrichi Profile](StructureDefinition-cfl-ServiceRequest-enrichi.md)
+* [CFL ServiceRequest Requerant Profile](StructureDefinition-cfl-ServiceRequest-requerant.md)
+* [CFL Practitioner Profile](StructureDefinition-cfl-practitioner.md)
+* [CFL PractitionerRole Profile](StructureDefinition-cfl-practitionerrole.md)
+* [Cfl Transaction Response](StructureDefinition-cfl-transaction-response-bundle.md)
+* [FR Core Patient CFL](StructureDefinition-fr-core-patient-cfl.md)
+
+### Extensions
+
+* [Patient Consent](StructureDefinition-patient-consent.md)
+* [Patient Multiple Birth](StructureDefinition-patient-multiple-birth.md)
+* [Redirect Url](StructureDefinition-redirect-url.md)
+* [Split Active Status](StructureDefinition-split-active-status.md)
+* [Url Ltle](StructureDefinition-url-ltle.md)
+
+### ImplementationGuides
+
+* [Confluences Téléexpertise](ImplementationGuide-ans.fhir.fr.teleexpertise-confluence.md)

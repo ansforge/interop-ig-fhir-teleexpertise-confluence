@@ -1,0 +1,147 @@
+[{
+  "id" : "patient-multiple-birth",
+  "type" : "StructureDefinition",
+  "url" : "http://example.org/fhir/fish/StructureDefinition/FRCorePatientProfile-multiple-birth",
+  "version" : "0.1.0",
+  "name" : "PatientMultipleBirth"
+},
+{
+  "id" : "redirect-url",
+  "type" : "StructureDefinition",
+  "url" : "http://example.org/fhir/fish/StructureDefinition/TransactionResponse-RedirectUrl",
+  "version" : "0.1.0",
+  "name" : "RedirectUrl"
+},
+{
+  "id" : "split-active-status",
+  "type" : "StructureDefinition",
+  "url" : "http://example.org/fhir/fish/StructureDefinition/fr-coreServiceRequest-SplitActiveStatus",
+  "version" : "0.1.0",
+  "name" : "SplitActiveStatus"
+},
+{
+  "id" : "patient-consent",
+  "type" : "StructureDefinition",
+  "url" : "http://example.org/fhir/fish/StructureDefinition/fr-coreServiceRequest-patientConsent",
+  "version" : "0.1.0",
+  "name" : "PatientConsent"
+},
+{
+  "id" : "url-ltle",
+  "type" : "StructureDefinition",
+  "url" : "http://example.org/fhir/fish/StructureDefinition/fr-coreServiceRequest-urlLtle",
+  "version" : "0.1.0",
+  "name" : "UrlLtle"
+},
+{
+  "id" : "active-status-cs",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/CodeSystem/active-status-cs",
+  "version" : "0.1.0",
+  "name" : "ActiveStatusCS"
+},
+{
+  "id" : "ans.fhir.fr.teleexpertise-confluence",
+  "type" : "ImplementationGuide",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/ImplementationGuide/ans.fhir.fr.teleexpertise-confluence",
+  "version" : "0.1.0",
+  "name" : "ConfluencesTeleexpertise"
+},
+{
+  "id" : "AsAddressExtendedProfile",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/AsAddressExtendedProfile",
+  "version" : "0.1.0",
+  "name" : "AsAddressExtendedProfile"
+},
+{
+  "id" : "CFL-HealthcareService-profile",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/CFL-HealthcareService-profile",
+  "version" : "0.1.0",
+  "name" : "CFLHealthcareServiceProfile"
+},
+{
+  "id" : "FRCoreAddressProfile",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/FRCoreAddressProfile",
+  "version" : "0.1.0",
+  "name" : "FRCoreAddressProfile"
+},
+{
+  "id" : "FRCoreContactPointProfile",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/FRCoreContactPointProfile",
+  "version" : "0.1.0",
+  "name" : "FRCoreContactPointProfile"
+},
+{
+  "id" : "as-mailbox-mss",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/as-mailbox-mss",
+  "version" : "0.1.0",
+  "name" : "AsMailboxMSSProfile"
+},
+{
+  "id" : "cfl-Organization",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-Organization",
+  "version" : "0.1.0",
+  "name" : "CFLOrganizationProfile"
+},
+{
+  "id" : "cfl-ServiceRequest-enrichi",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-ServiceRequest-enrichi",
+  "version" : "0.1.0",
+  "name" : "CFLServiceRequestEnrichiProfile"
+},
+{
+  "id" : "cfl-ServiceRequest-requerant",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-ServiceRequest-requerant",
+  "version" : "0.1.0",
+  "name" : "CFLServiceRequestRequerantProfile"
+},
+{
+  "id" : "cfl-practitioner",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-practitioner",
+  "version" : "0.1.0",
+  "name" : "CFLPractitionerProfile"
+},
+{
+  "id" : "cfl-practitionerrole",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-practitionerrole",
+  "version" : "0.1.0",
+  "name" : "CFLPractitionerRoleProfile"
+},
+{
+  "id" : "cfl-transaction-response-bundle",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-transaction-response-bundle",
+  "version" : "0.1.0",
+  "name" : "CflTransactionResponse"
+},
+{
+  "id" : "fr-core-patient-cfl",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/fr-core-patient-cfl",
+  "version" : "0.1.0",
+  "name" : "FRCorePatientCFL"
+},
+{
+  "id" : "NameUseUsualOrOfficial",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/ValueSet/NameUseUsualOrOfficial",
+  "version" : "0.1.0",
+  "name" : "NameUseUsualOrOfficial"
+},
+{
+  "id" : "activestatus",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/ValueSet/activestatus",
+  "version" : "0.1.0",
+  "name" : "ActiveStatus"
+}]

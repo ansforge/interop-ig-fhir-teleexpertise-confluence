@@ -1,0 +1,39 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "active-status-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem active-status-cs</b></p><a name=\"active-status-cs\"> </a><a name=\"hcactive-status-cs\"> </a><p>This  code system <code>https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/CodeSystem/active-status-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td style=\"white-space:nowrap\">in_progress<a name=\"active-status-cs-in_progress\"> </a></td><td>in progress</td></tr><tr><td style=\"white-space:nowrap\">ready<a name=\"active-status-cs-ready\"> </a></td><td>ready</td></tr></table></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem active-status-cs</b></p><a name=\"en-active-status-cs\"> </a><a name=\"en-hcactive-status-cs\"> </a><p>This  code system <code>https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/CodeSystem/active-status-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">in_progress<a name=\"en-active-status-cs-in_progress\"> </a></td><td>in progress</td></tr><tr><td style=\"white-space:nowrap\">ready<a name=\"en-active-status-cs-ready\"> </a></td><td>ready</td></tr></table></div></div>"
+  },
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/CodeSystem/active-status-cs",
+  "version" : "0.1.0",
+  "name" : "ActiveStatusCS",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-07-24T13:58:57+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "contact" : [{
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "in_progress",
+    "display" : "in progress"
+  },
+  {
+    "code" : "ready",
+    "display" : "ready"
+  }]
+}

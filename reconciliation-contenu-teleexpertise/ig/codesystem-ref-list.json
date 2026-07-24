@@ -1,0 +1,26 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/name-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "NameUse",
+    "title" : "NameUse",
+    "description" : "The use of a human name.",
+    "oids" : ["2.16.840.1.113883.4.642.4.66"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-name-use.html" : "NameUse",
+    "ValueSet-NameUseUsualOrOfficial.html" : "NameUse Usual Or Official"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/CodeSystem/active-status-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ActiveStatusCS",
+    "title" : null,
+    "description" : "",
+    "uses" : {
+    },
+    "ValueSet-activestatus.html" : "ActiveStatus"
+  }]
+}

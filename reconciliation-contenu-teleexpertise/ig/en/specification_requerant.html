@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Contexte administratif de la demande - Confluences Téléexpertise v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/style-ans.css"/>
+    <link rel="stylesheet" href="assets/css/style-add-ans.css"/>
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script type="text/javascript" src="assets/js/prism.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-fhirpath.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+<div id="family-nav">
+    <a id="hl7-search-lnk" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+  </div>
+  <div id="ans-nav" style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; ">
+    <a id="hl7-logo" data-no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
+    <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+  </div>
+
+  <div id="ig-search">
+ </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Confluences Téléexpertise</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+
+
+
+  <img alt="France (la) flag" src="../assets/images/fra.svg" height="16" title="France (la)"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Accueil</a>
+  </li>
+  <li>
+    <a href="specification_requerant.html">Contexte administratif</a>
+  </li>
+  <li>
+    <a href="specification_enrichi.html">Flux de la demande</a>
+  </li>
+  <li>
+    <a href="specification_statuts.html">Flux des statuts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Vol. 3 - Annexes
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="annexe-securite.html">Sécurité</a>
+      </li>
+      <li>
+        <a href="annexe-downloads.html">Téléchargements et usage</a>
+      </li>
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html">Spécifications FHIR </a>
+      </li>
+      <li>
+        <a target="_blank" href="https://esante.gouv.fr/">Site de l&apos;ANS </a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="artifacts.html">Ressources de conformité</a>
+  </li>
+  <li>
+    <a target="_blank" href="https://interop.esante.gouv.fr/ig/documentation/">Documentation</a>
+  </li>
+  <li>
+    <a href="change-log.html">Historique</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+
+<div style="float: var(--ig-right);padding: 8px 0px;" id="language">
+  <div id="select_flg" class="flaglist" style="background-image: url(assets/images/icon_arrow_down.png);background-position: 133px 3px;">
+    <div><img class="flag" alt="flag en" src="assets/images/lang-en.png"/>English</div>
+  </div>
+  <div style="float: var(--ig-right); margin: 2px 0px; padding: 1px 0;color: var(--btn-text-color);font-size:12px">Language:</div>
+ 	<div id="flaglist" class="flaglist" style="display: none;position: absolute;right: 0;z-index: 100;background-image: url(assets/images/icon_arrow_up.png);background-position: 133px 3px;">
+    <div><img class="flag" alt="flag en" src="assets/images/lang-en.png"/>English</div>
+
+    <div><a href="../fr/specification_requerant.html"><img class="flag" src="assets/images/lang-fr.png" alt="flag fr"/>Français</a></div>
+
+  </div>
+</div>
+
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Contexte administratif de la demande</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="index.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="specification_enrichi.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Confluences Téléexpertise - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Contexte administratif de la demande</h2>
+  
+
+
+
+
+<p style="border:var(--translation-box-border);background-color:var(--translation-background-color);padding: 5px 5px 5px 5px;">
+
+<p>There is no translation page available for the current page, so it has been rendered in the default language</p>
+
+
+</p>
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#flux-de-contexte-administratif-de-demande-de-téléexpertise" id="markdown-toc-flux-de-contexte-administratif-de-demande-de-téléexpertise">Flux de contexte administratif de demande de téléexpertise</a>    <ul>
+      <li><a href="#cas-dusages" id="markdown-toc-cas-dusages">Cas d’usages</a></li>
+      <li><a href="#vue-fonctionnelle-de-la-demande-de-téléexpertise-partant-du-logiciel-métier-requérant" id="markdown-toc-vue-fonctionnelle-de-la-demande-de-téléexpertise-partant-du-logiciel-métier-requérant">Vue fonctionnelle de la demande de Téléexpertise partant du logiciel métier requérant</a></li>
+      <li><a href="#envoi-du-flux-en-fhir" id="markdown-toc-envoi-du-flux-en-fhir">Envoi du flux en FHIR</a></li>
+      <li><a href="#flux-post-simple" id="markdown-toc-flux-post-simple">Flux POST Simple</a></li>
+    </ul>
+  </li>
+</ul>
+
+</div>
+
+<p><em>Ce document est la propriété exclusive du GIP GRADES ESEA Nouvelle-Aquitaine. Toute reproduction intégrale ou partielle ainsi que son utilisation, ou la communication à des tiers, sans l’autorisation explicite des auteurs, est illicite.</em></p>
+
+<h2 id="flux-de-contexte-administratif-de-demande-de-téléexpertise">Flux de contexte administratif de demande de téléexpertise</h2>
+
+<p>Dans le cadre du projet Confluences Téléexpertise, un professionnel de santé (requérant) pourra accéder à partir de son logiciel métier (logiciel requérant, DPI ou DUI) à un annuaire d’offres de téléexpertise (TLE) adossé au ROR et mis à disposition par Confluence Téléexpertise. Le but de ce flux est donc de pouvoir envoyer les données administratives du patient et du requérant, qui seront les premiers éléments constitutifs d’une demande, à partir du logiciel métier vers Confluences Téléexpertise. Ces données récupérées par Confluence seront ensuite transmises via le flux de demande au logiciel de téléexpertise (LTLE) et seront utilisées comme pré remplissage de la demande dans le LTLE.</p>
+
+<p>Pour cela, nous avons identifié deux hypothèses techniquement distinctes :</p>
+
+<ul>
+  <li>
+    <p>Cas 1 : Le logiciel requérant intègre directement l’IHM d’annuaire de l’offre sous forme de module propriétaire. Dans ce cas d’usage, ESEA Confluences Téléexpertise présente une API de « consommation de l’offre » de téléexpertise. La description de ce flux n’est pas l’objet de ce document. Toutefois, dans ce cas, il est tout de même attendu que le logiciel requérant envoie un objet « demande » à Confluences Téléexpertise.
+Dans ce cas, l’éditeur devra implémenter une API FHIR côté logiciel requérant qui fera des requêtes « Create » (POST) vers Confluences.
+Dans ce cas, il y aura l’obligation pour l’industriel éditeur choisissant de développer sa propre IHM de recherche de l’offre, de suivre des guidelines (qui feront l’objet d’un autre document de spécification) concernant l’affichage de l’offre TLE qui devra notamment être exhaustive et agnostique.</p>
+  </li>
+  <li>
+    <p>Cas 2 : Le logiciel requérant appelle l’IHM Confluences développée par ESEA, ce faisant, il passe le contexte administratif de la demande. Ce contexte patient et requérant pourra être envoyé soit directement sous dans une requête POST simple, soit via une API FHIR avec des requêtes « Create » (POST) vers Confluences (de la même manière que le cas 1). L’utilisation de requêtes simples a pour intérêt de nécessiter moins de développement.</p>
+  </li>
+</ul>
+
+<p>Le document est structuré de manière à présenter les séquences des cas 1 et 2 puis de présenter les messages FHIR / contexte en POST simple.</p>
+
+<h3 id="cas-dusages">Cas d’usages</h3>
+
+<div style="max-width: 100vw; overflow: hidden;">
+  <img src="./usecase_administratif.png" alt="Use case administratif" style="max-width: 100%; height: auto; text-align: center;" />
+  <p class="caption" style="text-align: center; font-style: italic;">Figure 1. UseCase Administratif</p>
+</div>
+
+<h3 id="vue-fonctionnelle-de-la-demande-de-téléexpertise-partant-du-logiciel-métier-requérant">Vue fonctionnelle de la demande de Téléexpertise partant du logiciel métier requérant</h3>
+
+<div style="max-width: 100vw; overflow: hidden;">
+  <img src="./vue_fonctionnelle_preremplie.png" alt=" Vue fonctionnelle (UML) de l’objet demande preremplie" style="width: 100%; height: auto; text-align: center;" />
+  <p class="caption" style="text-align: center; font-style: italic;">Figure 2. Vue fonctionnelle d'une demande préremplie par le logiciel requérant</p>
+</div>
+
+<p>Il s’agit ci-dessus de la représentation FHIR du flux, toutefois, lors de l’envoi en POST simple, les mêmes concepts sont envoyés.</p>
+
+<h3 id="envoi-du-flux-en-fhir">Envoi du flux en FHIR</h3>
+
+<h4 id="protocoles">Protocoles</h4>
+
+<p>L’émission des flux données administrative par le logiciel requérant sera faite à travers des requêtes de type POST.</p>
+
+<style>
+    .mon-tableau { width: 100%; border-collapse: collapse; font-family: sans-serif; }
+    .mon-tableau td { border: 1px solid #ddd; padding: 10px; }
+    .mon-tableau tr:first-child { background-color: #f2f2f2; font-weight: bold; color: #333; }
+</style>
+
+<table class="mon-tableau">
+    <tr>
+        <td>Propriété</td>
+        <td>Valeur</td>
+        <td>Commentaire</td>
+    </tr>
+    <tr>
+        <td>Method</td>
+        <td>POST</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Protocol</td>
+        <td>HTTPS</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>URL</td>
+        <td>Celle de Confluences</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Authorization</td>
+        <td>À définir</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Content-type</td>
+        <td>application/fhir+json</td>
+        <td></td>
+    </tr>
+</table>
+
+<p>Les protocoles et la sécurité de ceux-ci peuvent évoluer pour suivre l’état de l’art dans ce domaine.</p>
+
+<h4 id="structures-des-flux">Structures des flux</h4>
+
+<table class="mon-tableau">
+    <tr>
+        <td>Nom du flux</td>
+        <td>Description</td>
+    </tr>
+    <tr>
+        <td>Flux 1 : Administratif</td>
+        <td>Ce flux permet de faire passer le contexte patient et requérant du logiciel requérant vers Confluence TLE</td>
+    </tr>
+</table>
+
+<p><strong>Cas 1 :</strong></p>
+
+<div style="max-width: 100vw; overflow: hidden;">
+  <img src="./cas1.png" alt="Diagramme de séquence" style="max-width: 100%; height: auto; text-align: center;" />
+  <p class="caption" style="text-align: center; font-style: italic;">Figure 3. Diagramme de séquence IHM intégrée au logiciel métier requérant. Flux FHIR de demande.</p>
+</div>
+
+<p><strong>Cas 2 :</strong></p>
+
+<div style="max-width: 100vw; overflow: hidden;">
+  <img src="./cas2.png" alt="Diagramme de séquence" style="max-width: 100%; height: auto; text-align: center;" />
+  <p class="caption" style="text-align: center; font-style: italic;">Figure 4. Diagramme de séquence IHM Confluences. Flux FHIR de demande.</p>
+</div>
+
+<p>Afin de pouvoir envoyer la demande de téléexpertise depuis l’IHM vers le LTLE, il faut au préalable que l’IHM connaisse l’instigateur de la demande (le requérant) et quel patient est concerné. Pour cela, le logiciel requérant envoie des données concernant ces deux entités.</p>
+
+<p>Les données pertinentes à envoyer sont :</p>
+
+<ul>
+  <li>
+    <p>Pour le patient : Matricule INS, INS, Rang gémellaire </p>
+  </li>
+  <li>
+    <p>Pour le requérant : Numéro RPPS, numéro AM (Numéro utilisé pour la facturation, anciennement numéro ADELI), nom, prénom, lieux d’exercice, spécialité, FINESS si salarié</p>
+  </li>
+</ul>
+
+<p>Dans le cas de l’utilisation de l’API FHIR en POST, L’envoi de ce flux se fera au travers d’un bundle de type Transaction.</p>
+
+<p>L’ API FHIR (ici Confluence) recevant ce POST Bundle devra renvoyer un autre bundle de type transaction-response contenant l’URL de call back. L’appel de cette URL permettra d’appeler l’IHM de Confluences via une requête GET. Il faudra rajouter une extension avec cette URL dans la ressource Bundle.</p>
+
+<p>Nous avons décidé de véhiculer les données voulues via une ressource ServiceRequest qui est enrichie (du destinataire) soit par Confluences Téléexpertise (Cas 2) soit par le logiciel métier requérant (cas 1) lors de la sélection d’une offre de Téléexpertise.
+Le bundle contiendra à minima, une ressource ServiceRequest, une ressource Patient et 3 ressources décrivant l’auteur (le requérant) : Practitioner, PractitionerRole et Organization.
+Si la transaction a été correctement effectuée et donc que la création de la demande est correctement effectuée, un code HTTP 200 OK est retourné. Il devra être accompagné d’un body FHIR « transaction-response ».
+Sinon, un code HTTP 500 Internal Server Error est retourné avec une ressource OperationOutcome contenant le détail des erreurs et avertissements résultant du traitement des entrées du Bundle.
+Autres erreurs communes : 
+Un code HTTP 401 Unauthorized est retourné si l’authentification est non valide.
+Un code HTTP 403 Forbidden est retourné lorsque l’authentification ne possède pas les autorisations nécessaires.
+Un code HTTP 400 Bad Request est retourné lorsqu’il y a des erreurs dans la requête.
+Un code HTTP 404 Unknown est retourné si la ressource ciblée est introuvable.</p>
+
+<p>Un code http 503 Service unavailable est retourné si la ressource ciblée est plantée.</p>
+
+<h4 id="standards-utilisés">Standards utilisés</h4>
+
+<p>Ces spécifications techniques se basent sur le standard HL7 FHIR (R4). Elles font référence à un certain nombre de ressources du standard ainsi qu’aux spécifications de l’API RESTful FHIR (R4), basée sur le protocole http(s). La syntaxe retenue est la syntaxe JSON.</p>
+
+<p>Les ressources et profils français utilisés en base de nos surspécifications sont les suivants :</p>
+
+<ul>
+  <li>ServiceRequest (NM 2) : profil <a href="https://hl7.org/fhir/R4/servicerequest.html#12.14">ServiceRequest</a></li>
+  <li>Patient (NM N) : profil <a href="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-ins">fr-core-patient-ins</a></li>
+  <li>Practitioner (NM 3) : profil <a href="https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-practitioner">AS Practitioner Profile</a></li>
+  <li>PractitionerRole (NM 2) : profil AS <a href="https://interop.esante.gouv.fr/ig/fhir/annuaire/1.1.0/StructureDefinition-as-practitionerrole.html">PractitionerRole Profile</a></li>
+  <li>Bundle (NM N) : profil <a href="https://www.hl7.org/fhir/R4/bundle.html#2.36">Bundle</a></li>
+  <li>Organization (NM 3) : profil <a href="https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization">AS Organization</a></li>
+</ul>
+
+<h4 id="contenu-des-flux">Contenu des flux</h4>
+
+<p>Nous décrivons ici les surcontraintes par rapports aux profils standards indiqués supra. Nous avons également laissé les attributs obligatoires.</p>
+
+<p>Dans toutes les ressources décrites ci-après, les éléments « meta » sont obligatoires (source et profile).</p>
+
+<p>Voir les profils dans la catégorie "liste des profils".</p>
+
+<h3 id="flux-post-simple">Flux POST Simple</h3>
+
+<p>Nous vous proposons également d’envoyer les informations administratives du patient et du requérant dans un flux POST simple et sécurisé (HTTPS) en alternative du FHIR.</p>
+
+<p>Nous écartons l’usage d’une requête GET, car les paramètres d’URL auraient exposé des données sensibles en clair et ne permettent pas la transmission du jeton PSC (pro santé connect), impliquant une double authentification.</p>
+
+<p>Le body de ce flux POST sera au format JSON et contiendra les clés suivantes :</p>
+
+<div style="max-width: 100vw; overflow: hidden;">
+  <img src="./diagramme_sequence_POST_simple.png" alt="Diagramme de séquence" style="max-width: 100%; height: auto; text-align: center;" />
+  <p class="caption" style="text-align: center; font-style: italic;">Figure 5. Diagramme de séquence IHM Confluences. Flux POST simple données administratives.</p>
+</div>
+
+<p>Lors de l’envoie d’une requête POST, Confluence renverra l’id de téléexpertise qui pourra être utilisée par le logiciel requérant pour s’y référencer de manière unique en cas de succès (code 200 OK).</p>
+
+<p>En cas d’erreurs, les codes 400s et 500s seront retournés.</p>
+
+<p><strong>Paramètres :</strong></p>
+
+<ul>
+  <li>Patient_identifier :</li>
+</ul>
+
+<p>Obligatoire : 
+Identifiant du patient (INS NIR si connu sinon IPP)</p>
+
+<ul>
+  <li>Patient_NirAyantDroit :</li>
+</ul>
+
+<p>Optionnel : 15 chiffres (peut contenir des lettres pour les départements Corse)
+ Numéro de Sécurité Social de l’ayant droit si le patient est mineur</p>
+
+<ul>
+  <li>Patient_BirthName :</li>
+</ul>
+
+<p>Obligatoire : Chaîne de caractère
+Nom de naissance du patient</p>
+
+<ul>
+  <li>Patient_givenName :</li>
+</ul>
+
+<p>Obligatoire : Chaîne de caractère
+Prénom du patient</p>
+
+<ul>
+  <li>Patient_FamilyName :</li>
+</ul>
+
+<p>Obligatoire : Chaîne de caractère
+Nom de famille du patient</p>
+
+<ul>
+  <li>Patient_gender :</li>
+</ul>
+
+<p>Obligatoire : M ou F
+Sexe du patient</p>
+
+<ul>
+  <li>Patient_birthdate :</li>
+</ul>
+
+<p>Obligatoire : format à définir
+Date de naissance du patient</p>
+
+<ul>
+  <li>Patient_birthplace :</li>
+</ul>
+
+<p>Obligatoire : 5 chiffres
+Code INSEE de naissance du patient</p>
+
+<ul>
+  <li>Patient_multipleBirth :</li>
+</ul>
+
+<p>Obligatoire : 1 chiffre
+Rang gémellaire du patient</p>
+
+<ul>
+  <li>Patient_address :</li>
+</ul>
+
+<p>Optionnel : chaîne de caractère
+Adresse du patient</p>
+
+<ul>
+  <li>Patient_Contact :</li>
+</ul>
+
+<p>Optionnel : Mail ou téléphone
+Point de contact du patient</p>
+
+<ul>
+  <li>Requester_RPPS :</li>
+</ul>
+
+<p>Obligatoire : 11 chiffres
+Numéro RPPS du requérant</p>
+
+<ul>
+  <li>Requester_ADELI :</li>
+</ul>
+
+<p>Obligatoire : 9 chiffres
+Numéro ADELI du requérant</p>
+
+<ul>
+  <li>Requester_FamilyName :</li>
+</ul>
+
+<p>Obligatoire : chaîne de caractère
+Nom de famille du requérant</p>
+
+<ul>
+  <li>Requester_GivenName :</li>
+</ul>
+
+<p>Obligatoire : chaîne de caractère
+Prénom du requérant</p>
+
+<ul>
+  <li>Requester_Specialty :</li>
+</ul>
+
+<p>Obligatoire ? : JDV Spécialité Ordinale
+Spécialité du Requérant</p>
+
+<ul>
+  <li>Requester_Organization :</li>
+</ul>
+
+<p>Optionnel : 9 chiffres
+Numéro FINESS géographique</p>
+
+<ul>
+  <li>Requester_ISOrganization :</li>
+</ul>
+
+<p>Obligatoire : F ou T
+T Requérant salarié d’une structure 
+ F Requérant est libéral
+Règle de gestion :  Si True, on devra récupérer l’attribut Requester.Organization obligatoirement</p>
+
+<p><strong>Exemple d’un body :</strong></p>
+
+<p>{
+patient: {
+Patient_identifier : 195536172384934,
+Patient_NirAyantDroit : 195536172384934,
+Patient_BirthName : Wayne,
+Patient_givenName : Bruce,
+Patient_FamilyName : Wayne,
+Patient_gender : M,
+Patient_birthdate : 1995-08-17,
+Patient_birthplace : 75345,
+Patient_multipleBirth : 1,
+Patient_address : 17 rue Villeneuve Bordeaux,
+Patient_Contact : bruce.wayne@gmail.com
+},
+author_rpps: {
+Requester_RPPS : 1648593749374,
+Requester_ADELI : 1111111111,
+Requester_FamilyName : Kent,
+Requester_GivenName : Clark, 
+Requester_Specialty : Dermatologie,
+Requester_Organization : CHU de Poitiers,
+Requester_ISOrganization : T,
+}
+}</p>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="index.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="specification_enrichi.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">Agence du Numérique en Santé (ANS) - 2-10 Rue d&#39;Oradour-sur-Glane, 75015 Paris</a>.  
+          Package ans.fhir.fr.teleexpertise-confluence#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-07-24 13:58:00 +0000">
+    2026-07-24
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+<a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a> |
+<a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/history.html">Historique des versions</a>
+<a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/documentation">Documentation</a>
+
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+
+  <!-- Ajout ANS -->
+  <script src="assets/js/app.js" type="text/javascript"> </script>
+  <script src="assets/js/vendor.js" type="text/javascript"> </script>
+  <!-- Fin ajout ANS -->
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  <!-- AJOUT ANS -->
+
+<footer class="footer footer-principal" role="contentinfo">
+  <div class="footer__region1">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4 text-center text-md-left">
+          <div class="logos">        
+            <div class="logo logo--0">
+              <a href="https://solidarites-sante.gouv.fr" title="Ministère des Solidarités et de la Santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
+                
+                <img src="assets/images/logo-ministere.svg" alt="Ministère des Solidarités et de la Santé" width="133" height="77" loading="lazy" />
+                
+              </a>
+            </div>
+        
+            <div class="logo logo--1">
+              <a href="https://esante.gouv.fr/" title="Agence du numérique en santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
+                
+                <img src="assets/images/logo-ANS-footer.svg" alt="Agence du numérique en santé" width="106" height="74" loading="lazy" />
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 text-center text-md-left">
+          <p class="footer__title">Agence du Numérique en Santé</p>
+          <p>2-10 Rue d'Oradour-sur-Glane 75015 Paris</p>
+
+          <!-- <div class="m-social">
+            <ul class="m-social__list">        
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://www.linkedin.com/company/agence-du-numerique-en-sante/" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-linkedin" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#linkedin"></use></svg>
+                  </div>
+                  <span class="sr-only">linkedin</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://twitter.com/esante_gouv_fr" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-twitter" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#twitter"></use></svg>
+                  </div>
+                  <span class="sr-only">twitter</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://www.youtube.com/channel/UCd1zuSaU5cE1lRCpwv_HSMA" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-youtube" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#youtube"></use></svg>
+                  </div>
+                  <span class="sr-only">youtube</span>
+                </a>
+              </li>
+              <li class="m-social__item">
+                <a class="m-social__link" href="https://esante.gouv.fr/rss.xml" target="_blank" rel="nofollow">
+                  <div class="m-social__icon">
+                    <svg class="svg-icon svg-rss" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#rss"></use></svg>
+                  </div>
+                  <span class="sr-only">rss</span>
+                </a>
+              </li>
+            </ul>
+          </div> -->
+        </div>
+        
+        <div class="col-6 col-lg-4">
+          <ul class="footer-list">
+            <li class="footer-list__item footer-list__item--hasIcon">
+              <a href="mailto:ci-sis@esante.gouv.fr" class="mailto-link">
+                <svg class="svg-icon svg-angle-right" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#angle-right"></use></svg>Contact</a>
+              </li>
+              <!-- <li class="footer-list__item">
+                <a href="https://interop-pprod.esante.gouv.fr/ci-sis-specifications/wp-content/uploads/CGU_espace_de_tests_v1.1.pdf" class="file-link">Mentions légales</a>
+              </li>
+               -->
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+    <!-- <div class="footer__region2">
+      <div class="container">
+        <div class="footer-contentinfo">
+          <ul class="footer-list footer-list--inline">
+
+          </ul>
+        </div>
+      </div>
+    </div> -->
+  </footer>
+  </body>
+</html>
+

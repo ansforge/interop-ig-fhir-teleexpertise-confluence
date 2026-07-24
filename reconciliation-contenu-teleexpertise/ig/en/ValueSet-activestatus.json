@@ -1,0 +1,36 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "activestatus",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet activestatus</b></p><a name=\"en-activestatus\"> </a><a name=\"en-hcactivestatus\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-active-status-cs.html\"><code>https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/CodeSystem/active-status-cs</code></a><span title=\"Version is explicitly stated to be 0.1.0\"> version &#x1F4CD;0.1.0</span></li></ul></div>"
+  },
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/ValueSet/activestatus",
+  "version" : "0.1.0",
+  "name" : "ActiveStatus",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2026-07-24T13:58:57+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "contact" : [{
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/CodeSystem/active-status-cs",
+      "version" : "0.1.0"
+    }]
+  }
+}

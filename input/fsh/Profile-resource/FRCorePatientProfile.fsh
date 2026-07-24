@@ -4,7 +4,7 @@ Id: fr-core-patient-cfl
 Title: "FR Core Patient CFL"
 Description: "Profil issu de FRCorePatientINSProfile"
 
-* identifier[NSS] 0..1
+* identifier[NSS-NIR] 0..1
 * identifier[INS-NIR] 1..1
 * extension contains patient-birthPlace named birthPlace 1..1
 * name 1..*

@@ -24,23 +24,16 @@
 * [NameUse Usual Or Official](fr/ValueSet-NameUseUsualOrOfficial.md)
 * [ActiveStatus](fr/ValueSet-activestatus.md)
 
-### Complex-type Profiles
-
-* [Adresse de la Structure](fr/StructureDefinition-AsAddressExtendedProfile.md)
-* [Adresse du Patient](fr/StructureDefinition-FRCoreAddressProfile.md)
-* [Contact Patient](fr/StructureDefinition-FRCoreContactPointProfile.md)
-* [Mailbox MSS](fr/StructureDefinition-as-mailbox-mss.md)
-
 ### Resource Profiles
 
 * [CFL HealthcareService Profile](fr/StructureDefinition-CFL-HealthcareService-profile.md)
 * [CFL Organization Profile](fr/StructureDefinition-cfl-Organization.md)
 * [CFL ServiceRequest Enrichi Profile](fr/StructureDefinition-cfl-ServiceRequest-enrichi.md)
 * [CFL ServiceRequest Requerant Profile](fr/StructureDefinition-cfl-ServiceRequest-requerant.md)
+* [CFL Patient Profile](fr/StructureDefinition-cfl-patient.md)
 * [CFL Practitioner Profile](fr/StructureDefinition-cfl-practitioner.md)
 * [CFL PractitionerRole Profile](fr/StructureDefinition-cfl-practitionerrole.md)
 * [Cfl Transaction Response](fr/StructureDefinition-cfl-transaction-response-bundle.md)
-* [FR Core Patient CFL](fr/StructureDefinition-fr-core-patient-cfl.md)
 
 ### Extensions
 

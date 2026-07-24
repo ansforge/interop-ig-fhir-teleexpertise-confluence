@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-cfl-Organization.
   "name" : "CFLOrganizationProfile",
   "title" : "CFL Organization Profile",
   "status" : "draft",
-  "date" : "2026-07-24T13:58:57+00:00",
+  "date" : "2026-07-24T15:30:35+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -111,11 +111,7 @@ Other representations of profile: [CSV](../StructureDefinition-cfl-Organization.
       "id" : "Organization.address",
       "path" : "Organization.address",
       "min" : 1,
-      "max" : "1",
-      "type" : [{
-        "code" : "Address",
-        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/AsAddressExtendedProfile|0.1.0"]
-      }]
+      "max" : "1"
     }]
   }
 }

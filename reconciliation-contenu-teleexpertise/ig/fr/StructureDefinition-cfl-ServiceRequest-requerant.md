@@ -42,7 +42,7 @@ Obligatoire : 2 éléments
 
 Cette structure fait référence à ces autres structures:
 
-* [FR Core Patient CFL (https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/fr-core-patient-cfl|0.1.0)](StructureDefinition-fr-core-patient-cfl.md)
+* [CFL Patient Profile (https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-patient|0.1.0)](StructureDefinition-cfl-patient.md)
 * [CFL PractitionerRole Profile (https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-practitionerrole|0.1.0)](StructureDefinition-cfl-practitionerrole.md)
 * [RORHealthcareService (https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-healthcareservice|0.7.0)](https://interop.esante.gouv.fr/ig/fhir/ror/0.7.0/StructureDefinition-ror-healthcareservice.html)
 
@@ -80,7 +80,7 @@ Obligatoire : 2 éléments
 
 Cette structure fait référence à ces autres structures:
 
-* [FR Core Patient CFL (https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/fr-core-patient-cfl|0.1.0)](StructureDefinition-fr-core-patient-cfl.md)
+* [CFL Patient Profile (https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-patient|0.1.0)](StructureDefinition-cfl-patient.md)
 * [CFL PractitionerRole Profile (https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-practitionerrole|0.1.0)](StructureDefinition-cfl-practitionerrole.md)
 * [RORHealthcareService (https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-healthcareservice|0.7.0)](https://interop.esante.gouv.fr/ig/fhir/ror/0.7.0/StructureDefinition-ror-healthcareservice.html)
 
@@ -108,7 +108,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-cfl-ServiceRequ
   "name" : "CFLServiceRequestRequerantProfile",
   "title" : "CFL ServiceRequest Requerant Profile",
   "status" : "draft",
-  "date" : "2026-07-24T13:58:57+00:00",
+  "date" : "2026-07-24T15:30:35+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -205,7 +205,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-cfl-ServiceRequ
       "path" : "ServiceRequest.subject",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/fr-core-patient-cfl|0.1.0"]
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-patient|0.1.0"]
       }]
     },
     {

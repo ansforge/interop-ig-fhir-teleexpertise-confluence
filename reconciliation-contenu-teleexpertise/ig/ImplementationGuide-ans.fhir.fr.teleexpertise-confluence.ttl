@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.name [ fhir:value "ConfluencesTeleexpertise"] ;
   fhir:ImplementationGuide.title [ fhir:value "Confluences Téléexpertise"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-07-24T13:58:57+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-07-24T15:30:35+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;
@@ -1009,34 +1009,6 @@
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/AsAddressExtendedProfile> ;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/AsAddressExtendedProfile" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Adresse de la Structure" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Adresse de la Structure" ] ;
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 3 ;
-       fhir:Element.extension [
-         fhir:index 0 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/FRCoreAddressProfile> ;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/FRCoreAddressProfile" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Adresse du Patient" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Adresse du patient" ] ;
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 4 ;
-       fhir:Element.extension [
-         fhir:index 0 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
@@ -1047,7 +1019,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profil issu de RORHealthcareService" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 5 ;
+       fhir:index 3 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1061,7 +1033,21 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profil issu de AsOrganizationProfile" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 6 ;
+       fhir:index 4 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-patient> ;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/cfl-patient" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CFL Patient Profile" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profil issu de FRCorePatientINSProfile" ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 5 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1075,7 +1061,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profil issu de AsPractitionerProfile" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 7 ;
+       fhir:index 6 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1089,7 +1075,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profil issu de AsPractitionerRoleProfile" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 8 ;
+       fhir:index 7 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1103,7 +1089,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profil décrivant une demande de téléexpertise issu de ServiceRequest R4 enrichie par l'URL pointant vers la bonne offre issu du ROR" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 9 ;
+       fhir:index 8 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1117,7 +1103,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profil décrivant une demande de téléexpertise issu de ServiceRequest R4" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 10 ;
+       fhir:index 9 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1131,49 +1117,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profil d'un bundle de type TransactionResponse transportant l'URL de redirection" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 11 ;
-       fhir:Element.extension [
-         fhir:index 0 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/FRCoreContactPointProfile> ;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/FRCoreContactPointProfile" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Contact Patient" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Point de contact du patient" ] ;
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 12 ;
-       fhir:Element.extension [
-         fhir:index 0 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/fr-core-patient-cfl> ;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/fr-core-patient-cfl" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "FR Core Patient CFL" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profil issu de FRCorePatientINSProfile" ] ;
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 13 ;
-       fhir:Element.extension [
-         fhir:index 0 ;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:complex-type" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/as-mailbox-mss> ;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/as-mailbox-mss" ]
-       ] ;
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Mailbox MSS" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Boîte aux lettres MSS d’un professionnel" ] ;
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 14 ;
+       fhir:index 10 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1186,7 +1130,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "NameUse Usual Or Official" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 15 ;
+       fhir:index 11 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1200,7 +1144,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension créée pour spécifier le consentement du patient" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 16 ;
+       fhir:index 12 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1214,7 +1158,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension créée pour exprimer le rang gémellaire présent dans les attestations de droits à l'assurance maladie." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 17 ;
+       fhir:index 13 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1228,7 +1172,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension créée pour spécifier l'URL redirection à envoyer en réponse d'un envoie d'une demande" ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 18 ;
+       fhir:index 14 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -1242,7 +1186,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension créée pour spécifier l'état d'une demande active. Soit demande publiée (ready), pas encore prise en charge par un expert. Soit demande en cours (in progress), demande prise en charge par un expert. Cette extension s'inspire de l'élément ServiceRequest.statusReason R6: https://build.fhir.org/servicerequest-definitions.html#ServiceRequest.statusReason." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 19 ;
+       fhir:index 15 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;

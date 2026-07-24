@@ -29,10 +29,10 @@ Other representations of profile: [CSV](../StructureDefinition-cfl-transaction-r
   "id" : "cfl-transaction-response-bundle",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-transaction-response-bundle",
   "version" : "0.1.0",
-  "name" : "CflTransactionResponse",
+  "name" : "CFLTransactionResponse",
   "title" : "Cfl Transaction Response",
   "status" : "draft",
-  "date" : "2026-07-24T13:58:57+00:00",
+  "date" : "2026-07-24T15:30:35+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

@@ -11,7 +11,7 @@
   "name" : "ConfluencesTeleexpertise",
   "title" : "Confluences Téléexpertise",
   "status" : "draft",
-  "date" : "2026-07-24T13:58:57+00:00",
+  "date" : "2026-07-24T15:30:35+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
@@ -897,30 +897,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:complex-type"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/AsAddressExtendedProfile"
-      },
-      "name" : "Adresse de la Structure",
-      "description" : "Adresse de la Structure",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:complex-type"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/FRCoreAddressProfile"
-      },
-      "name" : "Adresse du Patient",
-      "description" : "Adresse du patient",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -940,6 +916,18 @@
       },
       "name" : "CFL Organization Profile",
       "description" : "Profil issu de AsOrganizationProfile",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/cfl-patient"
+      },
+      "name" : "CFL Patient Profile",
+      "description" : "Profil issu de FRCorePatientINSProfile",
       "exampleBoolean" : false
     },
     {
@@ -1000,42 +988,6 @@
       },
       "name" : "Cfl Transaction Response",
       "description" : "Profil d'un bundle de type TransactionResponse transportant l'URL de redirection",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:complex-type"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/FRCoreContactPointProfile"
-      },
-      "name" : "Contact Patient",
-      "description" : "Point de contact du patient",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/fr-core-patient-cfl"
-      },
-      "name" : "FR Core Patient CFL",
-      "description" : "Profil issu de FRCorePatientINSProfile",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:complex-type"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/as-mailbox-mss"
-      },
-      "name" : "Mailbox MSS",
-      "description" : "Boîte aux lettres MSS d’un professionnel",
       "exampleBoolean" : false
     },
     {

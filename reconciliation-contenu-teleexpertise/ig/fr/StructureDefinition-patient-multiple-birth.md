@@ -10,7 +10,7 @@ Extension créée pour exprimer le rang gémellaire présent dans les attestatio
 
 **Utilisations:**
 
-* Utilise ce/t/te Extension: [FR Core Patient CFL](StructureDefinition-fr-core-patient-cfl.md)
+* Utilise ce/t/te Extension: [CFL Patient Profile](StructureDefinition-cfl-patient.md)
 
 Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.teleexpertise-confluence|current/StructureDefinition/patient-multiple-birth)
 
@@ -64,7 +64,7 @@ Autres représentations du profil : [CSV](../StructureDefinition-patient-multipl
   "name" : "PatientMultipleBirth",
   "title" : "Patient Multiple Birth",
   "status" : "draft",
-  "date" : "2026-07-24T13:58:57+00:00",
+  "date" : "2026-07-24T15:30:35+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "contact" : [{
     "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

@@ -9,8 +9,8 @@
     "systems" : ["http://hl7.org/fhir/name-use"],
     "uses" : {
     },
-    "StructureDefinition-cfl-practitioner.html" : "CFL Practitioner Profile",
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile",
+    "StructureDefinition-cfl-practitioner.html" : "CFL Practitioner Profile"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/ValueSet/activestatus",

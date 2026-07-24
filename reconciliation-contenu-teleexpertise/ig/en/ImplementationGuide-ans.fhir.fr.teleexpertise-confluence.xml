@@ -12,7 +12,7 @@
   <name value="ConfluencesTeleexpertise"/>
   <title value="Confluences Téléexpertise"/>
   <status value="draft"/>
-  <date value="2026-07-24T13:58:57+00:00"/>
+  <date value="2026-07-24T15:30:35+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <contact>
     <name value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
@@ -670,28 +670,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/AsAddressExtendedProfile"/>
-      </reference>
-      <name value="Adresse de la Structure"/>
-      <description value="Adresse de la Structure"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/FRCoreAddressProfile"/>
-      </reference>
-      <name value="Adresse du Patient"/>
-      <description value="Adresse du patient"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
@@ -710,6 +688,17 @@
       </reference>
       <name value="CFL Organization Profile"/>
       <description value="Profil issu de AsOrganizationProfile"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/cfl-patient"/>
+      </reference>
+      <name value="CFL Patient Profile"/>
+      <description value="Profil issu de FRCorePatientINSProfile"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -765,39 +754,6 @@
       </reference>
       <name value="Cfl Transaction Response"/>
       <description value="Profil d'un bundle de type TransactionResponse transportant l'URL de redirection"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/FRCoreContactPointProfile"/>
-      </reference>
-      <name value="Contact Patient"/>
-      <description value="Point de contact du patient"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/fr-core-patient-cfl"/>
-      </reference>
-      <name value="FR Core Patient CFL"/>
-      <description value="Profil issu de FRCorePatientINSProfile"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:complex-type"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/as-mailbox-mss"/>
-      </reference>
-      <name value="Mailbox MSS"/>
-      <description value="Boîte aux lettres MSS d’un professionnel"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

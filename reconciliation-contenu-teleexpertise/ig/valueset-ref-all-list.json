@@ -11,9 +11,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.69"],
     "uses" : {
     },
-    "StructureDefinition-FRCoreAddressProfile.html" : "Adresse du Patient",
-    "StructureDefinition-AsAddressExtendedProfile.html" : "Adresse de la Structure",
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/address-use",
@@ -27,9 +25,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.67"],
     "uses" : {
     },
-    "StructureDefinition-FRCoreAddressProfile.html" : "Adresse du Patient",
-    "StructureDefinition-AsAddressExtendedProfile.html" : "Adresse de la Structure",
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
@@ -43,8 +39,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1"],
     "uses" : {
     },
-    "StructureDefinition-cfl-practitioner.html" : "CFL Practitioner Profile",
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile",
+    "StructureDefinition-cfl-practitioner.html" : "CFL Practitioner Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/body-site",
@@ -58,8 +54,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.141"],
     "uses" : {
     },
-    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile",
-    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile"
+    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile",
+    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/bundle-type",
@@ -101,12 +97,12 @@
     "sources" : ["2.16.840.1.113883.4.642.3.79"],
     "uses" : {
     },
-    "StructureDefinition-cfl-Organization.html" : "CFL Organization Profile",
-    "StructureDefinition-cfl-practitionerrole.html" : "CFL PractitionerRole Profile",
     "StructureDefinition-cfl-transaction-response-bundle.html" : "Cfl Transaction Response",
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile",
+    "StructureDefinition-cfl-practitionerrole.html" : "CFL PractitionerRole Profile",
     "StructureDefinition-CFL-HealthcareService-profile.html" : "CFL HealthcareService Profile",
-    "StructureDefinition-cfl-practitioner.html" : "CFL Practitioner Profile",
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-Organization.html" : "CFL Organization Profile",
+    "StructureDefinition-cfl-practitioner.html" : "CFL Practitioner Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/contact-point-system",
@@ -120,11 +116,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.71"],
     "uses" : {
     },
-    "StructureDefinition-cfl-Organization.html" : "CFL Organization Profile",
     "StructureDefinition-cfl-practitionerrole.html" : "CFL PractitionerRole Profile",
     "StructureDefinition-CFL-HealthcareService-profile.html" : "CFL HealthcareService Profile",
-    "StructureDefinition-FRCoreContactPointProfile.html" : "Contact Patient",
-    "StructureDefinition-as-mailbox-mss.html" : "Mailbox MSS"
+    "StructureDefinition-cfl-Organization.html" : "CFL Organization Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/contact-point-use",
@@ -138,11 +132,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.73"],
     "uses" : {
     },
-    "StructureDefinition-cfl-Organization.html" : "CFL Organization Profile",
     "StructureDefinition-cfl-practitionerrole.html" : "CFL PractitionerRole Profile",
     "StructureDefinition-CFL-HealthcareService-profile.html" : "CFL HealthcareService Profile",
-    "StructureDefinition-FRCoreContactPointProfile.html" : "Contact Patient",
-    "StructureDefinition-as-mailbox-mss.html" : "Mailbox MSS"
+    "StructureDefinition-cfl-Organization.html" : "CFL Organization Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/contactentity-type",
@@ -199,10 +191,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.45"],
     "uses" : {
     },
-    "StructureDefinition-cfl-Organization.html" : "CFL Organization Profile",
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile",
     "StructureDefinition-cfl-practitionerrole.html" : "CFL PractitionerRole Profile",
-    "StructureDefinition-cfl-practitioner.html" : "CFL Practitioner Profile",
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-Organization.html" : "CFL Organization Profile",
+    "StructureDefinition-cfl-practitioner.html" : "CFL Practitioner Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -216,10 +208,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.57"],
     "uses" : {
     },
-    "StructureDefinition-cfl-Organization.html" : "CFL Organization Profile",
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile",
     "StructureDefinition-cfl-practitionerrole.html" : "CFL PractitionerRole Profile",
-    "StructureDefinition-cfl-practitioner.html" : "CFL Practitioner Profile",
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-Organization.html" : "CFL Organization Profile",
+    "StructureDefinition-cfl-practitioner.html" : "CFL Practitioner Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -233,14 +225,14 @@
     "sources" : ["2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
-    "StructureDefinition-cfl-Organization.html" : "CFL Organization Profile",
-    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile",
-    "StructureDefinition-cfl-practitionerrole.html" : "CFL PractitionerRole Profile",
-    "StructureDefinition-cfl-transaction-response-bundle.html" : "Cfl Transaction Response",
-    "StructureDefinition-CFL-HealthcareService-profile.html" : "CFL HealthcareService Profile",
-    "StructureDefinition-cfl-practitioner.html" : "CFL Practitioner Profile",
     "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile",
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-transaction-response-bundle.html" : "Cfl Transaction Response",
+    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile",
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile",
+    "StructureDefinition-cfl-practitionerrole.html" : "CFL PractitionerRole Profile",
+    "StructureDefinition-CFL-HealthcareService-profile.html" : "CFL HealthcareService Profile",
+    "StructureDefinition-cfl-Organization.html" : "CFL Organization Profile",
+    "StructureDefinition-cfl-practitioner.html" : "CFL Practitioner Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -254,7 +246,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.423"],
     "uses" : {
     },
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
@@ -268,8 +260,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.96"],
     "uses" : {
     },
-    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile",
-    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile"
+    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile",
+    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/name-use",
@@ -283,7 +275,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.65"],
     "uses" : {
     },
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/organization-type",
@@ -311,8 +303,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.152"],
     "uses" : {
     },
-    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile",
-    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile"
+    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile",
+    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
@@ -326,7 +318,7 @@
     "sources" : ["2.16.840.1.113883.4.642.3.1130"],
     "uses" : {
     },
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-code",
@@ -340,8 +332,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.427"],
     "uses" : {
     },
-    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile",
-    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile"
+    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile",
+    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/procedure-reason",
@@ -355,8 +347,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.432"],
     "uses" : {
     },
-    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile",
-    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile"
+    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile",
+    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/program",
@@ -384,8 +376,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.113"],
     "uses" : {
     },
-    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile",
-    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile"
+    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile",
+    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/request-priority",
@@ -399,8 +391,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.115"],
     "uses" : {
     },
-    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile",
-    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile"
+    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile",
+    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/request-status",
@@ -414,8 +406,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.111"],
     "uses" : {
     },
-    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile",
-    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile"
+    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile",
+    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/search-entry-mode",
@@ -447,12 +439,12 @@
     "sources" : ["2.16.840.1.113883.4.642.3.47"],
     "uses" : {
     },
-    "StructureDefinition-cfl-Organization.html" : "CFL Organization Profile",
-    "StructureDefinition-cfl-practitionerrole.html" : "CFL PractitionerRole Profile",
     "StructureDefinition-cfl-transaction-response-bundle.html" : "Cfl Transaction Response",
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile",
+    "StructureDefinition-cfl-practitionerrole.html" : "CFL PractitionerRole Profile",
     "StructureDefinition-CFL-HealthcareService-profile.html" : "CFL HealthcareService Profile",
-    "StructureDefinition-cfl-practitioner.html" : "CFL Practitioner Profile",
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-Organization.html" : "CFL Organization Profile",
+    "StructureDefinition-cfl-practitioner.html" : "CFL Practitioner Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/service-provision-conditions",
@@ -494,8 +486,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.434"],
     "uses" : {
     },
-    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile",
-    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile"
+    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile",
+    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/servicerequest-orderdetail",
@@ -509,8 +501,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.435"],
     "uses" : {
     },
-    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile",
-    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile"
+    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile",
+    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/v2-2.7-0360",
@@ -536,8 +528,8 @@
     "sources" : ["2.16.840.1.113883.1.11.17660"],
     "uses" : {
     },
-    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile",
-    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile"
+    "StructureDefinition-cfl-ServiceRequest-enrichi.html" : "CFL ServiceRequest Enrichi Profile",
+    "StructureDefinition-cfl-ServiceRequest-requerant.html" : "CFL ServiceRequest Requerant Profile"
   },
   {
     "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-identity-method-collection",
@@ -549,7 +541,7 @@
     "systems" : ["https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-method-collection"],
     "uses" : {
     },
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile"
   },
   {
     "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-identity-reliability",
@@ -561,7 +553,7 @@
     "systems" : ["https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0445"],
     "uses" : {
     },
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile"
   },
   {
     "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-marital-status",
@@ -575,7 +567,7 @@
     "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-marital-status"],
     "uses" : {
     },
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile"
   },
   {
     "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-mode-validation-identity-ins",
@@ -587,7 +579,7 @@
     "systems" : ["https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-mode-validation-identity"],
     "uses" : {
     },
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile"
   },
   {
     "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-organization-type",
@@ -611,7 +603,7 @@
     "systems" : ["https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-patient-contact-relationship-category"],
     "uses" : {
     },
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile"
   },
   {
     "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-patient-contact-role",
@@ -625,7 +617,7 @@
     "https://mos.esante.gouv.fr/NOS/TRE_R217-ProtectionJuridique/FHIR/TRE-R217-ProtectionJuridique"],
     "uses" : {
     },
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile"
   },
   {
     "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-patient-gender",
@@ -637,7 +629,7 @@
     "systems" : ["http://hl7.org/fhir/administrative-gender"],
     "uses" : {
     },
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile"
   },
   {
     "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-patient-identifier-type",
@@ -650,7 +642,7 @@
     "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"],
     "uses" : {
     },
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile"
   },
   {
     "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-patient-identifier-use-ins",
@@ -662,7 +654,7 @@
     "systems" : ["http://hl7.org/fhir/identifier-use"],
     "uses" : {
     },
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile"
   },
   {
     "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-patient-identifier-use-pi",
@@ -674,7 +666,7 @@
     "systems" : ["http://hl7.org/fhir/identifier-use"],
     "uses" : {
     },
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile"
   },
   {
     "url" : "https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-role-exercice",
@@ -718,7 +710,7 @@
     "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode"],
     "uses" : {
     },
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/annuaire/ValueSet/as-vs-organization-types",
@@ -783,8 +775,8 @@
     "systems" : ["http://hl7.org/fhir/name-use"],
     "uses" : {
     },
-    "StructureDefinition-cfl-practitioner.html" : "CFL Practitioner Profile",
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile",
+    "StructureDefinition-cfl-practitioner.html" : "CFL Practitioner Profile"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/ValueSet/activestatus",
@@ -825,20 +817,6 @@
     "uses" : {
     },
     "StructureDefinition-cfl-Organization.html" : "CFL Organization Profile"
-  },
-  {
-    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J103-TypeVoie-RASS/FHIR/JDV-J103-TypeVoie-RASS",
-    "version" : "20200424120000",
-    "status" : "active",
-    "name" : "JDV_J103_TypeVoie_RASS",
-    "title" : null,
-    "description" : "Type de voie du professionnel du RASS",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R35-TypeVoie/FHIR/TRE-R35-TypeVoie"],
-    "oids" : ["1.2.250.1.213.1.6.1.171"],
-    "sources" : ["1.2.250.1.213.1.6.1.171"],
-    "uses" : {
-    },
-    "StructureDefinition-AsAddressExtendedProfile.html" : "Adresse de la Structure"
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS",
@@ -1100,36 +1078,7 @@
     "sources" : ["1.2.250.1.213.1.1.5.718"],
     "uses" : {
     },
-    "StructureDefinition-fr-core-patient-cfl.html" : "FR Core Patient CFL"
-  },
-  {
-    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J256-Pays/FHIR/JDV-J256-Pays",
-    "version" : "20250328120000",
-    "status" : "active",
-    "name" : "JDV_J256_Pays",
-    "title" : null,
-    "description" : "Tous les codes actifs de la nomenclature du COG INSEE pays auquel on ajoute le code applicatif \"non renseigné\"",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays",
-    "https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire"],
-    "oids" : ["1.2.250.1.213.1.1.5.762"],
-    "sources" : ["1.2.250.1.213.1.1.5.762"],
-    "uses" : {
-    },
-    "StructureDefinition-AsAddressExtendedProfile.html" : "Adresse de la Structure"
-  },
-  {
-    "url" : "https://mos.esante.gouv.fr/NOS/JDV_J258-Departement/FHIR/JDV-J258-Departement",
-    "version" : "20240628120000",
-    "status" : "active",
-    "name" : "JDV_J258_Departement",
-    "title" : null,
-    "description" : "Tous les codes actifs des départements et collectivités d'outre-mer actives + Monaco du COG INSEE",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM"],
-    "oids" : ["1.2.250.1.213.1.1.5.764"],
-    "sources" : ["1.2.250.1.213.1.1.5.764"],
-    "uses" : {
-    },
-    "StructureDefinition-AsAddressExtendedProfile.html" : "Adresse de la Structure"
+    "StructureDefinition-cfl-patient.html" : "CFL Patient Profile"
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J26-ModeGestion-ROR/FHIR/JDV-J26-ModeGestion-ROR",

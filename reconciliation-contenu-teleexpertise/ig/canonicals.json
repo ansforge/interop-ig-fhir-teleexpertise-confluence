@@ -48,39 +48,11 @@
   "name" : "ConfluencesTeleexpertise"
 },
 {
-  "id" : "AsAddressExtendedProfile",
-  "type" : "StructureDefinition",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/AsAddressExtendedProfile",
-  "version" : "0.1.0",
-  "name" : "AsAddressExtendedProfile"
-},
-{
   "id" : "CFL-HealthcareService-profile",
   "type" : "StructureDefinition",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/CFL-HealthcareService-profile",
   "version" : "0.1.0",
   "name" : "CFLHealthcareServiceProfile"
-},
-{
-  "id" : "FRCoreAddressProfile",
-  "type" : "StructureDefinition",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/FRCoreAddressProfile",
-  "version" : "0.1.0",
-  "name" : "FRCoreAddressProfile"
-},
-{
-  "id" : "FRCoreContactPointProfile",
-  "type" : "StructureDefinition",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/FRCoreContactPointProfile",
-  "version" : "0.1.0",
-  "name" : "FRCoreContactPointProfile"
-},
-{
-  "id" : "as-mailbox-mss",
-  "type" : "StructureDefinition",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/as-mailbox-mss",
-  "version" : "0.1.0",
-  "name" : "AsMailboxMSSProfile"
 },
 {
   "id" : "cfl-Organization",
@@ -104,6 +76,13 @@
   "name" : "CFLServiceRequestRequerantProfile"
 },
 {
+  "id" : "cfl-patient",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-patient",
+  "version" : "0.1.0",
+  "name" : "CFLPatientProfile"
+},
+{
   "id" : "cfl-practitioner",
   "type" : "StructureDefinition",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-practitioner",
@@ -122,14 +101,7 @@
   "type" : "StructureDefinition",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-transaction-response-bundle",
   "version" : "0.1.0",
-  "name" : "CflTransactionResponse"
-},
-{
-  "id" : "fr-core-patient-cfl",
-  "type" : "StructureDefinition",
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/fr-core-patient-cfl",
-  "version" : "0.1.0",
-  "name" : "FRCorePatientCFL"
+  "name" : "CFLTransactionResponse"
 },
 {
   "id" : "NameUseUsualOrOfficial",

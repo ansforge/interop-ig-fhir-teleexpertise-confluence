@@ -1,24 +1,20 @@
 ConfluencesTeleexpertise : Validation Results
 =========================================
 
-err = 112, warn = 61, info = 1426
+err = 92, warn = 57, info = 1359
 IG Publisher Version: 2.2.10 Out of date - current version is 2.2.11
-Generated Fri Jul 24 14:02:15 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.teleexpertise-confluence#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence)
- Build Errors : 115 / 6 / 0
+Generated Fri Jul 24 15:33:03 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.teleexpertise-confluence#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence)
+ Build Errors : 95 / 6 / 0
  /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/CodeSystem-active-status-cs : 0 / 4 / 2
  /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.teleexpertise-confluence : 0 / 0 / 2
- /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/StructureDefinition-AsAddressExtendedProfile : 0 / 1 / 52
  /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/StructureDefinition-CFL-HealthcareService-profile : 1 / 13 / 326
- /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/StructureDefinition-FRCoreAddressProfile : 0 / 1 / 3
- /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/StructureDefinition-FRCoreContactPointProfile : 0 / 1 / 3
- /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/StructureDefinition-as-mailbox-mss : 0 / 1 / 12
- /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/StructureDefinition-cfl-Organization : 0 / 9 / 308
+ /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/StructureDefinition-cfl-Organization : 0 / 9 / 307
  /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/StructureDefinition-cfl-ServiceRequest-enrichi : 0 / 1 / 66
  /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/StructureDefinition-cfl-ServiceRequest-requerant : 0 / 1 / 68
+ /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/StructureDefinition-cfl-patient : 0 / 1 / 11
  /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/StructureDefinition-cfl-practitioner : 4 / 3 / 330
  /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/StructureDefinition-cfl-practitionerrole : 0 / 5 / 136
  /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/StructureDefinition-cfl-transaction-response-bundle : 0 / 1 / 76
- /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/StructureDefinition-fr-core-patient-cfl : 0 / 1 / 11
  /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/StructureDefinition-patient-consent : 2 / 1 / 8
  /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/StructureDefinition-patient-multiple-birth : 2 / 1 / 8
  /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/StructureDefinition-redirect-url : 2 / 1 / 8
@@ -41,6 +37,11 @@ ERROR: ToC: The ToC contains the page StructureDefinition-cfl-Organization.profi
 ERROR: ToC: The ToC contains the page StructureDefinition-cfl-Organization.profile.ttl.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-cfl-Organization-mappings.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-cfl-Organization-testing.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-cfl-patient.profile.xml.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-cfl-patient.profile.json.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-cfl-patient.profile.ttl.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-cfl-patient-mappings.html more than once
+ERROR: ToC: The ToC contains the page StructureDefinition-cfl-patient-testing.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-cfl-practitioner.profile.xml.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-cfl-practitioner.profile.json.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-cfl-practitioner.profile.ttl.html more than once
@@ -66,31 +67,6 @@ ERROR: ToC: The ToC contains the page StructureDefinition-cfl-transaction-respon
 ERROR: ToC: The ToC contains the page StructureDefinition-cfl-transaction-response-bundle.profile.ttl.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-cfl-transaction-response-bundle-mappings.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-cfl-transaction-response-bundle-testing.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-fr-core-patient-cfl.profile.xml.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-fr-core-patient-cfl.profile.json.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-fr-core-patient-cfl.profile.ttl.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-fr-core-patient-cfl-mappings.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-fr-core-patient-cfl-testing.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-AsAddressExtendedProfile.profile.xml.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-AsAddressExtendedProfile.profile.json.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-AsAddressExtendedProfile.profile.ttl.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-AsAddressExtendedProfile-mappings.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-AsAddressExtendedProfile-testing.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-FRCoreAddressProfile.profile.xml.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-FRCoreAddressProfile.profile.json.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-FRCoreAddressProfile.profile.ttl.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-FRCoreAddressProfile-mappings.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-FRCoreAddressProfile-testing.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-FRCoreContactPointProfile.profile.xml.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-FRCoreContactPointProfile.profile.json.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-FRCoreContactPointProfile.profile.ttl.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-FRCoreContactPointProfile-mappings.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-FRCoreContactPointProfile-testing.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-as-mailbox-mss.profile.xml.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-as-mailbox-mss.profile.json.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-as-mailbox-mss.profile.ttl.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-as-mailbox-mss-mappings.html more than once
-ERROR: ToC: The ToC contains the page StructureDefinition-as-mailbox-mss-testing.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-patient-consent.profile.xml.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-patient-consent.profile.json.html more than once
 ERROR: ToC: The ToC contains the page StructureDefinition-patient-consent.profile.ttl.html more than once
@@ -157,59 +133,6 @@ WARNING: CodeSystem/active-status-cs: CodeSystem: Published code systems SHOULD 
 WARNING: Resource: The resource CodeSystem/active-status-cs should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ImplementationGuide-ans.fhir.fr.teleexpertise-confluence.json ==
 INFORMATION: Resource: The resource ImplementationGuide/ans.fhir.fr.teleexpertise-confluence could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-== fsh-generated/resources/StructureDefinition-AsAddressExtendedProfile.json ==
-INFORMATION: StructureDefinition.baseDefinition: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-address-extended to 1.1.0
-INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[2].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[3].type[0].profile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code to 2.2.0
-INFORMATION: StructureDefinition.snapshot.element[3].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[3].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[6].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[7].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[9].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[9].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[10].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-careOf to 5.3.0
-INFORMATION: StructureDefinition.snapshot.element[10].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[10].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[11].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator to 5.3.0
-INFORMATION: StructureDefinition.snapshot.element[11].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[11].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[12].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber to 5.3.0
-INFORMATION: StructureDefinition.snapshot.element[12].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[12].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[13].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-buildingNumberSuffix to 5.3.0
-INFORMATION: StructureDefinition.snapshot.element[13].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[13].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[14].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType to 5.3.0
-INFORMATION: StructureDefinition.snapshot.element[14].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[14].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[16].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[16].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[18].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[18].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J103-TypeVoie-RASS/FHIR/JDV-J103-TypeVoie-RASS to 20200424120000
-INFORMATION: StructureDefinition.snapshot.element[19].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox to 5.3.0
-INFORMATION: StructureDefinition.snapshot.element[19].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[19].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[20].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase to 5.3.0
-INFORMATION: StructureDefinition.snapshot.element[20].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[20].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[21].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-lieu-dit to 1.1.0
-INFORMATION: StructureDefinition.snapshot.element[21].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[21].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[24].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[24].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J258-Departement/FHIR/JDV-J258-Departement to 20240628120000
-INFORMATION: StructureDefinition.snapshot.element[25].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[26].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[27].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[27].binding.valueSet: Pinned the version of https://mos.esante.gouv.fr/NOS/JDV_J256-Pays/FHIR/JDV-J256-Pays to 20250328120000
-INFORMATION: StructureDefinition.snapshot.element[28].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition/AsAddressExtendedProfile: StructureDefinition.snapshot.element[22].type[0].extension[1]: The extension http://hl7.org/fhir/StructureDefinition/regex|5.3.0 is deprecated with the note: 'This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex'
-INFORMATION: Resource: The resource StructureDefinition/AsAddressExtendedProfile could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/AsAddressExtendedProfile'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-CFL-HealthcareService-profile.json ==
 WARNING: CFL HealthcareService Profile.specialty.HealthcareService.specialty: Binding https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J17-ActiviteOperationnelle-ROR could not be located
 WARNING: CFL HealthcareService Profile.characteristic.HealthcareService.characteristic: Binding https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J19-ModePriseEnCharge-ROR could not be located
@@ -550,27 +473,6 @@ WARNING: StructureDefinition/CFL-HealthcareService-profile: StructureDefinition.
 WARNING: StructureDefinition/CFL-HealthcareService-profile: StructureDefinition.snapshot.element[137].binding: The definition for the element 'HealthcareService.characteristic.extension.value[x]' binds to the value set 'https://interop.esante.gouv.fr/ig/fhir/ror/ValueSet/act-type-ror-valueset|0.7.0' which is experimental, but this structure is not labeled as experimental
 INFORMATION: Resource: The resource StructureDefinition/CFL-HealthcareService-profile could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/CFL-HealthcareService-profile'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-FRCoreAddressProfile.json ==
-INFORMATION: StructureDefinition.baseDefinition: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address to 2.2.0
-INFORMATION: Resource: The resource StructureDefinition/FRCoreAddressProfile could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/FRCoreAddressProfile'): The Implementation Guide contains no examples for this data type profile
-== fsh-generated/resources/StructureDefinition-FRCoreContactPointProfile.json ==
-INFORMATION: StructureDefinition.baseDefinition: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point to 2.2.0
-INFORMATION: Resource: The resource StructureDefinition/FRCoreContactPointProfile could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/FRCoreContactPointProfile'): The Implementation Guide contains no examples for this data type profile
-== fsh-generated/resources/StructureDefinition-as-mailbox-mss.json ==
-INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/ContactPoint to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/ContactPoint to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[0].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[2].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[2].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[3].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[4].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[5].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[6].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[7].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: Resource: The resource StructureDefinition/as-mailbox-mss could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/as-mailbox-mss'): The Implementation Guide contains no examples for this data type profile
 == fsh-generated/resources/StructureDefinition-cfl-Organization.json ==
 INFORMATION: StructureDefinition.baseDefinition: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization to 1.1.0
 INFORMATION: StructureDefinition.snapshot.element[0].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/DomainResource to 4.0.1
@@ -846,7 +748,7 @@ INFORMATION: StructureDefinition.snapshot.element[201].type[0].profile[0]: Pinne
 INFORMATION: StructureDefinition.snapshot.element[201].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/ContactPoint to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[201].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[201].constraint[2].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Organization to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[202].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/AsAddressExtendedProfile to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[202].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-address-extended to 1.1.0
 INFORMATION: StructureDefinition.snapshot.element[202].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[202].constraint[1].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Organization to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[203].type[0].targetProfile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization to 2.2.0
@@ -874,7 +776,6 @@ INFORMATION: StructureDefinition.snapshot.element[217].type[0].profile[0]: Pinne
 INFORMATION: StructureDefinition.snapshot.element[217].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[218].type[0].targetProfile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/Endpoint to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[218].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.differential.element[4].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/AsAddressExtendedProfile to 0.1.0
 INFORMATION: StructureDefinition/cfl-Organization: StructureDefinition.snapshot.element[36].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition/cfl-Organization: StructureDefinition.snapshot.element[103].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 WARNING: StructureDefinition/cfl-Organization: StructureDefinition.snapshot: The slice 'organizationType' on path 'Organization.type' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
@@ -927,7 +828,7 @@ INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[24].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[25].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[26].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/fr-core-patient-cfl to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[26].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-patient to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[26].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[27].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[28].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -991,7 +892,7 @@ INFORMATION: StructureDefinition.snapshot.element[21].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[22].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[23].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[24].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
-INFORMATION: StructureDefinition.snapshot.element[25].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/fr-core-patient-cfl to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[25].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-patient to 0.1.0
 INFORMATION: StructureDefinition.snapshot.element[25].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[26].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.snapshot.element[27].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
@@ -1017,12 +918,24 @@ INFORMATION: StructureDefinition.snapshot.element[42].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.snapshot.element[43].constraint[0].source: Pinned the version of http://hl7.org/fhir/StructureDefinition/Element to 4.0.1
 INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of http://example.org/fhir/fish/StructureDefinition/fr-coreServiceRequest-SplitActiveStatus to 0.1.0
 INFORMATION: StructureDefinition.differential.element[3].type[0].profile[0]: Pinned the version of http://example.org/fhir/fish/StructureDefinition/fr-coreServiceRequest-patientConsent to 0.1.0
-INFORMATION: StructureDefinition.differential.element[5].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/fr-core-patient-cfl to 0.1.0
+INFORMATION: StructureDefinition.differential.element[5].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-patient to 0.1.0
 INFORMATION: StructureDefinition.differential.element[7].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-practitionerrole to 0.1.0
 INFORMATION: StructureDefinition.differential.element[8].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-practitionerrole to 0.1.0
 INFORMATION: StructureDefinition.differential.element[10].type[0].targetProfile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-healthcareservice to 0.7.0
 INFORMATION: Resource: The resource StructureDefinition/cfl-ServiceRequest-requerant could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-ServiceRequest-requerant'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-cfl-patient.json ==
+INFORMATION: StructureDefinition.baseDefinition: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-ins to 2.2.0
+INFORMATION: StructureDefinition.snapshot.element[69].type[0].profile[0]: Pinned the version of http://example.org/fhir/fish/StructureDefinition/FRCorePatientProfile-multiple-birth to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[167].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/ValueSet/NameUseUsualOrOfficial to 0.1.0
+INFORMATION: StructureDefinition.snapshot.element[195].type[0].profile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point to 2.2.0
+INFORMATION: StructureDefinition.snapshot.element[199].type[0].profile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address to 2.2.0
+INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of http://example.org/fhir/fish/StructureDefinition/FRCorePatientProfile-multiple-birth to 0.1.0
+INFORMATION: StructureDefinition.differential.element[5].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/ValueSet/NameUseUsualOrOfficial to 0.1.0
+INFORMATION: StructureDefinition.differential.element[11].type[0].profile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point to 2.2.0
+INFORMATION: StructureDefinition.differential.element[12].type[0].profile[0]: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address to 2.2.0
+INFORMATION: Resource: The resource StructureDefinition/cfl-patient could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-patient'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-cfl-practitioner.json ==
 WARNING: CFL Practitioner Profile.qualification.coding.Practitioner.qualification.code.coding: Binding https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale could not be located
 INFORMATION: StructureDefinition.baseDefinition: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-practitioner to 1.1.0
@@ -1578,18 +1491,6 @@ INFORMATION: StructureDefinition.snapshot.element[56].constraint[0].source: Pinn
 INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of http://example.org/fhir/fish/StructureDefinition/TransactionResponse-RedirectUrl to 0.1.0
 INFORMATION: Resource: The resource StructureDefinition/cfl-transaction-response-bundle could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-transaction-response-bundle'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-fr-core-patient-cfl.json ==
-INFORMATION: StructureDefinition.baseDefinition: Pinned the version of https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-ins to 2.2.0
-INFORMATION: StructureDefinition.snapshot.element[69].type[0].profile[0]: Pinned the version of http://example.org/fhir/fish/StructureDefinition/FRCorePatientProfile-multiple-birth to 0.1.0
-INFORMATION: StructureDefinition.snapshot.element[167].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/ValueSet/NameUseUsualOrOfficial to 0.1.0
-INFORMATION: StructureDefinition.snapshot.element[195].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/FRCoreContactPointProfile to 0.1.0
-INFORMATION: StructureDefinition.snapshot.element[199].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/FRCoreAddressProfile to 0.1.0
-INFORMATION: StructureDefinition.differential.element[2].type[0].profile[0]: Pinned the version of http://example.org/fhir/fish/StructureDefinition/FRCorePatientProfile-multiple-birth to 0.1.0
-INFORMATION: StructureDefinition.differential.element[5].binding.valueSet: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/ValueSet/NameUseUsualOrOfficial to 0.1.0
-INFORMATION: StructureDefinition.differential.element[11].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/FRCoreContactPointProfile to 0.1.0
-INFORMATION: StructureDefinition.differential.element[12].type[0].profile[0]: Pinned the version of https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/FRCoreAddressProfile to 0.1.0
-INFORMATION: Resource: The resource StructureDefinition/fr-core-patient-cfl could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/fr-core-patient-cfl'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-patient-consent.json ==
 ERROR: StructureDefinition.where(url = 'http://example.org/fhir/fish/StructureDefinition/fr-coreServiceRequest-patientConsent'): Conformance resource /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/StructureDefinition-patient-consent.json - the canonical URL (https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/patient-consent) does not match the URL (http://example.org/fhir/fish/StructureDefinition/fr-coreServiceRequest-patientConsent). Use the special-url parameter if you really mean for it not to match
 INFORMATION: StructureDefinition.baseDefinition: Pinned the version of http://hl7.org/fhir/StructureDefinition/Extension to 4.0.1

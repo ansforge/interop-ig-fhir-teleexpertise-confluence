@@ -70,6 +70,12 @@
         "title": "CFL ServiceRequest Requerant Profile"
       }
     ],
+    "Patient": [
+      {
+        "url": "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-patient",
+        "title": "CFL Patient Profile"
+      }
+    ],
     "Practitioner": [
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-practitioner",
@@ -86,12 +92,6 @@
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-transaction-response-bundle",
         "title": "Cfl Transaction Response"
-      }
-    ],
-    "Patient": [
-      {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/fr-core-patient-cfl",
-        "title": "FR Core Patient CFL"
       }
     ]
   },
@@ -132,35 +132,11 @@
     "http://hl7.org/fhir/StructureDefinition/humanname-assembly-order|5.3.0": [
       "Practitioner.name"
     ],
-    "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-additionalLocator|5.3.0": [
-      "Address.line"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-buildingNumberSuffix|5.3.0": [
-      "Address.line"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-careOf|5.3.0": [
-      "Address.line"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber|5.3.0": [
-      "Address.line"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-postBox|5.3.0": [
-      "Address.line"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase|5.3.0": [
-      "Address.line"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType|5.3.0": [
-      "Address.line"
-    ],
     "http://hl7.org/fhir/StructureDefinition/organization-period|5.3.0": [
       "Organization"
     ],
     "http://hl7.org/fhir/StructureDefinition/patient-birthPlace|5.2.0": [
       "Patient"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/regex": [
-      "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"
@@ -198,14 +174,12 @@
       "StructureDefinition.snapshot"
     ],
     "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code|2.2.0": [
-      "Address",
       "Patient.extension.value[x]"
     ],
     "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-comment|2.2.0": [
       "Patient.contact"
     ],
     "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type|2.2.0": [
-      "ContactPoint",
       "Organization.telecom",
       "PractitionerRole.telecom"
     ],
@@ -253,9 +227,6 @@
     ],
     "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-education-level|1.1.0": [
       "Practitioner.qualification"
-    ],
-    "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-lieu-dit|1.1.0": [
-      "Address.line"
     ],
     "https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-ext-organization-authorization-deadline|1.1.0": [
       "Organization"

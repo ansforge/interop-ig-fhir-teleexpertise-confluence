@@ -1,0 +1,23 @@
+table {
+  border: 1px solid #ddd;
+}
+
+th {
+  background: #eef5ff;
+  border-bottom: 2px solid #99c2ff;
+}
+
+img {
+  max-width: 100%;   /* jamais plus large que son conteneur */
+  height: auto;      /* garde le ratio original */
+  display: block;    /* supprime les petits espaces sous l’image */
+  margin: 0 auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.img {
+  max-width: 100% ;
+  overflow: hidden;
+}

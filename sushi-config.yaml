@@ -1,10 +1,10 @@
 # Documentation à propos de cette page : https://fshschool.org/docs/sushi/configuration/
 
-id: ans.fhir.fr.[code]
-canonical: https://interop.esante.gouv.fr/ig/fhir/[code] # the last part of canonical and id must be the same
-name: ExampleIG # Should be an acronym
-title: ANS IG Example
-description: Description du projet
+id: ans.fhir.fr.teleexpertise-confluence
+canonical: https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence # the last part of canonical and id must be the same
+name: ConfluencesTeleexpertise # Should be an acronym
+title: Confluences Téléexpertise
+description: Mise en relation entre un requérant et un requis de téléexpertise, chacun depuis son logiciel métier, via les API REST FHIR.
 publisher:
   name: Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris
   url: https://esante.gouv.fr

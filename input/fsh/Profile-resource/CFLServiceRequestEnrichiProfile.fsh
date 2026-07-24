@@ -8,7 +8,7 @@ Description:    "Profil décrivant une demande de téléexpertise issu de Servic
 * authoredOn 1..1
 * requester 1..1 
 * requester only Reference(CFLPractitionerRoleProfile)
-* subject only Reference(FRCorePatientCFL)
+* subject only Reference(CFLPatientProfile)
 * performer only Reference(CFLPractitionerRoleProfile)
 * patientInstruction 0..0
 * note 0..0

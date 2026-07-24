@@ -1,7 +1,7 @@
-Profile: FRCorePatientCFL
+Profile: CFLPatientProfile
 Parent: FRCorePatientINSProfile
-Id: fr-core-patient-cfl
-Title: "FR Core Patient CFL"
+Id: cfl-patient
+Title: "CFL Patient Profile"
 Description: "Profil issu de FRCorePatientINSProfile"
 
 * identifier[NSS-NIR] 0..1

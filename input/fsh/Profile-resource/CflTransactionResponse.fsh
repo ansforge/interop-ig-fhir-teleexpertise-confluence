@@ -1,4 +1,4 @@
-Profile: CflTransactionResponse
+Profile: CFLTransactionResponse
 Parent: Bundle
 Id: cfl-transaction-response-bundle
 Title: "Cfl Transaction Response"

@@ -3,7 +3,7 @@ ConfluencesTeleexpertise : Validation Results
 
 err = 38, warn = 20, info = 94
 IG Publisher Version: 2.2.10 Out of date - current version is 2.2.11
-Generated Fri Jul 24 13:42:26 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.teleexpertise-confluence#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence)
+Generated Fri Jul 24 14:05:36 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.teleexpertise-confluence#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence)
  Build Errors : 332 / 3 / 0
  /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/CodeSystem-competence-code-system : 0 / 3 / 2
  /__w/interop-ig-fhir-teleexpertise-confluence/interop-ig-fhir-teleexpertise-confluence/igSource/fsh-generated/resources/CodeSystem-type-carte-code-system : 0 / 3 / 2

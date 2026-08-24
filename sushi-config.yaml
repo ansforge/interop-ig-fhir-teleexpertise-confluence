@@ -16,6 +16,11 @@ releaseLabel: ci-build # le release label doit être conforme au cycle de vie de
 
 jurisdiction: urn:iso:std:iso:3166#FR "France (la)"
 
+dependencies:
+  hl7.fhir.fr.core: 2.2.0
+  ans.fhir.fr.annuaire: 1.1.0
+  ans.fhir.fr.ror: 0.7.0
+
 parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html
     shownav: 'true'
     path-expansion-params: '../../expansion-params.json' # for using French SNOMED CT Extension
@@ -38,18 +43,12 @@ parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/Code
 pages:
     index.md:
         title: Accueil
-    spec-fonctionnelle-intro.md:
-        title: Vue d'ensemble
-        spec-fonctionnelle-alimentation.md:
-            title: Alimentation
-    spec-technique-intro.md:
-        title: Introduction
-        spec-technique-vue-ensemble.md:
-            title: Vue d'ensemble
-        spec-technique-flux-alimentation.md:
-            title: Flux d'alimentation
-        spec-technique-flux-consommation.md:
-            title: Flux de consommation
+    specification_requerant.md:
+        title: Contexte administratif de la demande
+    specification_enrichi.md:
+        title: Flux de la demande
+    specification_statuts.md:
+        title: Flux des statuts
     change-log.md:
         title: Historique des versions
     autres_ressources.md:
@@ -63,17 +62,12 @@ pages:
 
 menu:
     Accueil: index.html
-    Vol. 1 - Etude fonctionnelle: 
-        Introduction: spec-fonctionnelle-intro.html
-        Alimentation: spec-fonctionnelle-alimentation.html
-    Vol. 2 - Détail des transactions: 
-        Introduction: spec-technique-intro.html
-        Vue d'ensemble: spec-technique-vue-ensemble.html
-        Flux d'alimentation: spec-technique-flux-alimentation.html
-        Flux de consommation: spec-technique-flux-consommation.html
+    Contexte administratif: specification_requerant.html
+    Flux de la demande: specification_enrichi.html
+    Flux des statuts: specification_statuts.html
     Vol. 3 - Annexes:
-        Sécurité: securite.html
-        Téléchargements et usage: downloads.html
+        Sécurité: annexe-securite.html
+        Téléchargements et usage: annexe-downloads.html
         "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
         "Site de l'ANS ": new-tab https://esante.gouv.fr/
     Ressources de conformité: artifacts.html

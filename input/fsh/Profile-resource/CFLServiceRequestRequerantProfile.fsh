@@ -4,6 +4,7 @@ Id:             cfl-ServiceRequest-requerant
 Title:          "CFL ServiceRequest Requerant Profile"
 Description:    "Profil décrivant une demande de téléexpertise issu de ServiceRequest R4"
 * identifier 0..*
+* status = #draft
 * intent = #proposal
 * authoredOn 1..1
 * requester 1..1 

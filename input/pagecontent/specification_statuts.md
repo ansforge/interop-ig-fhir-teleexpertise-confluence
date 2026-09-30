@@ -4,9 +4,6 @@
 
 ### Flux Statuts 
 
-Ce chapitre décrit les données liées à la récupération des statuts de la demande effectuée par un professionnel de santé requérant. 
-
-Ce flux est normé en FHIR (R4)
 
 Etant donné qu’il n’existe pas de CI-SIS adapté à notre cas d’usage, nous avons essayé de se rapprocher le plus possible des volets CI-SIS proches fonctionnellement (Annuaire Santé) et lorsque ce n’était pas possible, nous avons modélisé à partir de FrCore d’InteropSanté France.
 

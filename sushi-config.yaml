@@ -41,8 +41,10 @@ parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/Code
 
 
 pages:
-    index.md:
+    Accueil.md:
         title: Accueil
+    specification_fonctionnelles.md:
+        title: Specification fonctionnelle
     specification_requerant.md:
         title: Contexte administratif de la demande
     specification_enrichi.md:

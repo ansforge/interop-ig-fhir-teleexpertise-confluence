@@ -1,6 +1,6 @@
 Profile: CFLOrganizationProfile
 Parent: AsOrganizationProfile
-Id: cfl-Organization
+Id: cfl-organization
 Title: "CFL Organization Profile"
 Description: "Profil issu de AsOrganizationProfile"
 

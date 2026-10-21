@@ -16,7 +16,8 @@ Description: "Exemple de ressource ServiceRequest : pré demande de téléexpert
 * requester = Reference(CFLPractitionnerRoleRequerantProfileExample)
   * type = "CFLPractitionnerRoleProfile"
 	
-
+* performer = Reference(CFLPractitionnerRoleRequisProfileExample)
+  * type = "CFLPractitionnerRoleProfile"
 
 * supportingInfo = Reference(CFLHealthcareServiceProfileExample)
   * type = "CFLHealthcareServiceProfile"

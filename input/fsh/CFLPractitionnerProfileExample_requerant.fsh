@@ -1,4 +1,4 @@
-Instance: CFLPractitionneRequerantProfileExample
+Instance: CFLPractitionnerRequerantProfileExample
 InstanceOf: cfl-practitioner
 Usage: #example
 Description: "Exemple de ressource practitioner dans une pré demande de téléexpertise "

@@ -41,7 +41,7 @@ parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/Code
 
 
 pages:
-    Accueil.md:
+    index.md:
         title: Accueil
     specification_fonctionnelles.md:
         title: Specification fonctionnelle
@@ -63,7 +63,7 @@ pages:
         title: Informations sur la traduction
 
 menu:
-  Accueil: Accueil.html 
+  Accueil: index.html 
   Table of Contents: toc.html
   Liste des profils: artifacts.html
   Spécifications fonctionnelles : specification_fonctionnelles.html

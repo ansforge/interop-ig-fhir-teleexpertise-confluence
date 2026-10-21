@@ -5,8 +5,8 @@ Description: "Exemple de ressource practitioner dans une pré demande de télée
 
 
 * identifier[rpps].use = #official
-* identifier[numeroAm].system = "https://rpps.esante.gouv.fr"
-* identifier[numeroAm].value = "10001389462"
+* identifier[rpps].system = "https://rpps.esante.gouv.fr"
+* identifier[rpps].value = "10001389462"
 * active = true
 
 

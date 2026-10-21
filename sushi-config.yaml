@@ -63,11 +63,15 @@ pages:
         title: Informations sur la traduction
 
 menu:
-    Accueil: index.html
-    Contexte administratif: specification_requerant.html
-    Flux de la demande: specification_enrichi.html
-    Flux des statuts: specification_statuts.html
-    Vol. 3 - Annexes:
+  Accueil: Accueil.html 
+  Table of Contents: toc.html
+  Liste des profils: artifacts.html
+  Spécifications fonctionnelles : specification_fonctionnelles.html
+  Spécifications techniques : 
+    Spécification techniques de l'envoi d'une demande : specification_requerant.html
+    Spécification techniques de l'envoi d'une demande enrichie : specification_enrichi.html
+    Spécification techniques de la gestion des statuts d'une demande: specification_statuts.html
+  Vol. 3 - Annexes:
         Sécurité: annexe-securite.html
         Téléchargements et usage: annexe-downloads.html
         "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html

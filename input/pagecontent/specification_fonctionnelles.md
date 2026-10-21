@@ -52,7 +52,106 @@ Quatre fonctionnalités sont identifiées :
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 1. workflow d'un envoi d'une demande de téléexpertise</p>
 </div>
 
+### Récupération de l’offre opérationnelle de téléexpertise
 
+Seules les offres qui remplissent toutes les conditions suivantes sont à exposer : 
+
+
+<style>
+    .mon-tableau { width: 100%; border-collapse: collapse; font-family: sans-serif; }
+    .mon-tableau td { border: 1px solid #ddd; padding: 10px;}
+    .mon-tableau tr:first-child { background-color: #f2f2f2; font-weight: bold; color: #333; }
+</style>
+
+<table class="mon-tableau">
+    <tr >
+        <td colspan="2" style="background-color: #f2f2f2 !important;">Critère offre "de téléexpertise"</td>
+    </tr>
+    <tr>
+        <td>Classe</td>
+        <td>"offre opérationnelle"</td>
+    </tr>
+     <tr>
+        <td>Attribut</td>
+        <td>« modaliteAccueil »</td>
+    </tr>
+    <tr>
+        <td>NOS</td>
+        <td>https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J226-ModaliteAccueil-ROR</td>
+    </tr>
+    <tr>
+        <td>Valeurs</td>
+        <td>« Téléexpertise en moins de 24h » (code 10)
+            OU « Téléexpertise en moins de 7 jours » (code 11) 
+            OU « Téléexpertise en plus de 7 jours » (code 12)</td>
+    </tr>
+</table>
+
+
+<table class="mon-tableau">
+    <tr >
+        <td colspan="2" style="background-color: #f2f2f2 !important;">Critère l’URL ou la MSS existe</td>
+    </tr>
+    <tr>
+        <td>Classe</td>
+        <td>« Telecommunication » de la classe « contact » de la classe « offreOperationnelle » (au moins une télécommunication d’un contact de l’offre avec comme canal la valeur « adresse web » ou « courrier électronique » en accès libre ou restreint)</td>
+    </tr>
+     <tr>
+        <td>Attribut</td>
+        <td>« canal »</td>
+    </tr>
+    <tr>
+        <td>NOS</td>
+        <td>https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J225-CanalCommunication-ROR</td>
+    </tr>
+    <tr>
+        <td>Valeurs</td>
+        <td>« Adresse web » (code 4) ou « Courrier électronique » (code 3)</td>
+    </tr>
+    <tr>
+        <td>Attribut</td>
+        <td>« niveauConfidentialite»</td>
+    </tr>
+    <tr>
+        <td>NOS</td>
+        <td>https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J222-NiveauConfidentialite-ROR</td>
+    </tr>
+    <tr>
+        <td>Valeurs</td>
+        <td>Code 1 ou 2</td>
+    </tr>
+</table>
+
+Sur ce point, il s’agit d’une adresse web qui correspondra à la page descriptive sur le logiciel de TLE qui permet de saisir manuellement une demande. 
+
+Confluence TLE devra transcoder cette URL en l’URL d’appel de l’API éditeur qui nous sera fourni par les éditeurs. 
+
+Le critère offre est traité ainsi : 
+
+<table class="mon-tableau">
+    <tr >
+        <td colspan="2" style="background-color: #f2f2f2 !important;">Critère Offre</td>
+    </tr>
+    <tr>
+        <td>Classe</td>
+        <td>« activiteOperationnelle » rattachée à la classe « OffreOperationnelle »</td>
+    </tr>
+     <tr>
+        <td>Attribut</td>
+        <td>« activiteOperationnelle »</td>
+    </tr>
+    <tr>
+        <td>NOS</td>
+        <td>https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J17-ActiviteOperationnelle-ROR</td>
+    </tr>
+    <tr>
+        <td>Valeurs</td>
+        <td>toutes pour le moment</td>
+    </tr>
+   </table> 
+
+
+La requête ROR devra utiliser le modificateur FHIR _revinclude afin de récupérer le nom/prénom des professionnels associés à l’offre de Téléexpertise.
 
 ### Gestion des comptes utilisateurs (ici Requérants) :
 

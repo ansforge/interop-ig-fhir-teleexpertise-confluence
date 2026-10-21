@@ -14,4 +14,4 @@ Description: "Profil issu de FRCorePatientINSProfile"
 * birthDate 1..1
 * telecom only FRCoreContactPointProfile
 * address only FRCoreAddressProfile
-* extension contains PatientMultipleBirth named multipleBirth 1..1
+* extension contains FRCorePatientMultipleBirthExtension named multipleBirth 1..1

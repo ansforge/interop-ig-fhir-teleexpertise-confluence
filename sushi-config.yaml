@@ -72,10 +72,10 @@ menu:
     Spécification techniques de l'envoi d'une demande enrichie : specification_enrichi.html
     Spécification techniques de la gestion des statuts d'une demande: specification_statuts.html
   Vol. 3 - Annexes:
-        Sécurité: annexe-securite.html
-        Téléchargements et usage: annexe-downloads.html
-        "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
-        "Site de l'ANS ": new-tab https://esante.gouv.fr/
+    Sécurité: annexe-securite.html
+    Téléchargements et usage: annexe-downloads.html
+    "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
+    "Site de l'ANS ": new-tab https://esante.gouv.fr/
     Ressources de conformité: artifacts.html
     Documentation: new-tab https://interop.esante.gouv.fr/ig/documentation/
     Historique: change-log.html

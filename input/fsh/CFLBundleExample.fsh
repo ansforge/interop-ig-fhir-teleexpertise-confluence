@@ -15,7 +15,7 @@ Description: "Transaction contenant une demande de téléexpertise et ses ressou
 
 // Practitioner
 * entry[+].fullUrl = "urn:uuid:22222222-2222-4222-8222-222222222222"
-* entry[=].resource = CFLPractitionneRequerantProfileExample
+* entry[=].resource = CFLPractitionnerRequerantProfileExample
 * entry[=].request.method = #POST
 * entry[=].request.url = "Practitioner"
 

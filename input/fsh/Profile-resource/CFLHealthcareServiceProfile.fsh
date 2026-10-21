@@ -1,6 +1,6 @@
 Profile: CFLHealthcareServiceProfile
 Parent: RORHealthcareService
-Id: CFL-HealthcareService-profile
+Id: cfl-healthcare-service
 Title: "CFL HealthcareService Profile"
 Description: "Profil issu de RORHealthcareService"
 

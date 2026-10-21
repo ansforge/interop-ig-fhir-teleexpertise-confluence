@@ -4,7 +4,7 @@ Id: cfl-practitioner
 Title: "CFL Practitioner Profile"
 Description: "Profil issu de AsPractitionerProfile"
 
-* identifier[RPPS] 1..1
+* identifier[rpps] 1..1
 * name 1..*
 * name.use from NameUseUsualOrOfficial (required)
 * name.family 0..1

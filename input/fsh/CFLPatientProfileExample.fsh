@@ -30,5 +30,5 @@ Description: "Exemple de ressource patient dans une pré demande de téléexpert
 * address[0].line[0].extension[1].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber"
 * address[0].line[0].extension[1].valueString = "17"
 
-* extension[PatientMultipleBirth].valueInteger = 1
+* extension[multipleBirth].valueInteger = 1
 

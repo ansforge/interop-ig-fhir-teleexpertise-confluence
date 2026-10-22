@@ -14,7 +14,7 @@ Confluences téléexpertise expose au requérant la liste de ses demandes et leu
 
 Tous les utilisateurs devront être des professionnels habilités inscrits dans le RPPS.
 
-Enfin, cette IHM nécessite une authentification PSC.
+Enfin, cette IHM nécessite une authentification Pro Santé Connect (PSC).
 
 
 #### Fonctionalités
@@ -23,7 +23,7 @@ Quatre fonctionnalités sont identifiées :
 
 - Authentification PSC : 
 
-   Le requérant doit être authentifié PSC. S’il ne s’est pas authentifié PSC à son LGC, aucun jeton ne pourra être transmis à Confluences téléexpertise. Dans ce cas, la première étape sera de s’authentifier PSC. Si cela ne lui est pas possible, l’accès à Confluence Téléexpertise sera refusé. 
+   Le requérant doit être authentifié PSC. S’il ne s’est pas authentifié PSC à son Logiciel de Cabinet (LGC) aucun jeton ne pourra être transmis à Confluences téléexpertise. Dans ce cas, la première étape sera de s’authentifier PSC. Si cela ne lui est pas possible, l’accès à Confluence Téléexpertise sera refusé. 
 
 - Recherche dans l’offre téléexpertise du ROR-N : 
 

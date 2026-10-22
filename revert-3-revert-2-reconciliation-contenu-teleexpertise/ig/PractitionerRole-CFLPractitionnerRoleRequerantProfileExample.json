@@ -1,0 +1,46 @@
+{
+  "resourceType" : "PractitionerRole",
+  "id" : "CFLPractitionnerRoleRequerantProfileExample",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-practitionerrole"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : PractitionerRole CFLPractitionnerRoleRequerantProfileExample</b></p><a name=\"CFLPractitionnerRoleRequerantProfileExample\"> </a><a name=\"hcCFLPractitionnerRoleRequerantProfileExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-cfl-practitionerrole.html\">CFL PractitionerRole Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Bruce WAYNE (N° RPPS: 10001389462\u00a0(use:\u00a0official)): Activité de soin et de pharmacie, Titulaire de cabinet, Libéral at Cabinet du dr Wayne (Identifiant interne: 10001389462001\u00a0(use:\u00a0official)) (https://www.ameli.fr#101319082\u00a0(use:\u00a0official))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"L'enregistrement est actif\">Actif :</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The practitioner who is able to provide the services in this role\">Practitioner:</td><td colspan=\"3\"><a href=\"Practitioner-CFLPractitionnerRequerantProfileExample.html\">Bruce WAYNE (N° RPPS: 10001389462\u00a0(use:\u00a0official))</a></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The organization where the practitioner performs the roles\">Organization:</td><td colspan=\"3\"><a href=\"Organization-CFLOrganizationRequerantProfileExample.html\">Cabinet du dr Wayne (Identifiant interne: 10001389462001\u00a0(use:\u00a0official))</a></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Roles which this practitioner is authorized to perform for the organization\">Role:</td><td colspan=\"3\"><ul><li><span title=\"Codes :{https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J94-GenreActivite-RASS GENR01}\">Activité de soin et de pharmacie</span></li><li><span title=\"Codes :{https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction/TRE_R21-Fonction-FHIR FON-01}\">Titulaire de cabinet</span></li><li><span title=\"Codes :{https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J95-ModeExercice-RASS L}\">Libéral</span></li></ul></td></tr></table></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole CFLPractitionnerRoleRequerantProfileExample</b></p><a name=\"en-CFLPractitionnerRoleRequerantProfileExample\"> </a><a name=\"en-hcCFLPractitionnerRoleRequerantProfileExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-cfl-practitionerrole.html\">CFL PractitionerRole Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Bruce WAYNE (N° RPPS: 10001389462\u00a0(use:\u00a0official)): Activité de soin et de pharmacie, Titulaire de cabinet, Libéral at Cabinet du dr Wayne (Identifiant interne: 10001389462001\u00a0(use:\u00a0official)) (https://www.ameli.fr#101319082\u00a0(use:\u00a0official))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The practitioner who is able to provide the services in this role\">Practitioner:</td><td colspan=\"3\"><a href=\"Practitioner-CFLPractitionnerRequerantProfileExample.html\">Bruce WAYNE (N° RPPS: 10001389462\u00a0(use:\u00a0official))</a></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The organization where the practitioner performs the roles\">Organization:</td><td colspan=\"3\"><a href=\"Organization-CFLOrganizationRequerantProfileExample.html\">Cabinet du dr Wayne (Identifiant interne: 10001389462001\u00a0(use:\u00a0official))</a></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Roles which this practitioner is authorized to perform for the organization\">Role:</td><td colspan=\"3\"><ul><li><span title=\"Codes:{https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J94-GenreActivite-RASS GENR01}\">Activité de soin et de pharmacie</span></li><li><span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction/TRE_R21-Fonction-FHIR FON-01}\">Titulaire de cabinet</span></li><li><span title=\"Codes:{https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J95-ModeExercice-RASS L}\">Libéral</span></li></ul></td></tr></table></div></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://www.ameli.fr",
+    "value" : "101319082"
+  }],
+  "active" : true,
+  "practitioner" : {
+    "reference" : "Practitioner/CFLPractitionnerRequerantProfileExample",
+    "type" : "CFLPatientProfile"
+  },
+  "organization" : {
+    "reference" : "Organization/CFLOrganizationRequerantProfileExample",
+    "type" : "CFLOrganizationeProfile"
+  },
+  "code" : [{
+    "coding" : [{
+      "system" : "https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J94-GenreActivite-RASS",
+      "code" : "GENR01",
+      "display" : "Activité de soin et de pharmacie"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction/TRE_R21-Fonction-FHIR",
+      "code" : "FON-01",
+      "display" : "Titulaire de cabinet"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J95-ModeExercice-RASS",
+      "code" : "L",
+      "display" : "Libéral"
+    }]
+  }]
+}

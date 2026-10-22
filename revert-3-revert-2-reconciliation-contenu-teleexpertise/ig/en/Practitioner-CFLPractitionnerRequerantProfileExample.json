@@ -1,0 +1,46 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "CFLPractitionnerRequerantProfileExample",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-practitioner"]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Practitioner CFLPractitionnerRequerantProfileExample</b></p><a name=\"en-CFLPractitionnerRequerantProfileExample\"> </a><a name=\"en-hcCFLPractitionnerRequerantProfileExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-cfl-practitioner.html\">CFL Practitioner Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Bruce WAYNE (N° RPPS: 10001389462\u00a0(use:\u00a0official))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Practitioner\">Contact Detail</td><td colspan=\"3\"><a href=\"mailto:bruce.wayne@chsf.mssante.fr\">bruce.wayne@chsf.mssante.fr</a></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Certification, licensure, or training pertaining to the provision of care\">Qualification:</td><td colspan=\"3\"><span title=\"Codes:\">S</span></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203",
+        "code" : "RPPS"
+      }]
+    },
+    "system" : "https://rpps.esante.gouv.fr",
+    "value" : "10001389462"
+  }],
+  "active" : true,
+  "name" : [{
+    "text" : "Bruce WAYNE",
+    "family" : "WAYNE",
+    "given" : ["Bruce"]
+  }],
+  "telecom" : [{
+    "extension" : [{
+      "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type"
+    }],
+    "system" : "email",
+    "value" : "bruce.wayne@chsf.mssante.fr"
+  }],
+  "qualification" : [{
+    "code" : {
+      "coding" : [{
+        "code" : "S"
+      },
+      {
+        "code" : "SM26"
+      }]
+    }
+  }]
+}

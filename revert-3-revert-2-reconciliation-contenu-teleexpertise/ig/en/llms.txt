@@ -1,0 +1,63 @@
+# ans.fhir.fr.teleexpertise-confluence#0.1.0: Confluences Téléexpertise(en)
+
+## Pages
+
+* [Accueil](index.md)
+* [Sécurité](annexe-securite.md)
+* [Specification fonctionnelle](specification_fonctionnelles.md)
+* [Flux de la demande](specification_enrichi.md)
+* [Téléchargements et usages](annexe-downloads.md)
+* [Flux des statuts](specification_statuts.md)
+* [Informations sur la traduction](translationinfo.md)
+* [Artifacts Summary](artifacts.md)
+* [Historique des versions](change-log.md)
+* [Autres Ressources](autres_ressources.md)
+* [Contexte administratif de la demande](specification_requerant.md)
+
+## Resources
+
+### CodeSystems
+
+* [ActiveStatusCS](CodeSystem-active-status-cs.md)
+
+### ValueSets
+
+* [NameUse Usual Or Official](ValueSet-NameUseUsualOrOfficial.md)
+* [ActiveStatus](ValueSet-activestatus.md)
+
+### Resource Profiles
+
+* [CFL ServiceRequest Enrichi Profile](StructureDefinition-cfl-ServiceRequest-enrichi.md)
+* [CFL ServiceRequest Requerant Profile](StructureDefinition-cfl-ServiceRequest-requerant.md)
+* [CFL HealthcareService Profile](StructureDefinition-cfl-healthcare-service.md)
+* [CFL Organization Profile](StructureDefinition-cfl-organization.md)
+* [CFL Patient Profile](StructureDefinition-cfl-patient.md)
+* [CFL Practitioner Profile](StructureDefinition-cfl-practitioner.md)
+* [CFL PractitionerRole Profile](StructureDefinition-cfl-practitionerrole.md)
+* [Cfl Transaction Response](StructureDefinition-cfl-transaction-response-bundle.md)
+
+### Extensions
+
+* [Multiple Birth ](StructureDefinition-fr-core-patient-multiple-birth.md)
+* [Patient Consent](StructureDefinition-patient-consent.md)
+* [Redirect Url](StructureDefinition-redirect-url.md)
+* [Split Active Status](StructureDefinition-split-active-status.md)
+* [Url Ltle](StructureDefinition-url-ltle.md)
+
+### ImplementationGuides
+
+* [Confluences Téléexpertise](ImplementationGuide-ans.fhir.fr.teleexpertise-confluence.md)
+
+### Examples
+
+* [CFLBundleTransactionExample (Bundle)](Bundle-CFLBundleTransactionExample.md)
+* [Service pédiatrique du Chu de Poitiers (HealthcareService)](HealthcareService-CFLHealthcareServiceProfileExample.md)
+* [Cabinet du dr Wayne (Organization)](Organization-CFLOrganizationRequerantProfileExample.md)
+* [CHU de Bordeaux (Organization)](Organization-CFLOrganizationRequisProfileExample.md)
+* [CFLPatientProfileExample (Patient)](Patient-CFLPatientProfileExample.md)
+* [CFLPractitionnerRequerantProfileExample (Practitioner)](Practitioner-CFLPractitionnerRequerantProfileExample.md)
+* [CFLPractitionnerRequisProfileExample (Practitioner)](Practitioner-CFLPractitionnerRequisProfileExample.md)
+* [CFLPractitionnerRoleRequerantProfileExample (PractitionerRole)](PractitionerRole-CFLPractitionnerRoleRequerantProfileExample.md)
+* [CFLPractitionnerRoleRequisProfileExample (PractitionerRole)](PractitionerRole-CFLPractitionnerRoleRequisProfileExample.md)
+* [CFLServiceRequestEnrichiExample (ServiceRequest)](ServiceRequest-CFLServiceRequestEnrichiExample.md)
+* [CFLServiceRequestRequerantExample (ServiceRequest)](ServiceRequest-CFLServiceRequestRequerantExample.md)

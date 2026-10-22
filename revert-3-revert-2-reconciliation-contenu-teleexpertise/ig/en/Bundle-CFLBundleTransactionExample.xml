@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="CFLBundleTransactionExample"/>
+  <language value="en"/>
+  <type value="transaction"/>
+  <entry>
+    <fullUrl value="urn:uuid:11111111-1111-4111-8111-111111111111"/>
+    <resource>
+      <Patient>
+        <id value="CFLPatientProfileExample"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-patient"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <extension url="http://hl7.org/fhir/StructureDefinition/patient-birthPlace">
+          <valueAddress>
+            <extension url="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code">
+              <valueCoding>
+                <system value="https://interop.esante.gouv.fr/terminologies/1.11.1/CodeSystem-TRE-R13-CommuneOM"/>
+                <code value="33000"/>
+              </valueCoding>
+            </extension>
+          </valueAddress>
+        </extension>
+        <extension url="https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/fr-core-patient-multiple-birth">
+          <valueInteger value="1"/>
+        </extension>
+        <extension url="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-identity-reliability">
+          <extension url="identityStatus">
+            <valueCoding>
+              <code value="VALI"/>
+            </valueCoding>
+          </extension>
+        </extension>
+        <identifier>
+          <use value="official"/>
+          <type>
+            <coding>
+              <system value="https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"/>
+              <code value="INS-NIR"/>
+            </coding>
+          </type>
+          <system value="urn:oid:1.2.250.1.213.1.4.8"/>
+          <value value="123456789012244"/>
+        </identifier>
+        <name>
+          <extension url="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-birth-list-given-name">
+            <valueString value="Pierre Yves Romain"/>
+          </extension>
+          <use value="official"/>
+          <family value="DURAND"/>
+          <given value="Pierre"/>
+        </name>
+        <gender value="male"/>
+        <birthDate value="1974-12-25"/>
+        <address>
+          <line>
+            <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName">
+              <valueString value="rue Sainte Catherine"/>
+            </extension>
+            <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
+              <valueString value="17"/>
+            </extension>
+          </line>
+          <city value="Bordeaux"/>
+        </address>
+      </Patient>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Patient"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:22222222-2222-4222-8222-222222222222"/>
+    <resource>
+      <Practitioner>
+        <id value="CFLPractitionnerRequerantProfileExample"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-practitioner"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <type>
+            <coding>
+              <system value="https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"/>
+              <code value="RPPS"/>
+            </coding>
+          </type>
+          <system value="https://rpps.esante.gouv.fr"/>
+          <value value="10001389462"/>
+        </identifier>
+        <active value="true"/>
+        <name>
+          <text value="Bruce WAYNE"/>
+          <family value="WAYNE"/>
+          <given value="Bruce"/>
+        </name>
+        <telecom>
+          <extension url="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type"/>
+          <system value="email"/>
+          <value value="bruce.wayne@chsf.mssante.fr"/>
+        </telecom>
+        <qualification>
+          <code>
+            <coding>
+              <code value="S"/>
+            </coding>
+            <coding>
+              <code value="SM26"/>
+            </coding>
+          </code>
+        </qualification>
+      </Practitioner>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Practitioner"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:33333333-3333-4333-8333-333333333333"/>
+    <resource>
+      <Organization>
+        <id value="CFLOrganizationRequerantProfileExample"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-organization"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <type>
+            <coding>
+              <system value="https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"/>
+              <code value="INTRN"/>
+            </coding>
+          </type>
+          <system value="https://rppsrang.esante.gouv.fr"/>
+          <value value="10001389462001"/>
+        </identifier>
+        <active value="true"/>
+        <name value="Cabinet du dr Wayne"/>
+        <address>
+          <line>
+            <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase">
+              <valueString value="Villeneuve"/>
+            </extension>
+            <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType">
+              <valueString value="R"/>
+            </extension>
+          </line>
+          <city value="Bordeaux"/>
+        </address>
+      </Organization>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="Organization"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:44444444-4444-4444-8444-444444444444"/>
+    <resource>
+      <PractitionerRole>
+        <id value="CFLPractitionnerRoleRequerantProfileExample"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-practitionerrole"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="https://www.ameli.fr"/>
+          <value value="101319082"/>
+        </identifier>
+        <active value="true"/>
+        <practitioner>
+          <reference value="Practitioner/CFLPractitionnerRequerantProfileExample"/>
+          <type value="CFLPatientProfile"/>
+        </practitioner>
+        <organization>
+          <reference value="Organization/CFLOrganizationRequerantProfileExample"/>
+          <type value="CFLOrganizationeProfile"/>
+        </organization>
+        <code>
+          <coding>
+            <system value="https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J94-GenreActivite-RASS"/>
+            <code value="GENR01"/>
+            <display value="Activité de soin et de pharmacie"/>
+          </coding>
+        </code>
+        <code>
+          <coding>
+            <system value="https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction/TRE_R21-Fonction-FHIR"/>
+            <code value="FON-01"/>
+            <display value="Titulaire de cabinet"/>
+          </coding>
+        </code>
+        <code>
+          <coding>
+            <system value="https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J95-ModeExercice-RASS"/>
+            <code value="L"/>
+            <display value="Libéral"/>
+          </coding>
+        </code>
+      </PractitionerRole>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="PractitionerRole"/>
+    </request>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:66666666-6666-4666-8666-666666666666"/>
+    <resource>
+      <ServiceRequest>
+        <id value="CFLServiceRequestRequerantExample"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-ServiceRequest-requerant"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="extensions"/>
+        </text>
+        <extension url="https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/patient-consent">
+          <valueBoolean value="true"/>
+        </extension>
+        <identifier>
+          <value value="8ac3a9f7-0416-4801-88e0-8db454b4fc80"/>
+        </identifier>
+        <status value="draft"/>
+        <intent value="proposal"/>
+        <subject>
+          <reference value="Patient/CFLPatientProfileExample"/>
+          <type value="CFLPatientProfile"/>
+        </subject>
+        <authoredOn value="2026-09-29"/>
+        <requester>
+          <reference value="PractitionerRole/CFLPractitionnerRoleRequerantProfileExample"/>
+          <type value="CFLPractitionnerRoleProfile"/>
+        </requester>
+      </ServiceRequest>
+    </resource>
+    <request>
+      <method value="POST"/>
+      <url value="ServiceRequest"/>
+    </request>
+  </entry>
+</Bundle>

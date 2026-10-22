@@ -1,0 +1,269 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "CFLBundleTransactionExample",
+  "language" : "en",
+  "type" : "transaction",
+  "entry" : [{
+    "fullUrl" : "urn:uuid:11111111-1111-4111-8111-111111111111",
+    "resource" : {
+      "resourceType" : "Patient",
+      "id" : "CFLPatientProfileExample",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-patient"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+        "valueAddress" : {
+          "extension" : [{
+            "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code",
+            "valueCoding" : {
+              "system" : "https://interop.esante.gouv.fr/terminologies/1.11.1/CodeSystem-TRE-R13-CommuneOM",
+              "code" : "33000"
+            }
+          }]
+        }
+      },
+      {
+        "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/fr-core-patient-multiple-birth",
+        "valueInteger" : 1
+      },
+      {
+        "extension" : [{
+          "url" : "identityStatus",
+          "valueCoding" : {
+            "code" : "VALI"
+          }
+        }],
+        "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-identity-reliability"
+      }],
+      "identifier" : [{
+        "use" : "official",
+        "type" : {
+          "coding" : [{
+            "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203",
+            "code" : "INS-NIR"
+          }]
+        },
+        "system" : "urn:oid:1.2.250.1.213.1.4.8",
+        "value" : "123456789012244"
+      }],
+      "name" : [{
+        "extension" : [{
+          "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-birth-list-given-name",
+          "valueString" : "Pierre Yves Romain"
+        }],
+        "use" : "official",
+        "family" : "DURAND",
+        "given" : ["Pierre"]
+      }],
+      "gender" : "male",
+      "birthDate" : "1974-12-25",
+      "address" : [{
+        "_line" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName",
+            "valueString" : "rue Sainte Catherine"
+          },
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber",
+            "valueString" : "17"
+          }]
+        }],
+        "city" : "Bordeaux"
+      }]
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Patient"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:22222222-2222-4222-8222-222222222222",
+    "resource" : {
+      "resourceType" : "Practitioner",
+      "id" : "CFLPractitionnerRequerantProfileExample",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-practitioner"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "type" : {
+          "coding" : [{
+            "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203",
+            "code" : "RPPS"
+          }]
+        },
+        "system" : "https://rpps.esante.gouv.fr",
+        "value" : "10001389462"
+      }],
+      "active" : true,
+      "name" : [{
+        "text" : "Bruce WAYNE",
+        "family" : "WAYNE",
+        "given" : ["Bruce"]
+      }],
+      "telecom" : [{
+        "extension" : [{
+          "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-contact-point-email-type"
+        }],
+        "system" : "email",
+        "value" : "bruce.wayne@chsf.mssante.fr"
+      }],
+      "qualification" : [{
+        "code" : {
+          "coding" : [{
+            "code" : "S"
+          },
+          {
+            "code" : "SM26"
+          }]
+        }
+      }]
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Practitioner"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:33333333-3333-4333-8333-333333333333",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "CFLOrganizationRequerantProfileExample",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-organization"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "type" : {
+          "coding" : [{
+            "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203",
+            "code" : "INTRN"
+          }]
+        },
+        "system" : "https://rppsrang.esante.gouv.fr",
+        "value" : "10001389462001"
+      }],
+      "active" : true,
+      "name" : "Cabinet du dr Wayne",
+      "address" : [{
+        "_line" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase",
+            "valueString" : "Villeneuve"
+          },
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType",
+            "valueString" : "R"
+          }]
+        }],
+        "city" : "Bordeaux"
+      }]
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "Organization"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:44444444-4444-4444-8444-444444444444",
+    "resource" : {
+      "resourceType" : "PractitionerRole",
+      "id" : "CFLPractitionnerRoleRequerantProfileExample",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-practitionerrole"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://www.ameli.fr",
+        "value" : "101319082"
+      }],
+      "active" : true,
+      "practitioner" : {
+        "reference" : "Practitioner/CFLPractitionnerRequerantProfileExample",
+        "type" : "CFLPatientProfile"
+      },
+      "organization" : {
+        "reference" : "Organization/CFLOrganizationRequerantProfileExample",
+        "type" : "CFLOrganizationeProfile"
+      },
+      "code" : [{
+        "coding" : [{
+          "system" : "https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J94-GenreActivite-RASS",
+          "code" : "GENR01",
+          "display" : "Activité de soin et de pharmacie"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction/TRE_R21-Fonction-FHIR",
+          "code" : "FON-01",
+          "display" : "Titulaire de cabinet"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J95-ModeExercice-RASS",
+          "code" : "L",
+          "display" : "Libéral"
+        }]
+      }]
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "PractitionerRole"
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:66666666-6666-4666-8666-666666666666",
+    "resource" : {
+      "resourceType" : "ServiceRequest",
+      "id" : "CFLServiceRequestRequerantExample",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-ServiceRequest-requerant"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "extensions"
+      },
+      "extension" : [{
+        "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/patient-consent",
+        "valueBoolean" : true
+      }],
+      "identifier" : [{
+        "value" : "8ac3a9f7-0416-4801-88e0-8db454b4fc80"
+      }],
+      "status" : "draft",
+      "intent" : "proposal",
+      "subject" : {
+        "reference" : "Patient/CFLPatientProfileExample",
+        "type" : "CFLPatientProfile"
+      },
+      "authoredOn" : "2026-09-29",
+      "requester" : {
+        "reference" : "PractitionerRole/CFLPractitionnerRoleRequerantProfileExample",
+        "type" : "CFLPractitionnerRoleProfile"
+      }
+    },
+    "request" : {
+      "method" : "POST",
+      "url" : "ServiceRequest"
+    }
+  }]
+}

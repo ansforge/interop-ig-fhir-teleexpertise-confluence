@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="CFLPatientProfileExample"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-patient"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Patient CFLPatientProfileExample</b></p><a name="en-CFLPatientProfileExample"> </a><a name="en-hcCFLPatientProfileExample"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-cfl-patient.html">CFL Patient Profile</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Pierre DURAND (official) Male, DoB: 1974-12-25 ( NIR définitif: 123456789012244 (use: official))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail</td><td colspan="3">null Bordeaux </td></tr><tr><td style="background-color: #f3f5da" title="The registered place of birth of the patient. A sytem may use the address.text if they don't store the birthPlace address in discrete elements."><a href="http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-patient-birthPlace.html">Patient Birth Place</a></td><td colspan="3"></td></tr><tr><td style="background-color: #f3f5da" title="Extension créée pour exprimer le rang gémellaire présent dans les attestations de droits à l'assurance maladie."><a href="StructureDefinition-fr-core-patient-multiple-birth.html">Multiple Birth </a></td><td colspan="3">1</td></tr><tr><td style="background-color: #f3f5da" title="Précision sur le degré de fiabilité de l'identité du patient (si provisoire, validé... avec la justification : quelle type de pièce d'identité ?) accompagné de la méthode de collection.
+Reliabilility of the patient's identity">FR Core Patient Ident Reliability Extension:</td><td colspan="3"><ul><li>identityStatus: [not stated]: VALI (VALI)</li></ul></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/patient-birthPlace">
+    <valueAddress>
+      <extension url="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code">
+        <valueCoding>
+          <system value="https://interop.esante.gouv.fr/terminologies/1.11.1/CodeSystem-TRE-R13-CommuneOM"/>
+          <code value="33000"/>
+        </valueCoding>
+      </extension>
+    </valueAddress>
+  </extension>
+  <extension url="https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/fr-core-patient-multiple-birth">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-identity-reliability">
+    <extension url="identityStatus">
+      <valueCoding>
+        <code value="VALI"/>
+      </valueCoding>
+    </extension>
+  </extension>
+  <identifier>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"/>
+        <code value="INS-NIR"/>
+      </coding>
+    </type>
+    <system value="urn:oid:1.2.250.1.213.1.4.8"/>
+    <value value="123456789012244"/>
+  </identifier>
+  <name>
+    <extension url="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-birth-list-given-name">
+      <valueString value="Pierre Yves Romain"/>
+    </extension>
+    <use value="official"/>
+    <family value="DURAND"/>
+    <given value="Pierre"/>
+  </name>
+  <gender value="male"/>
+  <birthDate value="1974-12-25"/>
+  <address>
+    <line>
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName">
+        <valueString value="rue Sainte Catherine"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-houseNumber">
+        <valueString value="17"/>
+      </extension>
+    </line>
+    <city value="Bordeaux"/>
+  </address>
+</Patient>

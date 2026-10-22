@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <id value="CFLPractitionnerRoleRequisProfileExample"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-practitionerrole"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : PractitionerRole CFLPractitionnerRoleRequisProfileExample</b></p><a name="CFLPractitionnerRoleRequisProfileExample"> </a><a name="hcCFLPractitionnerRoleRequisProfileExample"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-cfl-practitionerrole.html">CFL PractitionerRole Profile</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Clark KENT (N° RPPS: 10007209514 (use: official)): Activité de soin et de pharmacie, Salarié at CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official)) (https://www.ameli.fr#108462037 (use: official))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="L'enregistrement est actif">Actif :</td><td colspan="3">true</td></tr><tr><td style="background-color: #f3f5da" title="The practitioner who is able to provide the services in this role">Practitioner:</td><td colspan="3"><a href="Practitioner-CFLPractitionnerRequisProfileExample.html">Clark KENT (N° RPPS: 10007209514 (use: official))</a></td></tr><tr><td style="background-color: #f3f5da" title="The organization where the practitioner performs the roles">Organization:</td><td colspan="3"><a href="Organization-CFLOrganizationRequisProfileExample.html">CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official))</a></td></tr><tr><td style="background-color: #f3f5da" title="Roles which this practitioner is authorized to perform for the organization">Role:</td><td colspan="3"><ul><li><span title="Codes :{https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J94-GenreActivite-RASS GENR01}">Activité de soin et de pharmacie</span></li><li><span title="Codes :{https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J95-ModeExercice-RASS S}">Salarié</span></li></ul></td></tr><tr><td style="background-color: #f3f5da" title="The specialties of the practitioner in this role">Specialty:</td><td colspan="3"><span title="Codes :{https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-specialty SM40}">Pédiatrie (SM)</span></td></tr></table></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: PractitionerRole CFLPractitionnerRoleRequisProfileExample</b></p><a name="en-CFLPractitionnerRoleRequisProfileExample"> </a><a name="en-hcCFLPractitionnerRoleRequisProfileExample"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-cfl-practitionerrole.html">CFL PractitionerRole Profile</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Clark KENT (N° RPPS: 10007209514 (use: official)): Activité de soin et de pharmacie, Salarié at CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official)) (https://www.ameli.fr#108462037 (use: official))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Record is active">Active:</td><td colspan="3">true</td></tr><tr><td style="background-color: #f3f5da" title="The practitioner who is able to provide the services in this role">Practitioner:</td><td colspan="3"><a href="Practitioner-CFLPractitionnerRequisProfileExample.html">Clark KENT (N° RPPS: 10007209514 (use: official))</a></td></tr><tr><td style="background-color: #f3f5da" title="The organization where the practitioner performs the roles">Organization:</td><td colspan="3"><a href="Organization-CFLOrganizationRequisProfileExample.html">CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official))</a></td></tr><tr><td style="background-color: #f3f5da" title="Roles which this practitioner is authorized to perform for the organization">Role:</td><td colspan="3"><ul><li><span title="Codes:{https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J94-GenreActivite-RASS GENR01}">Activité de soin et de pharmacie</span></li><li><span title="Codes:{https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J95-ModeExercice-RASS S}">Salarié</span></li></ul></td></tr><tr><td style="background-color: #f3f5da" title="The specialties of the practitioner in this role">Specialty:</td><td colspan="3"><span title="Codes:{https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-specialty SM40}">Pédiatrie (SM)</span></td></tr></table></div></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://www.ameli.fr"/>
+    <value value="108462037"/>
+  </identifier>
+  <active value="true"/>
+  <practitioner>
+    <reference value="Practitioner/CFLPractitionnerRequisProfileExample"/>
+    <type value="CFLPatientProfile"/>
+  </practitioner>
+  <organization>
+    <reference value="Organization/CFLOrganizationRequisProfileExample"/>
+    <type value="CFLOrganizationeProfile"/>
+  </organization>
+  <code>
+    <coding>
+      <system value="https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J94-GenreActivite-RASS"/>
+      <code value="GENR01"/>
+      <display value="Activité de soin et de pharmacie"/>
+    </coding>
+  </code>
+  <code>
+    <coding>
+      <system value="https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J95-ModeExercice-RASS"/>
+      <code value="S"/>
+      <display value="Salarié"/>
+    </coding>
+  </code>
+  <specialty>
+    <coding>
+      <system value="https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-specialty"/>
+      <code value="SM40"/>
+      <display value="Pédiatrie (SM)"/>
+    </coding>
+  </specialty>
+</PractitionerRole>

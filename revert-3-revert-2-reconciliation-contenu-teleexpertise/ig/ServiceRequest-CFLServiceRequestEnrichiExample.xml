@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ServiceRequest xmlns="http://hl7.org/fhir">
+  <id value="CFLServiceRequestEnrichiExample"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-ServiceRequest-enrichi"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : DemandeService CFLServiceRequestEnrichiExample</b></p><a name="CFLServiceRequestEnrichiExample"> </a><a name="hcCFLServiceRequestEnrichiExample"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-cfl-ServiceRequest-enrichi.html">CFL ServiceRequest Enrichi Profile</a></p></div><p><b>Url Ltle</b>: <a href="https://simplifier.net/resolve?scope=ans.fhir.fr.ror@0.7.0&amp;canonical=https://Logiciel_LTLE.fr/offre_pediatrique_Bordeaux">https://Logiciel_LTLE.fr/offre_pediatrique_Bordeaux</a></p><p><b>Patient Consent</b>: true</p><p><b>identifier</b>: 8ac3a9f7-0416-4801-88e0-8db454b4fc80</p><p><b>status</b>: Draft</p><p><b>intent</b>: Proposal</p><p><b>subject</b>: <a href="Patient-CFLPatientProfileExample.html">Pierre DURAND (official) Male, Date de Naissance :1974-12-25 ( NIR définitif: 123456789012244 (use: official))</a></p><p><b>authoredOn</b>: 2026-09-29</p><p><b>requester</b>: <a href="PractitionerRole-CFLPractitionnerRoleRequerantProfileExample.html">Bruce WAYNE (N° RPPS: 10001389462 (use: official)): Activité de soin et de pharmacie, Titulaire de cabinet, Libéral at Cabinet du dr Wayne (Identifiant interne: 10001389462001 (use: official)) (https://www.ameli.fr#101319082 (use: official))</a></p><p><b>performer</b>: <a href="PractitionerRole-CFLPractitionnerRoleRequisProfileExample.html">Clark KENT (N° RPPS: 10007209514 (use: official)): Activité de soin et de pharmacie, Salarié at CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official)) (https://www.ameli.fr#108462037 (use: official))</a></p><p><b>supportingInfo</b>: <a href="HealthcareService-CFLHealthcareServiceProfileExample.html">Service pédiatrique du Chu de Poitiers (Médecine, Chirurgie, Obstétrique (MCO)) by CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official)) (75/2874)</a></p></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ServiceRequest CFLServiceRequestEnrichiExample</b></p><a name="en-CFLServiceRequestEnrichiExample"> </a><a name="en-hcCFLServiceRequestEnrichiExample"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-cfl-ServiceRequest-enrichi.html">CFL ServiceRequest Enrichi Profile</a></p></div><p><b>Url Ltle</b>: <a href="https://simplifier.net/resolve?scope=ans.fhir.fr.ror@0.7.0&amp;canonical=https://Logiciel_LTLE.fr/offre_pediatrique_Bordeaux">https://Logiciel_LTLE.fr/offre_pediatrique_Bordeaux</a></p><p><b>Patient Consent</b>: true</p><p><b>identifier</b>: 8ac3a9f7-0416-4801-88e0-8db454b4fc80</p><p><b>status</b>: Draft</p><p><b>intent</b>: Proposal</p><p><b>subject</b>: <a href="Patient-CFLPatientProfileExample.html">Pierre DURAND (official) Male, DoB: 1974-12-25 ( NIR définitif: 123456789012244 (use: official))</a></p><p><b>authoredOn</b>: 2026-09-29</p><p><b>requester</b>: <a href="PractitionerRole-CFLPractitionnerRoleRequerantProfileExample.html">Bruce WAYNE (N° RPPS: 10001389462 (use: official)): Activité de soin et de pharmacie, Titulaire de cabinet, Libéral at Cabinet du dr Wayne (Identifiant interne: 10001389462001 (use: official)) (https://www.ameli.fr#101319082 (use: official))</a></p><p><b>performer</b>: <a href="PractitionerRole-CFLPractitionnerRoleRequisProfileExample.html">Clark KENT (N° RPPS: 10007209514 (use: official)): Activité de soin et de pharmacie, Salarié at CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official)) (https://www.ameli.fr#108462037 (use: official))</a></p><p><b>supportingInfo</b>: <a href="HealthcareService-CFLHealthcareServiceProfileExample.html">Service pédiatrique du Chu de Poitiers (Médecine, Chirurgie, Obstétrique (MCO)) by CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official)) (75/2874)</a></p></div></div>
+  </text>
+  <extension url="https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/url-ltle">
+    <valueUrl value="https://Logiciel_LTLE.fr/offre_pediatrique_Bordeaux"/>
+  </extension>
+  <extension url="https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/patient-consent">
+    <valueBoolean value="true"/>
+  </extension>
+  <identifier>
+    <value value="8ac3a9f7-0416-4801-88e0-8db454b4fc80"/>
+  </identifier>
+  <status value="draft"/>
+  <intent value="proposal"/>
+  <subject>
+    <reference value="Patient/CFLPatientProfileExample"/>
+    <type value="CFLPatientProfile"/>
+  </subject>
+  <authoredOn value="2026-09-29"/>
+  <requester>
+    <reference value="PractitionerRole/CFLPractitionnerRoleRequerantProfileExample"/>
+    <type value="CFLPractitionnerRoleProfile"/>
+  </requester>
+  <performer>
+    <reference value="PractitionerRole/CFLPractitionnerRoleRequisProfileExample"/>
+    <type value="CFLPractitionnerRoleProfile"/>
+  </performer>
+  <supportingInfo>
+    <reference value="HealthcareService/CFLHealthcareServiceProfileExample"/>
+    <type value="CFLHealthcareServiceProfile"/>
+  </supportingInfo>
+</ServiceRequest>

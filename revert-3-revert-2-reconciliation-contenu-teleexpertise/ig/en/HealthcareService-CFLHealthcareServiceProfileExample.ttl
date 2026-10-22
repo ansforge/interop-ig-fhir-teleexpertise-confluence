@@ -1,0 +1,141 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/HealthcareService/CFLHealthcareServiceProfileExample> a fhir:HealthcareService ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "CFLHealthcareServiceProfileExample"] ;
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2026-10-07T13:28:17.239+02:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-healthcare-service" ;
+       fhir:index -1 ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-healthcare-service>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: HealthcareService CFLHealthcareServiceProfileExample</b></p><a name=\"en-CFLHealthcareServiceProfileExample\"> </a><a name=\"en-hcCFLHealthcareServiceProfileExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Last updated: 2026-10-07 13:28:17+0200</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-cfl-healthcare-service.html\">CFL HealthcareService Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Service pédiatrique du Chu de Poitiers (Médecine, Chirurgie, Obstétrique (MCO)) by CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official)) (75/2874)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The organization that provides this service\">Provided By:</td><td colspan=\"3\"><a href=\"Organization-CFLOrganizationRequisProfileExample.html\">CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official))</a></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The type of service that may be delivered or performed\">Type:</td><td colspan=\"3\"><span title=\"Codes:{https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J20-ChampActivite-ROR 01}\">Médecine, Chirurgie, Obstétrique (MCO)</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The specialties of the services that are provided\">Specialty:</td><td colspan=\"3\"><span title=\"Codes:{https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J17-ActiviteOperationnelle-ROR 391}\">Surveillance continue spécialisée pédiatrique</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Collection of characteristics (attributes) of the service\">Characteristic:</td><td colspan=\"3\"><ul><li><span title=\"Codes:{https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil 10}\">Téléexpertise en moins de 24h</span></li><li><span title=\"Codes:{https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J19-ModePriseEnCharge-ROR 35}\">Téléexpertise</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to make contact\">Contact Detail</td><td colspan=\"3\">https://Logiciel_LTLE.fr/offre_pediatrique_Bordeaux</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extension créée dans le cadre du ROR pour décrire un ensemble de personnes qui répondent à des critères leur permettant de  bénéficier de la prestation décrite\">null:</td><td colspan=\"3\"><ul><li>ageRange: 3-10</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extension créée dans le cadre du ROR qui correspond à la date de création (dans le ROR régional) présente dans les métadonnées.\"><a href=\"https://interop.esante.gouv.fr/ig/fhir/ror/0.7.0/StructureDefinition-ror-meta-creation-date.html\"/></td><td colspan=\"3\">2011-06-29</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extension créée dans le cadre du ROR pour signaler que toutes les informations de description d'une offre sont confidentielles car elles présentent un risque d'utilisation à des fins malveillantes, ou que le porteur d'offre ne souhaite pas diffuser.\"><a href=\"https://interop.esante.gouv.fr/ig/fhir/ror/0.7.0/StructureDefinition-ror-healthcareservice-sensitive-unit.html\"/></td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extension créée dans le cadre du ROR pour décrire la personne ou le service qui agit comme point de contact de l'offre.\">null:</td><td colspan=\"3\"><ul><li>description: Offre de téléexpertise concernant des avis de pédiatrie pour les enfants de moins de 10 ans</li><li>https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-confidentiality-level: <span title=\"Codes:\">2</span></li></ul></td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-healthcareservice-sensitive-unit" ] ;
+     fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+  ], [
+     fhir:index -1 ;
+     fhir:Element.extension [
+       fhir:index -1 ;
+       fhir:Extension.url [ fhir:value "ageRange" ] ;
+       fhir:Extension.valueRange [
+         fhir:Range.low [
+           fhir:Quantity.value [ fhir:value "3"^^xsd:decimal ]
+         ] ;
+         fhir:Range.high [
+           fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ]
+         ]
+       ]
+     ] ;
+     fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-healthcareservice-patient-type" ]
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-meta-creation-date" ] ;
+     fhir:Extension.valueDateTime [ fhir:value "2011-06-29"^^xsd:date ]
+  ], [
+     fhir:index -1 ;
+     fhir:Element.extension [
+       fhir:index -1 ;
+       fhir:Extension.url [ fhir:value "description" ] ;
+       fhir:Extension.valueString [ fhir:value "Offre de téléexpertise concernant des avis de pédiatrie pour les enfants de moins de 10 ans" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-confidentiality-level" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           fhir:Coding.code [ fhir:value "2" ]
+         ]
+       ]
+     ] ;
+     fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-healthcareservice-contact" ]
+  ] ;
+  fhir:HealthcareService.identifier [
+     fhir:index -1 ;
+     fhir:Identifier.value [ fhir:value "75/2874" ]
+  ] ;
+  fhir:HealthcareService.active [ fhir:value "true"^^xsd:boolean] ;
+  fhir:HealthcareService.providedBy [
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/Organization/CFLOrganizationRequisProfileExample> ;
+     fhir:Reference.reference [ fhir:value "Organization/CFLOrganizationRequisProfileExample" ] ;
+     fhir:Reference.type [ fhir:value "CFLOrganizationProfile" ]
+  ] ;
+  fhir:HealthcareService.type [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J20-ChampActivite-ROR" ] ;
+       fhir:Coding.code [ fhir:value "01" ] ;
+       fhir:Coding.display [ fhir:value "Médecine, Chirurgie, Obstétrique (MCO)" ]
+     ]
+  ] ;
+  fhir:HealthcareService.specialty [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J17-ActiviteOperationnelle-ROR" ] ;
+       fhir:Coding.code [ fhir:value "391" ] ;
+       fhir:Coding.display [ fhir:value "Surveillance continue spécialisée pédiatrique" ]
+     ]
+  ] ;
+  fhir:HealthcareService.name [ fhir:value "Service pédiatrique du Chu de Poitiers"] ;
+  fhir:HealthcareService.telecom [
+     fhir:index -1 ;
+     fhir:Element.extension [
+       fhir:index -1 ;
+       fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-telecom-communication-channel" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           fhir:Coding.code [ fhir:value "4" ]
+         ]
+       ]
+     ], [
+       fhir:index -1 ;
+       fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-telecom-confidentiality-level" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           fhir:Coding.code [ fhir:value "2" ]
+         ]
+       ]
+     ] ;
+     fhir:ContactPoint.value [ fhir:value "https://Logiciel_LTLE.fr/offre_pediatrique_Bordeaux" ]
+  ] ;
+  fhir:HealthcareService.characteristic [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil" ] ;
+       fhir:Coding.code [ fhir:value "10" ] ;
+       fhir:Coding.display [ fhir:value "Téléexpertise en moins de 24h" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J19-ModePriseEnCharge-ROR" ] ;
+       fhir:Coding.code [ fhir:value "35" ] ;
+       fhir:Coding.display [ fhir:value "Téléexpertise" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/HealthcareService/CFLHealthcareServiceProfileExample.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

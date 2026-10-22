@@ -1,0 +1,106 @@
+{
+  "resourceType" : "HealthcareService",
+  "id" : "CFLHealthcareServiceProfileExample",
+  "meta" : {
+    "lastUpdated" : "2026-10-07T13:28:17.239+02:00",
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-healthcare-service"]
+  },
+  "language" : "fr",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : ServiceDeSanté CFLHealthcareServiceProfileExample</b></p><a name=\"CFLHealthcareServiceProfileExample\"> </a><a name=\"hcCFLHealthcareServiceProfileExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Dernière mise à jour : 2026-10-07 13:28:17+0200</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-cfl-healthcare-service.html\">CFL HealthcareService Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Service pédiatrique du Chu de Poitiers (Médecine, Chirurgie, Obstétrique (MCO)) by CHU de Bordeaux (https://finess.esante.gouv.fr#330781196\u00a0(use:\u00a0official)) (75/2874)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"L'enregistrement est actif\">Actif :</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The organization that provides this service\">Provided By:</td><td colspan=\"3\"><a href=\"Organization-CFLOrganizationRequisProfileExample.html\">CHU de Bordeaux (https://finess.esante.gouv.fr#330781196\u00a0(use:\u00a0official))</a></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The type of service that may be delivered or performed\">Type:</td><td colspan=\"3\"><span title=\"Codes :{https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J20-ChampActivite-ROR 01}\">Médecine, Chirurgie, Obstétrique (MCO)</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The specialties of the services that are provided\">Specialty:</td><td colspan=\"3\"><span title=\"Codes :{https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J17-ActiviteOperationnelle-ROR 391}\">Surveillance continue spécialisée pédiatrique</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Collection of characteristics (attributes) of the service\">Characteristic:</td><td colspan=\"3\"><ul><li><span title=\"Codes :{https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil 10}\">Téléexpertise en moins de 24h</span></li><li><span title=\"Codes :{https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J19-ModePriseEnCharge-ROR 35}\">Téléexpertise</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to make contact\">Coordonnées</td><td colspan=\"3\">https://Logiciel_LTLE.fr/offre_pediatrique_Bordeaux</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extension créée dans le cadre du ROR pour décrire un ensemble de personnes qui répondent à des critères leur permettant de  bénéficier de la prestation décrite\">null:</td><td colspan=\"3\"><ul><li>ageRange: 3-10</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extension créée dans le cadre du ROR qui correspond à la date de création (dans le ROR régional) présente dans les métadonnées.\"><a href=\"https://interop.esante.gouv.fr/ig/fhir/ror/0.7.0/StructureDefinition-ror-meta-creation-date.html\"/></td><td colspan=\"3\">2011-06-29</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extension créée dans le cadre du ROR pour signaler que toutes les informations de description d'une offre sont confidentielles car elles présentent un risque d'utilisation à des fins malveillantes, ou que le porteur d'offre ne souhaite pas diffuser.\"><a href=\"https://interop.esante.gouv.fr/ig/fhir/ror/0.7.0/StructureDefinition-ror-healthcareservice-sensitive-unit.html\"/></td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extension créée dans le cadre du ROR pour décrire la personne ou le service qui agit comme point de contact de l'offre.\">null:</td><td colspan=\"3\"><ul><li>description: Offre de téléexpertise concernant des avis de pédiatrie pour les enfants de moins de 10 ans</li><li>https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-confidentiality-level: <span title=\"Codes :\">2</span></li></ul></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-healthcareservice-sensitive-unit",
+    "valueBoolean" : true
+  },
+  {
+    "extension" : [{
+      "url" : "ageRange",
+      "valueRange" : {
+        "low" : {
+          "value" : 3
+        },
+        "high" : {
+          "value" : 10
+        }
+      }
+    }],
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-healthcareservice-patient-type"
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-meta-creation-date",
+    "valueDateTime" : "2011-06-29"
+  },
+  {
+    "extension" : [{
+      "url" : "description",
+      "valueString" : "Offre de téléexpertise concernant des avis de pédiatrie pour les enfants de moins de 10 ans"
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-confidentiality-level",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "code" : "2"
+        }]
+      }
+    }],
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-healthcareservice-contact"
+  }],
+  "identifier" : [{
+    "value" : "75/2874"
+  }],
+  "active" : true,
+  "providedBy" : {
+    "reference" : "Organization/CFLOrganizationRequisProfileExample",
+    "type" : "CFLOrganizationProfile"
+  },
+  "type" : [{
+    "coding" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J20-ChampActivite-ROR",
+      "code" : "01",
+      "display" : "Médecine, Chirurgie, Obstétrique (MCO)"
+    }]
+  }],
+  "specialty" : [{
+    "coding" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J17-ActiviteOperationnelle-ROR",
+      "code" : "391",
+      "display" : "Surveillance continue spécialisée pédiatrique"
+    }]
+  }],
+  "name" : "Service pédiatrique du Chu de Poitiers",
+  "telecom" : [{
+    "extension" : [{
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-telecom-communication-channel",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "code" : "4"
+        }]
+      }
+    },
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/ror/StructureDefinition/ror-telecom-confidentiality-level",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "code" : "2"
+        }]
+      }
+    }],
+    "value" : "https://Logiciel_LTLE.fr/offre_pediatrique_Bordeaux"
+  }],
+  "characteristic" : [{
+    "coding" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil",
+      "code" : "10",
+      "display" : "Téléexpertise en moins de 24h"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J19-ModePriseEnCharge-ROR",
+      "code" : "35",
+      "display" : "Téléexpertise"
+    }]
+  }]
+}

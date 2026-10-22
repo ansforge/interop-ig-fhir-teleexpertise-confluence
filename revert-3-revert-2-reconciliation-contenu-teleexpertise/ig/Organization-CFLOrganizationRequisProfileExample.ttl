@@ -1,0 +1,53 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/Organization/CFLOrganizationRequisProfileExample> a fhir:Organization ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "CFLOrganizationRequisProfileExample"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-organization" ;
+       fhir:index 0 ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-organization>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : Organisation CFLOrganizationRequisProfileExample</b></p><a name=\"CFLOrganizationRequisProfileExample\"> </a><a name=\"hcCFLOrganizationRequisProfileExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-cfl-organization.html\">CFL Organization Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"L'enregistrement est actif\">Actif :</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the organization\">Coordonnées</td><td colspan=\"3\">null Bordeaux </td></tr></table></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Organization CFLOrganizationRequisProfileExample</b></p><a name=\"en-CFLOrganizationRequisProfileExample\"> </a><a name=\"en-hcCFLOrganizationRequisProfileExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-cfl-organization.html\">CFL Organization Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the organization\">Contact Detail</td><td colspan=\"3\">null Bordeaux </td></tr></table></div></div>"
+  ] ;
+  fhir:Organization.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.use [ fhir:value "official" ] ;
+     fhir:Identifier.system [ fhir:value "https://finess.esante.gouv.fr" ] ;
+     fhir:Identifier.value [ fhir:value "330781196" ]
+  ] ;
+  fhir:Organization.active [ fhir:value "true"^^xsd:boolean] ;
+  fhir:Organization.name [ fhir:value "CHU de Bordeaux"] ;
+  fhir:Organization.address [
+     fhir:index 0 ;
+     fhir:Address.line [
+       fhir:index 0 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase" ] ;
+         fhir:Extension.valueString [ fhir:value "David Johnston" ]
+       ], [
+         fhir:index 1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType" ] ;
+         fhir:Extension.valueString [ fhir:value "R" ]
+       ]
+     ] ;
+     fhir:Address.city [ fhir:value "Bordeaux" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/Organization/CFLOrganizationRequisProfileExample.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

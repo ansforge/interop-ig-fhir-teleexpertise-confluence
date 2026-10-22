@@ -1,0 +1,13 @@
+{
+  "codeSystems" : [{
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/CodeSystem/active-status-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ActiveStatusCS",
+    "title" : null,
+    "description" : "",
+    "uses" : {
+    },
+    "ValueSet-activestatus.html" : "ActiveStatus"
+  }]
+}

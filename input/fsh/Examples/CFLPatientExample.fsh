@@ -9,7 +9,7 @@ Description: "Exemple de ressource patient dans une pré demande de téléexpert
 
 * identifier[INS-NIR].value = "123456789012244"
 
-* extension[identityReliability].extension[identityStatus].valueCoding = #VALI
+* extension[identityReliability].extension[identityStatus].valueCoding = https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0445#VALI
 
 * name[officialName].use = #official
 * name[officialName].extension[birth-list-given-name].valueString = "Pierre Yves Romain"

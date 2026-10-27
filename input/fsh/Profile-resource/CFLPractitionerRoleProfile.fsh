@@ -1,6 +1,6 @@
 Profile: CFLPractitionerRoleProfile
 Parent: AsPractitionerRoleProfile
-Id: cfl-practitionerrole
+Id: cfl-practitioner-role
 Title: "CFL PractitionerRole Profile"
 Description: "Profil issu de AsPractitionerRoleProfile"
 
@@ -13,4 +13,4 @@ Description: "Profil issu de AsPractitionerRoleProfile"
 * organization 1..1
 
 * code[modeExercice] 1..1
-* code[modeExercice] from https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J95-ModeExercice-RASS.html
+* code[modeExercice] from https://mos.esante.gouv.fr/NOS/JDV_J95-ModeExercice-RASS/FHIR/JDV-J95-ModeExercice-RASS

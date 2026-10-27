@@ -12,6 +12,6 @@ Description: "Profil issu de AsPractitionerProfile"
 * telecom[mailbox-mss] 0..1
 
 * qualification[savoirFaire] 1..*
-* qualification[savoirFaire].code.coding[typeSavoirFaire].system = "https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J91-TypeSavoirFaire-RASS.html"
+* qualification[savoirFaire].code.coding[typeSavoirFaire].system = "https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire"
 * qualification[savoirFaire].code.coding[typeSavoirFaire].code = #S (exactly)
-* qualification[savoirFaire].code.coding[savoirFaire] from https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale
+* qualification[savoirFaire].code.coding[savoirFaire] from https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-specialty

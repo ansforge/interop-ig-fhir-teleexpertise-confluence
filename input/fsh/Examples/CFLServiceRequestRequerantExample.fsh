@@ -1,5 +1,5 @@
 Instance: CFLServiceRequestRequerantExample
-InstanceOf: cfl-ServiceRequest-requerant
+InstanceOf: cfl-service-request-requerant
 Usage: #example
 Description: "Exemple de ressource ServiceRequest : pré demande de téléexpertise "
 
@@ -11,10 +11,10 @@ Description: "Exemple de ressource ServiceRequest : pré demande de téléexpert
 
 * authoredOn = "2026-09-29"
 
-* subject = Reference(CFLPatientProfileExample)
+* subject = Reference(CFLPatientExample)
   * type = "CFLPatientProfile"
 
-* requester = Reference(CFLPractitionnerRoleRequerantProfileExample)
+* requester = Reference(CFLPractitionerRoleRequerantExample)
   * type = "CFLPractitionnerRoleProfile"
 	
 

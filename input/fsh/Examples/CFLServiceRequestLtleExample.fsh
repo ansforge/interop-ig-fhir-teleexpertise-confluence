@@ -1,5 +1,5 @@
-Instance: CFLServiceRequestEnrichiExample
-InstanceOf: cfl-ServiceRequest-enrichi
+Instance: CFLServiceRequestLtleExample
+InstanceOf: cfl-service-request-ltle
 Usage: #example
 Description: "Exemple de ressource ServiceRequest : demande de téléexpertise enrichi du requis et l'url pointant vers le bon logiciel de téléexpertise "
 
@@ -10,16 +10,16 @@ Description: "Exemple de ressource ServiceRequest : demande de téléexpertise e
 
 * authoredOn = "2026-09-29"
 
-* subject = Reference(CFLPatientProfileExample)
+* subject = Reference(CFLPatientExample)
   * type = "CFLPatientProfile"
 
-* requester = Reference(CFLPractitionnerRoleRequerantProfileExample)
+* requester = Reference(CFLPractitionerRoleRequerantExample)
   * type = "CFLPractitionnerRoleProfile"
 	
-* performer = Reference(CFLPractitionnerRoleRequisProfileExample)
+* performer = Reference(CFLPractitionerRoleRequisExample)
   * type = "CFLPractitionnerRoleProfile"
 
-* supportingInfo = Reference(CFLHealthcareServiceProfileExample)
+* supportingInfo = Reference(CFLHealthcareServiceExample)
   * type = "CFLHealthcareServiceProfile"
 	
 		

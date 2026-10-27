@@ -3,8 +3,6 @@
 *Ce document est la propriété exclusive du GIP GRADES ESEA Nouvelle-Aquitaine. Toute reproduction intégrale ou partielle ainsi que son utilisation, ou la communication à des tiers, sans l’autorisation explicite des auteurs, est illicite.*
 
 
-## Flux de contexte administratif de demande de téléexpertise
-
 Dans le cadre du projet Confluences Téléexpertise, un professionnel de santé (requérant) pourra accéder à partir de son logiciel métier (logiciel requérant, DPI ou DUI) à un annuaire d’offres de téléexpertise (TLE) adossé au ROR et mis à disposition par Confluence Téléexpertise. Le but de ce flux est donc de pouvoir envoyer les données administratives du patient et du requérant, qui seront les premiers éléments constitutifs d’une demande, à partir du logiciel métier vers Confluences Téléexpertise. Ces données récupérées par Confluence seront ensuite transmises via le flux de demande au logiciel de téléexpertise (LTLE) et seront utilisées comme pré remplissage de la demande dans le LTLE.
 
 Pour cela, nous avons identifié deux hypothèses techniquement distinctes :
@@ -24,7 +22,7 @@ Le document est structuré de manière à présenter les séquences des cas 1 et
 ### Cas d’usages
 
 <div style="max-width: 100vw; overflow: hidden;">
-  <img src="./usecase_administratif.png" alt="Use case administratif" style="max-width: 100%; height: auto; text-align: center;">
+  <img src="./usecase-administratif.png" alt="Use case administratif" style="max-width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 1. UseCase Administratif</p>
 </div>
 
@@ -33,7 +31,7 @@ Le document est structuré de manière à présenter les séquences des cas 1 et
 
 
 <div style="max-width: 100vw; overflow: hidden;">
-  <img src="./vue_fonctionnelle_preremplie.png" alt = " Vue fonctionnelle (UML) de l’objet demande preremplie" style="width: 100%; height: auto; text-align: center;">
+  <img src="./vue-fonctionnelle-preremplie.png" alt = " Vue fonctionnelle (UML) de l’objet demande preremplie" style="width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 2. Vue fonctionnelle d'une demande préremplie par le logiciel requérant</p>
 </div>
 
@@ -190,7 +188,7 @@ Nous écartons l’usage d’une requête GET, car les paramètres d’URL aurai
 Le body de ce flux POST sera au format JSON et contiendra les clés suivantes :  
 
 <div style="max-width: 100vw; overflow: hidden;">
-  <img src="./diagramme_sequence_POST_simple.png" alt="Diagramme de séquence" style="max-width: 100%; height: auto; text-align: center;">
+  <img src="./diagramme-sequence-post-simple.png" alt="Diagramme de séquence" style="max-width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 5. Diagramme de séquence IHM Confluences. Flux POST simple données administratives.</p>
 </div>
 

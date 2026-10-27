@@ -10,7 +10,7 @@ Aujourd’hui, il existe une multitude de solutions de téléexpertise, chacune 
 En effet, l’offre proposée par chaque solution n’est pas exhaustive, ce qui peut contraindre les professionnels de santé à consulter plusieurs logiciels de téléexpertise afin d’identifier l’expert ou l’offre correspondant à leur demande. Cette situation peut entraîner une perte de temps et rendre le parcours de recherche plus complexe.
 
 <div style="max-width: 100vw; overflow: hidden;">
-  <img src="./Situation_Actuelle.png" alt="Fonctionnement actuel de la téléexpertise" style="max-width: 100%; height: auto; text-align: center;">
+  <img src="./situation-actuelle.png" alt="Fonctionnement actuel de la téléexpertise" style="max-width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 1. Fonctionnement actuel de la téléexpertise</p>
 </div>
 
@@ -18,7 +18,7 @@ En effet, l’offre proposée par chaque solution n’est pas exhaustive, ce qui
 Confluence Téléexpertise vise à répondre à cette problématique en proposant une plateforme intermédiaire centralisant l’offre de téléexpertise disponible, grâce à l’exploitation des données issues du ROR-N. Elle permettra ainsi aux professionnels de santé requérants d’accéder, depuis un point d’entrée unique, à une vision plus exhaustive de l’offre de téléexpertise disponible.
 
 <div style="max-width: 100vw; overflow: hidden;">
-  <img src="./flux_globaux_confluences.png" alt="Flux globaux confluences" style="max-width: 100%; height: auto; text-align: center;">
+  <img src="./flux-globaux-confluences.png" alt="Flux globaux confluences" style="max-width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 2. Flux Globaux de confluences</p>
 </div>
 

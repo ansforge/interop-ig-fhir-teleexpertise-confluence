@@ -42,7 +42,7 @@ Confluences téléexpertise expose au requérant la liste de ses demandes et leu
 Enfin, cette IHM nécessite une authentification PSC.
 
 <div style="max-width: 100vw; overflow: hidden;">
-  <img src="./workflow_requerant.png" alt="workflow d'un envoi d'une demande de téléexpertise" style="max-width: 100%; height: auto; text-align: center;">
+  <img src="./workflow-requerant.png" alt="workflow d'un envoi d'une demande de téléexpertise" style="max-width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 1. workflow d'un envoi d'une demande de téléexpertise</p>
 </div>
 
@@ -58,7 +58,7 @@ Pour ce faire, nous utiliserons les données administratives du requérant prés
 Le bundle de la demande est envoyé lorsque le requérant a choisi l’offre qui lui correspond et cliqué sur le bouton d’envoi.
 
 <div style="max-width: 100vw; overflow: hidden;">
-  <img src="./flux_Post_Practitioner.png" alt="flux post pract" style="max-width: 100%; height: auto; text-align: center;">
+  <img src="./flux-post-practitioner.png" alt="flux post pract" style="max-width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 2. Flux POST des données requérant</p>
 </div>
 
@@ -67,7 +67,7 @@ Dès qu’une demande est envoyée vers le logiciel de téléexpertise, celui-ci
 S’il existe, le requérant se connecte sur son compte directement sur la page de la demande correspondante du LTLE, sinon un compte est créé en utilisant les données présentes dans la ressource Practitioner. (Voir schéma)
 
 <div style="max-width: 100vw; overflow: hidden;">
-  <img src="./gestion_compte_utilisateur.png" alt="Worflow de la gestion des comptes" style="max-width: 100%; height: auto; text-align: center;">
+  <img src="./gestion-compte-utilisateur.png" alt="Worflow de la gestion des comptes" style="max-width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 3. Worflow de la gestion des comptes utilisateurs envisagé</p>
 </div>
 

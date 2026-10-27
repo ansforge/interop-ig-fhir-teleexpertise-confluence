@@ -1,4 +1,4 @@
-Instance: CFLPatientProfileExample
+Instance: CFLPatientExample
 InstanceOf: cfl-patient
 Usage: #example
 Description: "Exemple de ressource patient dans une pré demande de téléexpertise "
@@ -9,7 +9,7 @@ Description: "Exemple de ressource patient dans une pré demande de téléexpert
 
 * identifier[INS-NIR].value = "123456789012244"
 
-* extension[identityReliability].extension[identityStatus].valueCoding = #VALI
+* extension[identityReliability].extension[identityStatus].valueCoding = https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0445#VALI
 
 * name[officialName].use = #official
 * name[officialName].extension[birth-list-given-name].valueString = "Pierre Yves Romain"
@@ -21,8 +21,9 @@ Description: "Exemple de ressource patient dans une pré demande de téléexpert
 * gender = #male
 
 * birthDate = "1974-12-25"
-* extension[birthPlace].valueAddress.extension[inseeCode].valueCoding.code = #33000
-* extension[birthPlace].valueAddress.extension[inseeCode].valueCoding.system = "https://interop.esante.gouv.fr/terminologies/1.11.1/CodeSystem-TRE-R13-CommuneOM"
+* extension[birthPlace].valueAddress.extension[inseeCode].valueCoding.code = #33063
+* extension[birthPlace].valueAddress.extension[inseeCode].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM"
+* extension[birthPlace].valueAddress.extension[inseeCode].valueCoding.display = "Bordeaux"
 
 * address.city = "Bordeaux"
 * address[0].line[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName"

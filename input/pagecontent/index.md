@@ -1,3 +1,23 @@
+{% if site.data.info.releaselabel == 'ci-build' %}
+<div style="width: 65%">
+    <blockquote class="stu-note">
+    <p>Cet Implementation Guide n'est pas la version courante, il s'agit de la version en intégration continue soumise à des changements fréquents uniquement destinée à suivre les travaux en cours. La version courante sera accessible via l'URL canonique suite à la première release : https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence</p>
+    </blockquote>
+</div>
+{% endif %}
+
+{% if site.data.info.releaselabel == 'public-comment' %}
+<div style="width: 65%">
+<blockquote class="stu-note">
+<p>
+  <b>Attention !</b>
+  <br>
+ Cet Implementation Guide est actuellement en concertation. La version courante est accessible à l'adresse : https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence
+</p>
+</blockquote>
+</div>
+{% endif %}
+
 ### Introduction
 
 Ce guide décrit la modélisation FHIR des données relatives à une demande de téléexpertise, effectuée par un professionnel de santé requérant et transmise depuis son logiciel de cabinet vers une solution de téléexpertise, via une plateforme intermédiaire désignée ici sous le nom Confluence Téléexpertise.

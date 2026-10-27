@@ -21,8 +21,9 @@ Description: "Exemple de ressource patient dans une pré demande de téléexpert
 * gender = #male
 
 * birthDate = "1974-12-25"
-* extension[birthPlace].valueAddress.extension[inseeCode].valueCoding.code = #33000
-* extension[birthPlace].valueAddress.extension[inseeCode].valueCoding.system = "https://interop.esante.gouv.fr/terminologies/1.11.1/CodeSystem-TRE-R13-CommuneOM"
+* extension[birthPlace].valueAddress.extension[inseeCode].valueCoding.code = #33063
+* extension[birthPlace].valueAddress.extension[inseeCode].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM"
+* extension[birthPlace].valueAddress.extension[inseeCode].valueCoding.display = "Bordeaux"
 
 * address.city = "Bordeaux"
 * address[0].line[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetName"

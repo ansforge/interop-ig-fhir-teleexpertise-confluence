@@ -295,27 +295,29 @@ Règle de gestion :  Si True, on devra récupérer l’attribut Requester.Organ
 
 **Exemple d’un body :** 
 
+```json
 {
-patient: {
-Patient_identifier : 195536172384934,
-Patient_NirAyantDroit : 195536172384934,
-Patient_BirthName : Wayne,
-Patient_givenName : Bruce,
-Patient_FamilyName : Wayne,
-Patient_gender : M,
-Patient_birthdate : 1995-08-17,
-Patient_birthplace : 75345,
-Patient_multipleBirth : 1,
-Patient_address : 17 rue Villeneuve Bordeaux,
-Patient_Contact : bruce.wayne@gmail.com
-},
-author_rpps: {
-Requester_RPPS : 1648593749374,
-Requester_ADELI : 1111111111,
-Requester_FamilyName : Kent,
-Requester_GivenName : Clark, 
-Requester_Specialty : Dermatologie,
-Requester_Organization : CHU de Poitiers,
-Requester_ISOrganization : T,
+  "patient": {
+    "Patient_identifier": "195536172384934",
+    "Patient_NirAyantDroit": "195536172384934",
+    "Patient_BirthName": "Wayne",
+    "Patient_givenName": "Bruce",
+    "Patient_FamilyName": "Wayne",
+    "Patient_gender": "M",
+    "Patient_birthdate": "1995-08-17",
+    "Patient_birthplace": "75345",
+    "Patient_multipleBirth": "1",
+    "Patient_address": "17 rue Villeneuve Bordeaux",
+    "Patient_Contact": "bruce.wayne@gmail.com"
+  },
+  "author_rpps": {
+    "Requester_RPPS": "1648593749374",
+    "Requester_ADELI": "1111111111",
+    "Requester_FamilyName": "Kent",
+    "Requester_GivenName": "Clark",
+    "Requester_Specialty": "Dermatologie",
+    "Requester_Organization": "CHU de Poitiers",
+    "Requester_ISOrganization": "T"
+  }
 }
-}
+```

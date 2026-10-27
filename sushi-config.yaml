@@ -68,9 +68,9 @@ menu:
   Liste des profils: artifacts.html
   Spécifications fonctionnelles : specification-fonctionnelles.html
   Spécifications techniques : 
-    Spécification techniques de l'envoi d'une demande : specification-requerant.html
-    Spécification techniques de l'envoi d'une demande au LTLE : specification-ltle.html
-    Spécification techniques de la gestion des statuts d'une demande: specification-statuts.html
+    Spécification technique de l'envoi du contexte administratif (logiciel requérant → Confluences) : specification-requerant.html
+    Spécification technique de l'envoi de la demande (Confluences → LTLE) : specification-ltle.html
+    Spécification technique de la gestion des statuts d'une demande: specification-statuts.html
   Vol. 3 - Annexes:
     Sécurité: annexe-securite.html
     Téléchargements et usage: annexe-downloads.html

@@ -47,7 +47,7 @@ pages:
         title: Specification fonctionnelle
     specification-requerant.md:
         title: Contexte administratif de la demande
-    specification-enrichi.md:
+    specification-ltle.md:
         title: Flux de la demande
     specification-statuts.md:
         title: Flux des statuts
@@ -69,7 +69,7 @@ menu:
   Spécifications fonctionnelles : specification-fonctionnelles.html
   Spécifications techniques : 
     Spécification techniques de l'envoi d'une demande : specification-requerant.html
-    Spécification techniques de l'envoi d'une demande enrichie : specification-enrichi.html
+    Spécification techniques de l'envoi d'une demande au LTLE : specification-ltle.html
     Spécification techniques de la gestion des statuts d'une demande: specification-statuts.html
   Vol. 3 - Annexes:
     Sécurité: annexe-securite.html

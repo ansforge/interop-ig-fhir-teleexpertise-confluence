@@ -1,5 +1,5 @@
-Instance: CFLServiceRequestEnrichiExample
-InstanceOf: cfl-service-request-enrichi
+Instance: CFLServiceRequestLtleExample
+InstanceOf: cfl-service-request-ltle
 Usage: #example
 Description: "Exemple de ressource ServiceRequest : demande de téléexpertise enrichi du requis et l'url pointant vers le bon logiciel de téléexpertise "
 

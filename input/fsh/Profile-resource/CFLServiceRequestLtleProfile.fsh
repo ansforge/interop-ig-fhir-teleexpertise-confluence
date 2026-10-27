@@ -1,8 +1,8 @@
-Profile:        CFLServiceRequestEnrichiProfile
+Profile:        CFLServiceRequestLtleProfile
 Parent:         CFLServiceRequestRequerantProfile
-Id:             cfl-service-request-enrichi
-Title:          "CFL ServiceRequest Enrichi Profile"
-Description:    "Profil décrivant une demande de téléexpertise issu de ServiceRequest R4 enrichie par l'URL pointant vers la bonne offre issu du ROR"
+Id:             cfl-service-request-ltle
+Title:          "CFL ServiceRequest LTLE Profile"
+Description:    "Profil décrivant la demande de téléexpertise transmise au logiciel de téléexpertise (LTLE), issue de ServiceRequest R4 et complétée par l'URL pointant vers la bonne offre issu du ROR"
 * identifier 0..*
 * intent = #proposal
 * authoredOn 1..1

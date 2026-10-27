@@ -44,7 +44,7 @@ pages:
     index.md:
         title: Accueil
     specification-fonctionnelles.md:
-        title: Specification fonctionnelle
+        title: Introduction
     specification-requerant.md:
         title: Flux de contexte administratif de demande de téléexpertise
     specification-ltle.md:

@@ -1,4 +1,4 @@
-Extension: UrlLtle
+Extension: ServiceRequestUrlLtleExtension
 Id: url-ltle
 Title: "Url Ltle"
 Description: "Extension créée pour spécifier l'URL pointant la demande de téléexpertise vers la bonne offre de TLE d'un logiciel de téléexpertise"

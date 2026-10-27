@@ -16,7 +16,7 @@ Les éditeurs de LTLE devront implémenter l’une ou l’autre des deux méthod
 Pour rappel voici le cycle de vie des statuts d’une demande : 
 
 <div style="max-width: 100vw; overflow: hidden;">
-  <img src="./cycle_vie_statuts.png" alt="Workflow cycle de vie des statuts d'une demande" style="max-width: 100%; height: auto; text-align: center;">
+  <img src="./cycle-vie-statuts.png" alt="Workflow cycle de vie des statuts d'une demande" style="max-width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 1 Workflow cycle de vie des statuts d'une demande</p>
 </div>
 
@@ -24,14 +24,14 @@ Pour rappel voici le cycle de vie des statuts d’une demande :
 #### Cas d’usages
 
 <div style="max-width: 100vw; overflow: hidden;">
-  <img src="./usercase_statuts.png" alt="UseCase Statuts" style="max-width: 100%; height: auto; text-align: center;">
+  <img src="./usecase-statuts.png" alt="UseCase Statuts" style="max-width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 2. UseCase Statuts </p>
 </div>
 
 #### Les deux méthodes de récupération des statuts par Confluences
 
 <div style="max-width: 100vw; overflow: hidden;">
-  <img src="./diagramme_sequence_statuts.png" alt="Diagramme de séquence" style="max-width: 100%; height: auto; text-align: center;">
+  <img src="./diagramme-sequence-statuts.png" alt="Diagramme de séquence" style="max-width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 3. Diagramme de séquence simplifié présentant les deux méthodes de récupération des statuts par ESEA confluences</p>
 </div>
 
@@ -102,7 +102,7 @@ Le flux GET est fait pour chaque LTLE connu et interfacé à Confluences. Conflu
 Il s’agit d’une interaction Search. 
 
 <div style="max-width: 100vw; overflow: hidden;">
-  <img src="./flux_GET_recuperation_statuts.png" alt="Flux de récupération des statuts, méthode GET" style="max-width: 100%; height: auto; text-align: center;">
+  <img src="./flux-get-recuperation-statuts.png" alt="Flux de récupération des statuts, méthode GET" style="max-width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 4. Flux de récupération des statuts, méthode GET</p>
 </div>
 
@@ -253,7 +253,7 @@ PATCH permet de faire des modifications partielles d’une ressource, cela devra
 
 
 <div style="max-width: 100vw; overflow: hidden;">
-  <img src="./flux_PUT_recuperation_statuts.png" alt="Flux de récupération des statuts, méthode PUT/PATCH" style="max-width: 100%; height: auto; text-align: center;">
+  <img src="./flux-put-recuperation-statuts.png" alt="Flux de récupération des statuts, méthode PUT/PATCH" style="max-width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 5. Flux de récupération des statuts, méthode PUT/PATCH</p>
 </div>
 
@@ -296,7 +296,7 @@ Les ressources et profils français utilisés en base de nos surspécifications 
 
 
 <div style="max-width: 100vw; overflow: hidden;">
-  <img src="./vue_fonctionnelle_demande.png" alt = " Vue fonctionnelle (UML) de l’objet demande de téléexpertise" style="width: 100%; height: auto; text-align: center;">
+  <img src="./vue-fonctionnelle-demande.png" alt = " Vue fonctionnelle (UML) de l’objet demande de téléexpertise" style="width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 6. Vue fonctionnelle (UML) de l’objet demande de téléexpertise</p>
 </div>
 

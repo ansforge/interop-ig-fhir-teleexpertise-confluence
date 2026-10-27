@@ -1,6 +1,6 @@
 Profile:        CFLServiceRequestEnrichiProfile
 Parent:         CFLServiceRequestRequerantProfile
-Id:             cfl-ServiceRequest-enrichi
+Id:             cfl-service-request-enrichi
 Title:          "CFL ServiceRequest Enrichi Profile"
 Description:    "Profil décrivant une demande de téléexpertise issu de ServiceRequest R4 enrichie par l'URL pointant vers la bonne offre issu du ROR"
 * identifier 0..*
@@ -14,6 +14,6 @@ Description:    "Profil décrivant une demande de téléexpertise issu de Servic
 * note 0..0
 * reasonReference 0..0
 * supportingInfo only Reference(RORHealthcareService)
-* extension contains SplitActiveStatus named SplitActiveStatus 0..1
+* extension contains ServiceRequestSplitActiveStatusExtension named SplitActiveStatus 0..1
 * extension contains url-ltle named urlLtle 1..1
 * extension contains patient-consent named PatientConsent 0..1

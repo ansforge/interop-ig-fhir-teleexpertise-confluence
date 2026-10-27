@@ -1,5 +1,5 @@
 Instance: CFLPractitionerRoleRequerantExample
-InstanceOf: cfl-practitionerrole
+InstanceOf: cfl-practitioner-role
 Usage: #example
 Description: "Exemple de ressource practitionerRole dans une pré demande de téléexpertise "
 

@@ -1,6 +1,6 @@
 Profile: CFLPractitionerRoleProfile
 Parent: AsPractitionerRoleProfile
-Id: cfl-practitionerrole
+Id: cfl-practitioner-role
 Title: "CFL PractitionerRole Profile"
 Description: "Profil issu de AsPractitionerRoleProfile"
 

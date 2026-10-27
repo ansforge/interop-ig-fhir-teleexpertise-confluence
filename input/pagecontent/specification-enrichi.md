@@ -15,7 +15,7 @@ Nous avons fait le choix de normer ce flux en FHIR (R4) qui est la norme d’API
 ### Cas d’usages
 
 <div style="max-width: 100vw; overflow: hidden;">
-  <img src="./usercase.png" alt="Use case demande de téléexpertise" style="max-width: 100%; height: auto; text-align: center;">
+  <img src="./usecase.png" alt="Use case demande de téléexpertise" style="max-width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 1. UseCase demande de téléexpertise</p>
 </div>
 
@@ -91,7 +91,7 @@ Concernant ce flux, il est attendu en réponse du LTLE, lorsque la ressource es
 
 
 <div style="max-width: 100vw; overflow: hidden;">
- <img src="./flux_demande.png" alt = "Flux de demande de Telexpertise" style="max-width: 100%; height: auto; text-align: center;">
+ <img src="./flux-demande.png" alt = "Flux de demande de Telexpertise" style="max-width: 100%; height: auto; text-align: center;">
  <p class="caption" style = "text-align: center; font-style: italic;">Figure 2. Flux de demande de Telexpertise</p>
 </div>
 
@@ -156,7 +156,7 @@ Les ressources et profils français utilisés en base de nos surspécifications 
 
 
 <div style="max-width: 100vw; overflow: hidden;">
-  <img src="./vue_fonctionnelle_demande.png" alt = " Vue fonctionnelle (UML) de l’objet demande de téléexpertise" style="width: 100%; height: auto; text-align: center;">
+  <img src="./vue-fonctionnelle-demande.png" alt = " Vue fonctionnelle (UML) de l’objet demande de téléexpertise" style="width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 3. Vue fonctionnelle (UML) de l’objet demande de téléexpertise</p>
 </div>
 

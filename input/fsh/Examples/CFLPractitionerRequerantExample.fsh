@@ -19,4 +19,6 @@ Description: "Exemple de ressource practitioner dans une pré demande de télée
 * telecom[mailbox-mss].value = "bruce.wayne@chsf.mssante.fr"
 
 * qualification[savoirFaire].code.coding[typeSavoirFaire].code = #S
+* qualification[savoirFaire].code.coding[typeSavoirFaire].system = "https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire"
 * qualification[savoirFaire].code.coding[savoirFaire].code = #SM26
+* qualification[savoirFaire].code.coding[savoirFaire].system = "https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale"

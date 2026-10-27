@@ -32,11 +32,11 @@ Description: "Exemple de ressource HealthcareService dans une pré demande de t�
 
 * extension[ror-healthcareservice-contact].extension[description].valueString = "Offre de téléexpertise concernant des avis de pédiatrie pour les enfants de moins de 10 ans"
 
-* extension[ror-healthcareservice-contact].extension[ror-confidentiality-level].valueCodeableConcept.coding = #2
+* extension[ror-healthcareservice-contact].extension[ror-confidentiality-level].valueCodeableConcept.coding = https://mos.esante.gouv.fr/NOS/TRE_R283-NiveauConfidentialite/FHIR/TRE-R283-NiveauConfidentialite#2
 
-* telecom.extension[ror-telecom-communication-channel].valueCodeableConcept.coding = #4
+* telecom.extension[ror-telecom-communication-channel].valueCodeableConcept.coding = https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication#4
 
-* telecom.extension[ror-telecom-confidentiality-level].valueCodeableConcept.coding = #2
+* telecom.extension[ror-telecom-confidentiality-level].valueCodeableConcept.coding = https://mos.esante.gouv.fr/NOS/TRE_R283-NiveauConfidentialite/FHIR/TRE-R283-NiveauConfidentialite#2
 
 * telecom.value = "https://Logiciel_LTLE.fr/offre_pediatrique_Bordeaux"
 

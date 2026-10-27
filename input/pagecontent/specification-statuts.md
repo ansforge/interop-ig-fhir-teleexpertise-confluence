@@ -1,13 +1,11 @@
 
 *Ce document est la propriété exclusive du GIP GRADES ESEA Nouvelle-Aquitaine. Toute reproduction intégrale ou partielle ainsi que son utilisation, ou la communication à des tiers, sans l’autorisation explicite des auteurs, est illicite.*
 
+### Flux Statuts
 
-### Flux Statuts 
+Ce volet CI-SIS se base sur les guides proches fonctionnellement : Annuaire Santé et FRCore d’InteropSanté.
 
-
-Etant donné qu’il n’existe pas de CI-SIS adapté à notre cas d’usage, nous avons essayé de se rapprocher le plus possible des volets CI-SIS proches fonctionnellement (Annuaire Santé) et lorsque ce n’était pas possible, nous avons modélisé à partir de FrCore d’InteropSanté France.
-
-Suite aux différents échanges avec les éditeurs ainsi qu’avec notre intégrateur, et souhaitant prendre en compte le scénario qui intègre le fait qu’un éditeur de logiciel de gestion de cabinets développe sa propre IHM de recherche d’offre de téléexpertise, nous avons décidé d’implémenter deux méthodes de récupération des statuts :
+Suite aux différents échanges avec les éditeurs, et souhaitant prendre en compte le scénario qui intègre le fait qu’un éditeur de logiciel de gestion de cabinets développe sa propre IHM de recherche d’offre de téléexpertise, nous avons décidé d’implémenter deux méthodes de récupération des statuts :
 -	Une méthode d’agrégation des statuts par confluences (Méthode « GET »)
 -	Une méthode de stockage des statuts envoyés par les Logiciels de Téléexpertise (LTLE), envoyés par ces derniers, à chaque changement de statut (méthode « PUT/PATCH »)
 
@@ -19,7 +17,6 @@ Pour rappel voici le cycle de vie des statuts d’une demande :
   <img src="./cycle-vie-statuts.png" alt="Workflow cycle de vie des statuts d'une demande" style="max-width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 1 Workflow cycle de vie des statuts d'une demande</p>
 </div>
-
 
 #### Cas d’usages
 
@@ -35,12 +32,9 @@ Pour rappel voici le cycle de vie des statuts d’une demande :
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 3. Diagramme de séquence simplifié présentant les deux méthodes de récupération des statuts par ESEA confluences</p>
 </div>
 
+#### Méthode GET
 
-
-#### Méthode GET :
-
-##### Protocoles : 
-
+##### Protocoles
 
 Dans ce cas, la récupération des statuts des demandes par le logiciel de Confluence Téléexpertise sera faite à travers des requêtes de type GET lorsque le requérant clique pour accéder sur la vue des statuts de Confluence Téléexpertise.
 
@@ -87,7 +81,6 @@ Le flux GET est fait pour chaque LTLE connu et interfacé à Confluences. Conflu
 
 ##### Structure des flux
 
-
 <table class="mon-tableau">
     <tr>
         <td>Nom du flux</td>
@@ -118,7 +111,6 @@ Finalement, suite à des échanges avec plusieurs experts techniques remarquant 
 A cette fin, nous avons ajouté une extension : statusReason dans la ressource ServiceRequest. Cette extension nous permet de rajouter des informations sur un statut de la demande (concrètement, elle nous permet de splitter un statut en deux). Cette extension est directement présente dans la structure de la ressource FHIR R6 de ServiceRequest, ce qui conforte notre démarche.
 Ainsi, on spécifie le statut « active » de la demande soit en « demande publiée » ou soit en « demande en cours ».
 
-
 Si la requête permettant de récupérer les statuts s’est bien déroulée : 
 
 -	Un header avec un code HTTP 200 OK est retourné.  
@@ -134,9 +126,7 @@ Un code HTTP 400 Bad Request est retourné lorsqu’il y a des erreurs dans la r
 Un code HTTP 404 Unknown est retourné si la ressource ciblée est introuvable.
 Un code http 503 Service unavailable est retourné si la ressource ciblée est plantée.
 
-
 **Critères de recherche** :
-
 
 <table class="mon-tableau">
     <tr>
@@ -176,23 +166,19 @@ Un code http 503 Service unavailable est retourné si la ressource ciblée est p
 Par ailleurs, en complément des ressources ServiceRequest, afin de récupérer l’ensemble des informations qui leur sont rattachées et qui seront potentiellement exploitées par Confluences Téléexpertise (données du requis et adresse du requis), trois paramètres supplémentaires sont exploités :
 -	**_include=ServiceRequest:performer** indique qu’il est nécessaire de transmettre les ressources PractitionerRole référencées par l’attribut performer associées aux ServiceRequest. La présence de cette ressource est nécessaire pour permettre de faire le lien entre la demande et les ressources Practitioner et Organization associées au requis.
 
--	**_include:iterate=PractionerRole:practioner** indique qu’il est nécessaire de transmettre les ressources practitioner référencées dans les ressources PractitionerRole transmises.
+-	**_include:iterate=PractitionerRole:practitioner** indique qu’il est nécessaire de transmettre les ressources practitioner référencées dans les ressources PractitionerRole transmises.
 
--	**_include:iterate=PractionerRole:organization** indique qu’il est nécessaire de transmettre les ressources organization référencées dans les ressources PractitionerRole transmises. 
-
-
+-	**_include:iterate=PractitionerRole:organization** indique qu’il est nécessaire de transmettre les ressources organization référencées dans les ressources PractitionerRole transmises. 
 
 Il faudra s’assurer que le paramètre **iterate** et que les **include** soient bien implémentés dans la solution.
 
-
-#### Méthode PUT/PATCH 
+#### Méthode PUT/PATCH
 
 ##### Protocoles
 
 Dans cette méthode, les statuts sont envoyés par les LTLE à Confluences à chaque changement de statut.  
 
 La mise à jour sera faite à travers des requêtes de type PUT (update) ou PATCH.
-
 
 <table class="mon-tableau">
     <tr>
@@ -227,9 +213,7 @@ La mise à jour sera faite à travers des requêtes de type PUT (update) ou PATC
     </tr>
 </table>
 
-
 Les protocoles et la sécurité de ceux-ci peuvent évoluer pour suivre l’état de l’art dans ce domaine.
-
 
 ##### Structure des flux
 
@@ -244,19 +228,16 @@ Les protocoles et la sécurité de ceux-ci peuvent évoluer pour suivre l’éta
     </tr>
 </table>
 
-
 Concernant le flux 1’, il est attendu en réponse du LTLE, lorsque la ressource est créée : 
 -	Un code 200 OK
 -	Un bundle de type transaction-response dans le body
 Concernant le flux 1’, Il y a 2 types de requêtes possible pour mettre à jour une ressource : PUT et PATCH.
 PATCH permet de faire des modifications partielles d’une ressource, cela devra être utilisé lorsqu’il y a seulement des modifications de données des attributs statuts et statusReason.  Dans les cas où on ajoute, en plus du changement de statuts et statusReason, de nouvelles ressources comme le « performer » practitionerRole (référence le requis qui répond à la demande), il faudra utiliser PUT (update).
 
-
 <div style="max-width: 100vw; overflow: hidden;">
   <img src="./flux-put-recuperation-statuts.png" alt="Flux de récupération des statuts, méthode PUT/PATCH" style="max-width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 5. Flux de récupération des statuts, méthode PUT/PATCH</p>
 </div>
-
 
 [Lien vers la spécification FHIR](https://www.hl7.org/fhir/R4/http.html)
 Hormis pour les requêtes de type PATCH, l’envoi de ces flux se fera au travers d’un bundle de type Transaction.
@@ -272,45 +253,32 @@ Si la mise à jour échoue, le serveur doit répondre :
 -	Un header avec un un code erreur HTTP 4XX ou 5XX.
 -	Un body contenant une ressource OperationOutcome qui donne les détails sur la raison de l’échec
 
-
-
 ##### Standards utilisés
-
-
 
 Ces spécifications techniques se basent sur le standard HL7 FHIR (R4). Elles font référence à un certain nombre de ressources du standard ainsi qu’aux spécifications de l’API RESTful FHIR (R4), basée sur le protocole http(s). La syntaxe retenue est la syntaxe JSON.
 
-Les ressources et profils français utilisés en base de nos surspécifications sont les suivants :
+Les profils définis par ce guide pour ces flux sont les suivants :
 
-* ServiceRequest (NM 2) : profil [ServiceRequest](https://hl7.org/fhir/R4/servicerequest.html#12.14)
-* Patient (NM N) : profil [fr-core-patient-ins](https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-ins)
-* Practitioner (NM 3) : profil [AS Practitioner Profile](https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-practitioner)
-* PractitionerRole (NM 2) : profil AS [PractitionerRole Profile](https://interop.esante.gouv.fr/ig/fhir/annuaire/1.1.0/StructureDefinition-as-practitionerrole.html)
-* Bundle (NM N) : profil [Bundle](https://www.hl7.org/fhir/R4/bundle.html#2.36)
-* Organization (NM 3) : profil [AS Organization](https://interop.esante.gouv.fr/ig/fhir/annuaire/StructureDefinition/as-organization)
-
-
+{% sql {
+    "query" : " select name as Name, Description, Web from Resources WHERE Type = 'StructureDefinition' and Id like 'cfl-%' ",
+    "class" : "lines",
+    "columns" : [
+        { "title" : "Titre du profil", "type" : "link", "source" : "Name", "target" : "Web"},
+        { "title" : "Description", "type" : "markdown", "source" : "Description"}
+    ]
+} %}
 
 ##### Vue fonctionnelle de la demande de TLE
-
-
 
 <div style="max-width: 100vw; overflow: hidden;">
   <img src="./vue-fonctionnelle-demande.png" alt = " Vue fonctionnelle (UML) de l’objet demande de téléexpertise" style="width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 6. Vue fonctionnelle (UML) de l’objet demande de téléexpertise</p>
 </div>
 
-
-
 ##### Contenu des flux
-
-
 
 Nous décrivons ici les surcontraintes par rapports aux profils standards indiqués supra. Nous avons également laissé les attributs obligatoires.
 
 Dans toutes les ressources décrites ci-après, les éléments « meta » sont obligatoires (source et profile).
 
 Voir les profils dans la catégorie "liste des profils".
-
-
-

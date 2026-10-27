@@ -3,7 +3,6 @@ Parent:         CFLServiceRequestRequerantProfile
 Id:             cfl-service-request-ltle
 Title:          "CFL ServiceRequest LTLE Profile"
 Description:    "Profil décrivant la demande de téléexpertise transmise au logiciel de téléexpertise (LTLE), issue de ServiceRequest R4 et complétée par l'URL pointant vers la bonne offre issu du ROR"
-* identifier 0..*
 * intent = #proposal
 * authoredOn 1..1
 * requester 1..1 

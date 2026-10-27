@@ -21,7 +21,7 @@ Nous avons fait le choix de normer ce flux en FHIR (R4) qui est la norme d’API
 
 
 
-#### Flux demande :
+#### Flux demande
 
 
 L’émission des flux de demandes de téléexpertise par Confluence Téléexpertise sera faite à travers des requêtes de type POST.

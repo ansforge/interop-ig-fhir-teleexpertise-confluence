@@ -153,7 +153,7 @@ Le critère offre est traité ainsi :
 
 La requête ROR devra utiliser le modificateur FHIR _revinclude afin de récupérer le nom/prénom des professionnels associés à l’offre de Téléexpertise.
 
-### Gestion des comptes utilisateurs (ici Requérants) :
+### Gestion des comptes utilisateurs (ici Requérants)
 
 L’objectif de cette section est de spécifier la gestion des comptes utilisateurs, ici les requérants, lorsqu’ils font une demande de téléexpertise via Confluences Téléexpertise. 
 

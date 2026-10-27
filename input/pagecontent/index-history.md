@@ -47,7 +47,7 @@ Enfin, cette IHM nécessite une authentification PSC.
 </div>
 
 
-### Gestion des comptes utilisateurs (ici Requérants) :
+### Gestion des comptes utilisateurs (ici Requérants)
 
 L’objectif de cette section est de spécifier la gestion des comptes utilisateurs, ici les requérants, lorsqu’ils font une demande de téléexpertise via Confluences Téléexpertise.
 

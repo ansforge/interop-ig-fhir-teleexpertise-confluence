@@ -3,8 +3,6 @@
 *Ce document est la propriété exclusive du GIP GRADES ESEA Nouvelle-Aquitaine. Toute reproduction intégrale ou partielle ainsi que son utilisation, ou la communication à des tiers, sans l’autorisation explicite des auteurs, est illicite.*
 
 
-### Flux de contexte administratif de demande de téléexpertise
-
 Dans le cadre du projet Confluences Téléexpertise, un professionnel de santé (requérant) pourra accéder à partir de son logiciel métier (logiciel requérant, DPI ou DUI) à un annuaire d’offres de téléexpertise (TLE) adossé au ROR et mis à disposition par Confluence Téléexpertise. Le but de ce flux est donc de pouvoir envoyer les données administratives du patient et du requérant, qui seront les premiers éléments constitutifs d’une demande, à partir du logiciel métier vers Confluences Téléexpertise. Ces données récupérées par Confluence seront ensuite transmises via le flux de demande au logiciel de téléexpertise (LTLE) et seront utilisées comme pré remplissage de la demande dans le LTLE.
 
 Pour cela, nous avons identifié deux hypothèses techniquement distinctes :

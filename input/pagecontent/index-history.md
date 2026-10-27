@@ -47,7 +47,7 @@ Enfin, cette IHM nécessite une authentification PSC.
 </div>
 
 
-### Gestion des comptes utilisateurs (ici Requérants) :
+### Gestion des comptes utilisateurs (ici Requérants)
 
 L’objectif de cette section est de spécifier la gestion des comptes utilisateurs, ici les requérants, lorsqu’ils font une demande de téléexpertise via Confluences Téléexpertise.
 
@@ -67,8 +67,8 @@ Dès qu’une demande est envoyée vers le logiciel de téléexpertise, celui-ci
 S’il existe, le requérant se connecte sur son compte directement sur la page de la demande correspondante du LTLE, sinon un compte est créé en utilisant les données présentes dans la ressource Practitioner. (Voir schéma)
 
 <div style="max-width: 100vw; overflow: hidden;">
-  <img src="./gestion-compte-utilisateur.png" alt="Worflow de la gestion des comptes" style="max-width: 100%; height: auto; text-align: center;">
-  <p class="caption" style = "text-align: center; font-style: italic;">Figure 3. Worflow de la gestion des comptes utilisateurs envisagé</p>
+  <img src="./gestion-compte-utilisateur.png" alt="Workflow de la gestion des comptes" style="max-width: 100%; height: auto; text-align: center;">
+  <p class="caption" style = "text-align: center; font-style: italic;">Figure 3. Workflow de la gestion des comptes utilisateurs envisagé</p>
 </div>
 
 Règles de gestions :

@@ -6,8 +6,8 @@ Description: "Extension créée pour spécifier l'état d'une demande active. So
 * ^context.expression = "ServiceRequest"
 
   
-* value[x] only Coding
-* valueCoding.code from ActiveStatus (required)
+* value[x] only CodeableConcept
+* valueCodeableConcept from ActiveStatus (required)
 
 ValueSet: ActiveStatus
 Id: active-status

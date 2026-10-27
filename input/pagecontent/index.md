@@ -1,3 +1,23 @@
+{% if site.data.info.releaselabel == 'ci-build' %}
+<div style="width: 65%">
+    <blockquote class="stu-note">
+    <p>Cet Implementation Guide n'est pas la version courante, il s'agit de la version en intégration continue soumise à des changements fréquents uniquement destinée à suivre les travaux en cours. La version courante sera accessible via l'URL canonique suite à la première release : https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence</p>
+    </blockquote>
+</div>
+{% endif %}
+
+{% if site.data.info.releaselabel == 'public-comment' %}
+<div style="width: 65%">
+<blockquote class="stu-note">
+<p>
+  <b>Attention !</b>
+  <br>
+ Cet Implementation Guide est actuellement en concertation. La version courante est accessible à l'adresse : https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence
+</p>
+</blockquote>
+</div>
+{% endif %}
+
 ### Introduction
 
 Ce guide décrit la modélisation FHIR des données relatives à une demande de téléexpertise, effectuée par un professionnel de santé requérant et transmise depuis son logiciel de cabinet vers une solution de téléexpertise, via une plateforme intermédiaire désignée ici sous le nom Confluence Téléexpertise.
@@ -22,21 +42,10 @@ Confluence Téléexpertise vise à répondre à cette problématique en proposan
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 2. Flux Globaux de confluences</p>
 </div>
 
+### Dépendances
 
+{% lang-fragment dependency-table.xhtml %}
 
+### Propriété intellectuelle
 
-### FHIR Shorthand Resources
-
-FHIR Shorthand calls currently are the second Thursday of every month at 9 am Eastern US Time. [Click here to join](https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGJmYmVlM2UtYzVkZi00YWJjLWJlNzMtN2ZkYTVkYTA1Mzlk%40thread.v2/0?context=%7b%22Tid%22%3a%22c620dc48-1d50-4952-8b39-df4d54d74d82%22%2c%22Oid%22%3a%22f9a60b6f-fbcc-48d0-bc8e-d6d742b4b339%22%7d)
-
-[HL7 Confluence site](https://confluence.hl7.org/display/FHIRI/FHIR+Shorthand)
-
-[FHIR Shorthand Documentation](https://build.fhir.org/ig/HL7/fhir-shorthand) 
-
-[FHIR Shorthand documentation code repository](https://github.com/HL7/fhir-shorthand)
-
-[SUSHI code repository](https://github.com/FHIR/sushi)
-
-[Zulip](https://chat.fhir.org) channel: #shorthand
-
-
+{% lang-fragment ip-statements.xhtml %}

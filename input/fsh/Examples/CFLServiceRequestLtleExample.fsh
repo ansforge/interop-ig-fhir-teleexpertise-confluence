@@ -1,7 +1,7 @@
 Instance: CFLServiceRequestLtleExample
 InstanceOf: cfl-service-request-ltle
 Usage: #example
-Description: "Exemple de ressource ServiceRequest : demande de téléexpertise enrichi du requis et l'url pointant vers le bon logiciel de téléexpertise "
+Description: "Exemple de ressource ServiceRequest : demande de téléexpertise transmise au LTLE, avec l'URL pointant vers le bon logiciel de téléexpertise"
 
 
 * identifier.value = "8ac3a9f7-0416-4801-88e0-8db454b4fc80"

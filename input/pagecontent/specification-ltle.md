@@ -21,7 +21,7 @@ Nous avons fait le choix de normer ce flux en FHIR (R4) qui est la norme d’API
 
 
 
-#### Flux demande :
+#### Flux demande
 
 
 L’émission des flux de demandes de téléexpertise par Confluence Téléexpertise sera faite à travers des requêtes de type POST.
@@ -89,8 +89,8 @@ Concernant ce flux, il est attendu en réponse du LTLE, lorsque la ressource es
 
 
 <div style="max-width: 100vw; overflow: hidden;">
- <img src="./flux-demande.png" alt = "Flux de demande de Telexpertise" style="max-width: 100%; height: auto; text-align: center;">
- <p class="caption" style = "text-align: center; font-style: italic;">Figure 2. Flux de demande de Telexpertise</p>
+ <img src="./flux-demande.png" alt = "Flux de demande de Téléexpertise" style="max-width: 100%; height: auto; text-align: center;">
+ <p class="caption" style = "text-align: center; font-style: italic;">Figure 2. Flux de demande de Téléexpertise</p>
 </div>
 
 

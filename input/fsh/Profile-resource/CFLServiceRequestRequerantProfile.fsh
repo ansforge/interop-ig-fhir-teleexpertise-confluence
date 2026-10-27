@@ -2,8 +2,7 @@ Profile:        CFLServiceRequestRequerantProfile
 Parent:         ServiceRequest
 Id:             cfl-service-request-requerant
 Title:          "CFL ServiceRequest Requerant Profile"
-Description:    "Profil décrivant une demande de téléexpertise issu de ServiceRequest R4"
-* identifier 0..*
+Description:    "Profil décrivant une demande de téléexpertise issue de ServiceRequest R4"
 * status = #draft
 * intent = #proposal
 * authoredOn 1..1

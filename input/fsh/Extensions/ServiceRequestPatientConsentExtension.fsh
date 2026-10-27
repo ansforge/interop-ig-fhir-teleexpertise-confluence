@@ -1,7 +1,7 @@
 Extension: ServiceRequestPatientConsentExtension
 Id: patient-consent
 Title: "Patient Consent"
-Description: "Extension créée pour spécifier le consentement du patient "
+Description: "Extension créée pour spécifier le consentement du patient"
 * ^context.type = #element
 * ^context.expression = "ServiceRequest"
 

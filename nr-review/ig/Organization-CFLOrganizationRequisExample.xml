@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Organization xmlns="http://hl7.org/fhir">
+  <id value="CFLOrganizationRequisExample"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-organization"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : Organisation CFLOrganizationRequisExample</b></p><a name="CFLOrganizationRequisExample"> </a><a name="hcCFLOrganizationRequisExample"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-cfl-organization.html">CFL Organization Profile</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="L'enregistrement est actif">Actif :</td><td colspan="3">true</td></tr><tr><td style="background-color: #f3f5da" title="Ways to contact the organization">Coordonnées</td><td colspan="3">null Bordeaux </td></tr></table></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Organization CFLOrganizationRequisExample</b></p><a name="en-CFLOrganizationRequisExample"> </a><a name="en-hcCFLOrganizationRequisExample"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-cfl-organization.html">CFL Organization Profile</a></p></div><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Record is active">Active:</td><td colspan="3">true</td></tr><tr><td style="background-color: #f3f5da" title="Ways to contact the organization">Contact Detail</td><td colspan="3">null Bordeaux </td></tr></table></div></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://finess.esante.gouv.fr"/>
+    <value value="330781196"/>
+  </identifier>
+  <active value="true"/>
+  <name value="CHU de Bordeaux"/>
+  <address>
+    <line>
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase">
+        <valueString value="David Johnston"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType">
+        <valueString value="R"/>
+      </extension>
+    </line>
+    <city value="Bordeaux"/>
+  </address>
+</Organization>

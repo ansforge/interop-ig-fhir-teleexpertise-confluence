@@ -1,7 +1,7 @@
 Instance: CFLServiceRequestRequerantExample
 InstanceOf: cfl-service-request-requerant
 Usage: #example
-Description: "Exemple de ressource ServiceRequest : pré demande de téléexpertise "
+Description: "Exemple de ressource ServiceRequest : pré-demande de téléexpertise"
 
 
 
@@ -11,18 +11,11 @@ Description: "Exemple de ressource ServiceRequest : pré demande de téléexpert
 
 * authoredOn = "2026-09-29"
 
-* subject = Reference(CFLPatientProfileExample)
-	* type = "CFLPatientProfile"
+* subject = Reference(CFLPatientExample)
+  * type = "CFLPatientProfile"
 
-* requester = Reference(CFLPractitionnerRoleRequerantProfileExample)
-	* type = "CFLPractitionnerRoleProfile"
+* requester = Reference(CFLPractitionerRoleRequerantExample)
+  * type = "CFLPractitionnerRoleProfile"
 	
 
-
-* supportingInfo = Reference(CFLHealthcareServiceProfileExample)
-	* type = "CFLHealthcareServiceProfile"
-	
-		
-
-* extension[urlLtle].valueUrl = https://Logiciel_LTLE.fr/offre_pediatrique_Poitiers
 * extension[PatientConsent].valueBoolean = true

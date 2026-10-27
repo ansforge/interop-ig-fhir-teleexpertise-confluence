@@ -63,19 +63,18 @@ pages:
         title: Informations sur la traduction
 
 menu:
-  Accueil: index.html 
-  Table of Contents: toc.html
-  Liste des profils: artifacts.html
-  Spécifications fonctionnelles : specification-fonctionnelles.html
-  Spécifications techniques : 
-    Spécification technique de l'envoi du contexte administratif (logiciel requérant → Confluences) : specification-requerant.html
-    Spécification technique de l'envoi de la demande (Confluences → LTLE) : specification-ltle.html
-    Spécification technique de la gestion des statuts d'une demande: specification-statuts.html
-  Vol. 3 - Annexes:
-    Sécurité: annexe-securite.html
-    Téléchargements et usage: annexe-downloads.html
-    "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
-    "Site de l'ANS ": new-tab https://esante.gouv.fr/
+    Accueil: index.html
+    Vol. 1 - Etude fonctionnelle:
+        Introduction: specification-fonctionnelles.html
+    Vol. 2 - Détail des transactions:
+        Envoi du contexte administratif (logiciel requérant → Confluences): specification-requerant.html
+        Envoi de la demande (Confluences → LTLE): specification-ltle.html
+        Gestion des statuts d'une demande: specification-statuts.html
+    Vol. 3 - Annexes:
+        Sécurité: annexe-securite.html
+        Téléchargements et usage: annexe-downloads.html
+        "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
+        "Site de l'ANS ": new-tab https://esante.gouv.fr/
     Ressources de conformité: artifacts.html
     Documentation: new-tab https://interop.esante.gouv.fr/ig/documentation/
     Historique: change-log.html

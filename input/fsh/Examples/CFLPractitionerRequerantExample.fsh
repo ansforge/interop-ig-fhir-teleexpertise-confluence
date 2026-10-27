@@ -1,4 +1,4 @@
-Instance: CFLPractitionnerRequisProfileExample
+Instance: CFLPractitionerRequerantExample
 InstanceOf: cfl-practitioner
 Usage: #example
 Description: "Exemple de ressource practitioner dans une pré demande de téléexpertise "
@@ -6,17 +6,17 @@ Description: "Exemple de ressource practitioner dans une pré demande de télée
 
 * identifier[rpps].use = #official
 * identifier[rpps].system = "https://rpps.esante.gouv.fr"
-* identifier[rpps].value = "10007209514"
+* identifier[rpps].value = "10001389462"
 * active = true
 
 
-* name.family = "KENT"
-* name.given = "Clark"
-* name.text = "Clark KENT"
+* name.family = "WAYNE"
+* name.given = "Bruce"
+* name.text = "Bruce WAYNE"
 
 
 * telecom[mailbox-mss].system = #email
-* telecom[mailbox-mss].value = "klark.kent@chubordeaux.mssante.fr"
+* telecom[mailbox-mss].value = "bruce.wayne@chsf.mssante.fr"
 
 * qualification[savoirFaire].code.coding[typeSavoirFaire].code = #S
-* qualification[savoirFaire].code.coding[savoirFaire].code = #SM40
+* qualification[savoirFaire].code.coding[savoirFaire].code = #SM26

@@ -1,4 +1,4 @@
-Instance: CFLPractitionnerRoleRequisProfileExample
+Instance: CFLPractitionerRoleRequisExample
 InstanceOf: cfl-practitionerrole
 Usage: #example
 Description: "Exemple de ressource practitionerRole dans une pré demande de téléexpertise "
@@ -11,10 +11,10 @@ Description: "Exemple de ressource practitionerRole dans une pré demande de té
 
 
 
-* practitioner = Reference(CFLPractitionnerRequisProfileExample)
+* practitioner = Reference(CFLPractitionerRequisExample)
   * type = "CFLPatientProfile"
 
-* organization = Reference(CFLOrganizationRequisProfileExample)
+* organization = Reference(CFLOrganizationRequisExample)
   * type = "CFLOrganizationeProfile"
 	
 

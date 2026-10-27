@@ -1,4 +1,4 @@
-Instance: CFLPatientProfileExample
+Instance: CFLPatientExample
 InstanceOf: cfl-patient
 Usage: #example
 Description: "Exemple de ressource patient dans une pré demande de téléexpertise "

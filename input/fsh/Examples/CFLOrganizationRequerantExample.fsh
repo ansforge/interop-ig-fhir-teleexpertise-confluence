@@ -1,4 +1,4 @@
-Instance: CFLOrganizationRequerantProfileExample
+Instance: CFLOrganizationRequerantExample
 InstanceOf: cfl-organization
 Usage: #example
 Description: "Exemple de ressource organization dans une pré demande de téléexpertise "

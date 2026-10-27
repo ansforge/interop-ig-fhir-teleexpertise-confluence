@@ -10,16 +10,16 @@ Description: "Exemple de ressource ServiceRequest : demande de téléexpertise e
 
 * authoredOn = "2026-09-29"
 
-* subject = Reference(CFLPatientProfileExample)
+* subject = Reference(CFLPatientExample)
   * type = "CFLPatientProfile"
 
-* requester = Reference(CFLPractitionnerRoleRequerantProfileExample)
+* requester = Reference(CFLPractitionerRoleRequerantExample)
   * type = "CFLPractitionnerRoleProfile"
 	
-* performer = Reference(CFLPractitionnerRoleRequisProfileExample)
+* performer = Reference(CFLPractitionerRoleRequisExample)
   * type = "CFLPractitionnerRoleProfile"
 
-* supportingInfo = Reference(CFLHealthcareServiceProfileExample)
+* supportingInfo = Reference(CFLHealthcareServiceExample)
   * type = "CFLHealthcareServiceProfile"
 	
 		

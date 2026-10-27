@@ -1,4 +1,4 @@
-Instance: CFLHealthcareServiceProfileExample
+Instance: CFLHealthcareServiceExample
 InstanceOf: cfl-healthcare-service
 Usage: #example
 Description: "Exemple de ressource HealthcareService dans une pré demande de téléexpertise "
@@ -13,7 +13,7 @@ Description: "Exemple de ressource HealthcareService dans une pré demande de t�
 
 * type = https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J20-ChampActivite-ROR#01 "Médecine, Chirurgie, Obstétrique (MCO)"
 
-* providedBy = Reference(CFLOrganizationRequisProfileExample)
+* providedBy = Reference(CFLOrganizationRequisExample)
 		* type = "CFLOrganizationProfile"
 
 * extension[ror-healthcareservice-sensitive-unit].valueBoolean = true

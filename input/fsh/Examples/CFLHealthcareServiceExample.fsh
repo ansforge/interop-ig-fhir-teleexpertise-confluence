@@ -11,7 +11,7 @@ Description: "Exemple de ressource HealthcareService dans une pré demande de t�
 
 * active = true
 
-* type = https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J20-ChampActivite-ROR#01 "Médecine, Chirurgie, Obstétrique (MCO)"
+* type = https://mos.esante.gouv.fr/NOS/TRE_R227-ChampActivite/FHIR/TRE-R227-ChampActivite#01 "Médecine, Chirurgie, Obstétrique (MCO)"
 
 * providedBy = Reference(CFLOrganizationRequisExample)
 		* type = "CFLOrganizationProfile"
@@ -24,11 +24,11 @@ Description: "Exemple de ressource HealthcareService dans une pré demande de t�
 
 * extension[ror-healthcareservice-patient-type].extension[ageRange].valueRange.high.value = 10 
 
-* specialty[operationalActivity] = https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J17-ActiviteOperationnelle-ROR#391 "Surveillance continue spécialisée pédiatrique"
+* specialty[operationalActivity] = https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle#391 "Surveillance continue spécialisée pédiatrique"
 
 * characteristic[receptionModality] = https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil#10 "Téléexpertise en moins de 24h"
 
-* characteristic[careMode] = https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J19-ModePriseEnCharge-ROR#35 "Téléexpertise"
+* characteristic[careMode] = https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge#35 "Téléexpertise"
 
 * extension[ror-healthcareservice-contact].extension[description].valueString = "Offre de téléexpertise concernant des avis de pédiatrie pour les enfants de moins de 10 ans"
 

@@ -8,9 +8,9 @@ Description: "Profil issu de RORHealthcareService"
 
 
 * specialty[operationalActivity] 1..1
-* specialty[operationalActivity] from https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J17-ActiviteOperationnelle-ROR
+* specialty[operationalActivity] from https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR
 
 
 * characteristic[careMode] 1..1
-* characteristic[careMode] from https://smt.esante.gouv.fr/fhir/ValueSet/JDV-J19-ModePriseEnCharge-ROR
+* characteristic[careMode] from https://mos.esante.gouv.fr/NOS/JDV_J19-ModePriseEnCharge-ROR/FHIR/JDV-J19-ModePriseEnCharge-ROR
 * telecom 0..*

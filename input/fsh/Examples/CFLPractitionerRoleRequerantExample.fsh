@@ -19,9 +19,9 @@ Description: "Exemple de ressource practitionerRole dans une pré demande de té
 	
 
 
-* code[genreActivite] = https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J94-GenreActivite-RASS#GENR01 "Activité de soin et de pharmacie"
+* code[genreActivite] = https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite#GENR01 "Activité de soin et de pharmacie"
 	
-* code[fonction] = https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction/TRE_R21-Fonction-FHIR#FON-01 "Titulaire de cabinet"
+* code[fonction] = https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction#FON-01 "Titulaire de cabinet"
 
-* code[modeExercice] = https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J95-ModeExercice-RASS#L "Libéral"		
+* code[modeExercice] = https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice#L "Libéral"		
 

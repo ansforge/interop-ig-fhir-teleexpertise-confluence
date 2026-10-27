@@ -18,10 +18,10 @@ Description: "Exemple de ressource practitionerRole dans une pré demande de té
   * type = "CFLOrganizationeProfile"
 	
 
-* code[genreActivite] = https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J94-GenreActivite-RASS#GENR01 "Activité de soin et de pharmacie"
+* code[genreActivite] = https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite#GENR01 "Activité de soin et de pharmacie"
 	
 
-* code[modeExercice] = https://interop.esante.gouv.fr/ig/nos/1.5.0/ValueSet-JDV-J95-ModeExercice-RASS#S "Salarié"		
+* code[modeExercice] = https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice#S "Salarié"		
 
-* specialty = https://hl7.fr/ig/fhir/core/2.1.0/ValueSet-fr-core-vs-practitioner-specialty#SM40 "Pédiatrie (SM)"
+* specialty = https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale#SM40 "Pédiatrie (SM)"
 

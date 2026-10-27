@@ -1,7 +1,7 @@
 Instance: CFLPractitionerRequisExample
 InstanceOf: cfl-practitioner
 Usage: #example
-Description: "Exemple de ressource practitioner dans une pré demande de téléexpertise "
+Description: "Exemple de ressource Practitioner dans une pré-demande de téléexpertise"
 
 
 * identifier[rpps].use = #official

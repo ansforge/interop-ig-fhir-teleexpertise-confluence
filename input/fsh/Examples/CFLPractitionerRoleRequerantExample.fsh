@@ -1,7 +1,7 @@
 Instance: CFLPractitionerRoleRequerantExample
 InstanceOf: cfl-practitioner-role
 Usage: #example
-Description: "Exemple de ressource practitionerRole dans une pré demande de téléexpertise "
+Description: "Exemple de ressource PractitionerRole dans une pré-demande de téléexpertise"
 
 
 * identifier[numeroAm].use = #official

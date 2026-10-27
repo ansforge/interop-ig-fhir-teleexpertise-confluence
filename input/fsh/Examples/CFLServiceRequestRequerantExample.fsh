@@ -1,7 +1,7 @@
 Instance: CFLServiceRequestRequerantExample
 InstanceOf: cfl-service-request-requerant
 Usage: #example
-Description: "Exemple de ressource ServiceRequest : pré demande de téléexpertise "
+Description: "Exemple de ressource ServiceRequest : pré-demande de téléexpertise"
 
 
 

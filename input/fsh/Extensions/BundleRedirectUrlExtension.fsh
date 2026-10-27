@@ -1,7 +1,7 @@
 Extension: BundleRedirectUrlExtension
 Id: redirect-url
 Title: "Redirect Url"
-Description: """Extension créée pour spécifier l'URL redirection à envoyer en réponse d'un envoie d'une demande"""
+Description: """Extension créée pour spécifier l'URL de redirection à envoyer en réponse à l'envoi d'une demande"""
 * ^context.type = #element
 * ^context.expression = "Bundle.meta"
 

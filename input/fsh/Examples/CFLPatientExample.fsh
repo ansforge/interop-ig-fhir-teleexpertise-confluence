@@ -1,7 +1,7 @@
 Instance: CFLPatientExample
 InstanceOf: cfl-patient
 Usage: #example
-Description: "Exemple de ressource patient dans une pré demande de téléexpertise "
+Description: "Exemple de ressource Patient dans une pré-demande de téléexpertise"
 
 * identifier[INS-NIR].use = #official
 

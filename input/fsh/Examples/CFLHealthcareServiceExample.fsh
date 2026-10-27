@@ -1,13 +1,13 @@
 Instance: CFLHealthcareServiceExample
 InstanceOf: cfl-healthcare-service
 Usage: #example
-Description: "Exemple de ressource HealthcareService dans une pré demande de téléexpertise "
+Description: "Exemple de ressource HealthcareService dans une pré-demande de téléexpertise"
 
 * meta.lastUpdated =  "2026-10-07T13:28:17.239+02:00"
 
 * identifier.value = "75/2874"
 
-* name = "Service pédiatrique du Chu de Poitiers"
+* name = "Service pédiatrique du CHU de Poitiers"
 
 * active = true
 

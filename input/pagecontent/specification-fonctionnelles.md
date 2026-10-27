@@ -17,7 +17,7 @@ Tous les utilisateurs devront être des professionnels habilités inscrits dans 
 Enfin, cette IHM nécessite une authentification Pro Santé Connect (PSC).
 
 
-#### Fonctionalités
+#### Fonctionnalités
 
 Quatre fonctionnalités sont identifiées : 
 
@@ -28,7 +28,7 @@ Quatre fonctionnalités sont identifiées :
 - Recherche dans l’offre téléexpertise du ROR-N : 
 
    Lorsque le requérant accède à Confluence Téléexpertise depuis son LGC, il doit pouvoir consulter l’offre de téléexpertise décrite dans le ROR-National. Le résultat de la recherche doit être filtrable sur certains critères (spécialité de l’offre, situation géographique de l’offre etc.). Elle doit être restituée sous forme textuelle ou géographique de manière macro. Une vue détaillée d’une offre doit être possible sur demande du requérant. Il n’est pas demandé la possibilité de comparer des offres entre elles ou de visualiser simultanément la vue détaillée de plusieurs offres. 
-   Enfin, Un pré demande de téléexpertise contenant le contexte patient et requérant doit également être transmie depuis le LGC vers Confluences Téléexpertise.
+   Enfin, une pré-demande de téléexpertise contenant le contexte patient et requérant doit également être transmise depuis le LGC vers Confluences Téléexpertise.
 
 - Suivi des demandes : 
 
@@ -175,8 +175,8 @@ Dès qu’une demande est envoyée vers le logiciel de téléexpertise, celui-ci
 S’il existe, le requérant se connecte sur son compte directement sur la page de la demande correspondante du LTLE, sinon un compte est créé en utilisant les données présentes dans la ressource Practitioner. (Voir schéma)
 
 <div style="max-width: 100vw; overflow: hidden;">
-  <img src="./gestion-compte-utilisateur.png" alt="Worflow de la gestion des comptes" style="max-width: 100%; height: auto; text-align: center;">
-  <p class="caption" style = "text-align: center; font-style: italic;">Figure 3. Worflow de la gestion des comptes utilisateurs envisagé</p>
+  <img src="./gestion-compte-utilisateur.png" alt="Workflow de la gestion des comptes" style="max-width: 100%; height: auto; text-align: center;">
+  <p class="caption" style = "text-align: center; font-style: italic;">Figure 3. Workflow de la gestion des comptes utilisateurs envisagé</p>
 </div>
 
 Règles de gestions :

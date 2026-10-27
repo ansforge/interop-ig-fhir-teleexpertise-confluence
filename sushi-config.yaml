@@ -64,9 +64,8 @@ pages:
 
 menu:
     Accueil: index.html
-    Vol. 1 - Etude fonctionnelle:
-        Introduction: specification-fonctionnelles.html
-    Vol. 2 - Détail des transactions:
+    Vol. 1 - Etude fonctionnelle: specification-fonctionnelles.html
+    Vol. 2 - Transactions:
         Envoi du contexte administratif (logiciel requérant → Confluences): specification-requerant.html
         Envoi de la demande (Confluences → LTLE): specification-ltle.html
         Gestion des statuts d'une demande: specification-statuts.html
@@ -75,6 +74,6 @@ menu:
         Téléchargements et usage: annexe-downloads.html
         "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
         "Site de l'ANS ": new-tab https://esante.gouv.fr/
+        Documentation: new-tab https://interop.esante.gouv.fr/ig/documentation/
     Ressources de conformité: artifacts.html
-    Documentation: new-tab https://interop.esante.gouv.fr/ig/documentation/
     Historique: change-log.html

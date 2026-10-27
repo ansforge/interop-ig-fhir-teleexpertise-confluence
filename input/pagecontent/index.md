@@ -21,3 +21,11 @@ Confluence Téléexpertise vise à répondre à cette problématique en proposan
   <img src="./flux-globaux-confluences.png" alt="Flux globaux confluences" style="max-width: 100%; height: auto; text-align: center;">
   <p class="caption" style = "text-align: center; font-style: italic;">Figure 2. Flux Globaux de confluences</p>
 </div>
+
+### Dépendances
+
+{% lang-fragment dependency-table.xhtml %}
+
+### Propriété intellectuelle
+
+{% lang-fragment ip-statements.xhtml %}

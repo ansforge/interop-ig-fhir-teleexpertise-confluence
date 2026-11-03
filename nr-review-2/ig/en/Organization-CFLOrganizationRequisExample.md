@@ -1,0 +1,55 @@
+# CFLOrganizationRequisExample - Confluences Téléexpertise v0.1.0
+
+## Example Organization: CFLOrganizationRequisExample
+
+-------
+
+**English**
+
+-------
+
+Profile: [CFL Organization Profile](StructureDefinition-cfl-organization.md)
+
+CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official))
+
+-------
+
+| | |
+| :--- | :--- |
+| Active: | true |
+| Contact Detail | null Bordeaux |
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "Organization",
+  "id" : "CFLOrganizationRequisExample",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-organization"]
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://finess.esante.gouv.fr",
+    "value" : "330781196"
+  }],
+  "active" : true,
+  "name" : "CHU de Bordeaux",
+  "address" : [{
+    "_line" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase",
+        "valueString" : "David Johnston"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType",
+        "valueString" : "R"
+      }]
+    }],
+    "city" : "Bordeaux"
+  }]
+}
+
+```

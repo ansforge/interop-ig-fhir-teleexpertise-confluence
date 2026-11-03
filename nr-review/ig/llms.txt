@@ -1,0 +1,63 @@
+# ans.fhir.fr.teleexpertise-confluence#0.1.0: Confluences Téléexpertise(fr)
+
+## Pages
+
+* [Accueil](fr/index.md)
+* [Specification fonctionnelle](fr/specification-fonctionnelles.md)
+* [Sécurité](fr/annexe-securite.md)
+* [Résumé des artefacts](fr/artifacts.md)
+* [Flux de contexte administratif de demande de téléexpertise](fr/specification-requerant.md)
+* [Flux des statuts](fr/specification-statuts.md)
+* [Flux de la demande](fr/specification-ltle.md)
+* [Informations sur la traduction](fr/translationinfo.md)
+* [Historique des versions](fr/change-log.md)
+* [Autres Ressources](fr/autres-ressources.md)
+* [Téléchargements et usages](fr/annexe-downloads.md)
+
+## Resources
+
+### CodeSystems
+
+* [ActiveStatusCS](fr/CodeSystem-active-status-cs.md)
+
+### ValueSets
+
+* [ActiveStatus](fr/ValueSet-active-status.md)
+* [NameUse Usual Or Official](fr/ValueSet-name-use-usual-or-official.md)
+
+### Resource Profiles
+
+* [CFL HealthcareService Profile](fr/StructureDefinition-cfl-healthcare-service.md)
+* [CFL Organization Profile](fr/StructureDefinition-cfl-organization.md)
+* [CFL Patient Profile](fr/StructureDefinition-cfl-patient.md)
+* [CFL PractitionerRole Profile](fr/StructureDefinition-cfl-practitioner-role.md)
+* [CFL Practitioner Profile](fr/StructureDefinition-cfl-practitioner.md)
+* [CFL ServiceRequest LTLE Profile](fr/StructureDefinition-cfl-service-request-ltle.md)
+* [CFL ServiceRequest Requerant Profile](fr/StructureDefinition-cfl-service-request-requerant.md)
+* [CFL Transaction Response Profile](fr/StructureDefinition-cfl-transaction-response.md)
+
+### Extensions
+
+* [Multiple Birth - Rang gémellaire](fr/StructureDefinition-fr-core-patient-multiple-birth.md)
+* [Patient Consent](fr/StructureDefinition-patient-consent.md)
+* [Redirect Url](fr/StructureDefinition-redirect-url.md)
+* [Split Active Status](fr/StructureDefinition-split-active-status.md)
+* [Url Ltle](fr/StructureDefinition-url-ltle.md)
+
+### ImplementationGuides
+
+* [Confluences Téléexpertise](fr/ImplementationGuide-ans.fhir.fr.teleexpertise-confluence.md)
+
+### Examples
+
+* [CFLBundleTransactionExample (Bundle)](fr/Bundle-CFLBundleTransactionExample.md)
+* [Service pédiatrique du Chu de Poitiers (HealthcareService)](fr/HealthcareService-CFLHealthcareServiceExample.md)
+* [Cabinet du dr Wayne (Organization)](fr/Organization-CFLOrganizationRequerantExample.md)
+* [CHU de Bordeaux (Organization)](fr/Organization-CFLOrganizationRequisExample.md)
+* [CFLPatientExample (Patient)](fr/Patient-CFLPatientExample.md)
+* [CFLPractitionerRequerantExample (Practitioner)](fr/Practitioner-CFLPractitionerRequerantExample.md)
+* [CFLPractitionerRequisExample (Practitioner)](fr/Practitioner-CFLPractitionerRequisExample.md)
+* [CFLPractitionerRoleRequerantExample (PractitionerRole)](fr/PractitionerRole-CFLPractitionerRoleRequerantExample.md)
+* [CFLPractitionerRoleRequisExample (PractitionerRole)](fr/PractitionerRole-CFLPractitionerRoleRequisExample.md)
+* [CFLServiceRequestLtleExample (ServiceRequest)](fr/ServiceRequest-CFLServiceRequestLtleExample.md)
+* [CFLServiceRequestRequerantExample (ServiceRequest)](fr/ServiceRequest-CFLServiceRequestRequerantExample.md)

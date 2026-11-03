@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ServiceRequest xmlns="http://hl7.org/fhir">
+  <id value="CFLServiceRequestRequerantExample"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-service-request-requerant"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : DemandeService CFLServiceRequestRequerantExample</b></p><a name="CFLServiceRequestRequerantExample"> </a><a name="hcCFLServiceRequestRequerantExample"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profil: <a href="StructureDefinition-cfl-service-request-requerant.html">CFL ServiceRequest Requerant Profile</a></p></div><p><b>Patient Consent</b>: true</p><p><b>identifier</b>: 8ac3a9f7-0416-4801-88e0-8db454b4fc80</p><p><b>status</b>: Draft</p><p><b>intent</b>: Proposal</p><p><b>subject</b>: <a href="Patient-CFLPatientExample.html">Pierre DURAND (official) Male, Date de Naissance :1974-12-25 ( NIR définitif: 123456789012244 (use: official))</a></p><p><b>authoredOn</b>: 2026-09-29</p><p><b>requester</b>: <a href="PractitionerRole-CFLPractitionerRoleRequerantExample.html">Bruce WAYNE (N° RPPS: 10001389462 (use: official)): Activité de soin et de pharmacie, Titulaire de cabinet, Libéral at Cabinet du dr Wayne (Identifiant interne: 10001389462001 (use: official)) (https://www.ameli.fr#101319082 (use: official))</a></p></div><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ServiceRequest CFLServiceRequestRequerantExample</b></p><a name="en-CFLServiceRequestRequerantExample"> </a><a name="en-hcCFLServiceRequestRequerantExample"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-cfl-service-request-requerant.html">CFL ServiceRequest Requerant Profile</a></p></div><p><b>Patient Consent</b>: true</p><p><b>identifier</b>: 8ac3a9f7-0416-4801-88e0-8db454b4fc80</p><p><b>status</b>: Draft</p><p><b>intent</b>: Proposal</p><p><b>subject</b>: <a href="Patient-CFLPatientExample.html">Pierre DURAND (official) Male, DoB: 1974-12-25 ( NIR définitif: 123456789012244 (use: official))</a></p><p><b>authoredOn</b>: 2026-09-29</p><p><b>requester</b>: <a href="PractitionerRole-CFLPractitionerRoleRequerantExample.html">Bruce WAYNE (N° RPPS: 10001389462 (use: official)): Activité de soin et de pharmacie, Titulaire de cabinet, Libéral at Cabinet du dr Wayne (Identifiant interne: 10001389462001 (use: official)) (https://www.ameli.fr#101319082 (use: official))</a></p></div></div>
+  </text>
+  <extension url="https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/patient-consent">
+    <valueBoolean value="true"/>
+  </extension>
+  <identifier>
+    <value value="8ac3a9f7-0416-4801-88e0-8db454b4fc80"/>
+  </identifier>
+  <status value="draft"/>
+  <intent value="proposal"/>
+  <subject>
+    <reference value="Patient/CFLPatientExample"/>
+    <type value="CFLPatientProfile"/>
+  </subject>
+  <authoredOn value="2026-09-29"/>
+  <requester>
+    <reference value="PractitionerRole/CFLPractitionerRoleRequerantExample"/>
+    <type value="CFLPractitionnerRoleProfile"/>
+  </requester>
+</ServiceRequest>

@@ -1,0 +1,67 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/ServiceRequest/CFLServiceRequestLtleExample> a fhir:ServiceRequest ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "CFLServiceRequestLtleExample"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-service-request-ltle" ;
+       fhir:index 0 ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-service-request-ltle>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : DemandeService CFLServiceRequestLtleExample</b></p><a name=\"CFLServiceRequestLtleExample\"> </a><a name=\"hcCFLServiceRequestLtleExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-cfl-service-request-ltle.html\">CFL ServiceRequest LTLE Profile</a></p></div><p><b>Url Ltle</b>: <a href=\"https://simplifier.net/resolve?scope=ans.fhir.fr.ror@0.7.0&amp;canonical=https://Logiciel_LTLE.fr/offre_pediatrique_Bordeaux\">https://Logiciel_LTLE.fr/offre_pediatrique_Bordeaux</a></p><p><b>Patient Consent</b>: true</p><p><b>identifier</b>: 8ac3a9f7-0416-4801-88e0-8db454b4fc80</p><p><b>status</b>: Draft</p><p><b>intent</b>: Proposal</p><p><b>subject</b>: <a href=\"Patient-CFLPatientExample.html\">Pierre DURAND (official) Male, Date de Naissance :1974-12-25 ( NIR définitif: 123456789012244 (use: official))</a></p><p><b>authoredOn</b>: 2026-09-29</p><p><b>requester</b>: <a href=\"PractitionerRole-CFLPractitionerRoleRequerantExample.html\">Bruce WAYNE (N° RPPS: 10001389462 (use: official)): Activité de soin et de pharmacie, Titulaire de cabinet, Libéral at Cabinet du dr Wayne (Identifiant interne: 10001389462001 (use: official)) (https://www.ameli.fr#101319082 (use: official))</a></p><p><b>performer</b>: <a href=\"PractitionerRole-CFLPractitionerRoleRequisExample.html\">Clark KENT (N° RPPS: 10007209514 (use: official)): Activité de soin et de pharmacie, Salarié at CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official)) (https://www.ameli.fr#108462037 (use: official))</a></p><p><b>supportingInfo</b>: <a href=\"HealthcareService-CFLHealthcareServiceExample.html\">Service pédiatrique du Chu de Poitiers (Médecine, Chirurgie, Obstétrique (MCO)) by CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official)) (75/2874)</a></p></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest CFLServiceRequestLtleExample</b></p><a name=\"en-CFLServiceRequestLtleExample\"> </a><a name=\"en-hcCFLServiceRequestLtleExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-cfl-service-request-ltle.html\">CFL ServiceRequest LTLE Profile</a></p></div><p><b>Url Ltle</b>: <a href=\"https://simplifier.net/resolve?scope=ans.fhir.fr.ror@0.7.0&amp;canonical=https://Logiciel_LTLE.fr/offre_pediatrique_Bordeaux\">https://Logiciel_LTLE.fr/offre_pediatrique_Bordeaux</a></p><p><b>Patient Consent</b>: true</p><p><b>identifier</b>: 8ac3a9f7-0416-4801-88e0-8db454b4fc80</p><p><b>status</b>: Draft</p><p><b>intent</b>: Proposal</p><p><b>subject</b>: <a href=\"Patient-CFLPatientExample.html\">Pierre DURAND (official) Male, DoB: 1974-12-25 ( NIR définitif: 123456789012244 (use: official))</a></p><p><b>authoredOn</b>: 2026-09-29</p><p><b>requester</b>: <a href=\"PractitionerRole-CFLPractitionerRoleRequerantExample.html\">Bruce WAYNE (N° RPPS: 10001389462 (use: official)): Activité de soin et de pharmacie, Titulaire de cabinet, Libéral at Cabinet du dr Wayne (Identifiant interne: 10001389462001 (use: official)) (https://www.ameli.fr#101319082 (use: official))</a></p><p><b>performer</b>: <a href=\"PractitionerRole-CFLPractitionerRoleRequisExample.html\">Clark KENT (N° RPPS: 10007209514 (use: official)): Activité de soin et de pharmacie, Salarié at CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official)) (https://www.ameli.fr#108462037 (use: official))</a></p><p><b>supportingInfo</b>: <a href=\"HealthcareService-CFLHealthcareServiceExample.html\">Service pédiatrique du Chu de Poitiers (Médecine, Chirurgie, Obstétrique (MCO)) by CHU de Bordeaux (https://finess.esante.gouv.fr#330781196 (use: official)) (75/2874)</a></p></div></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/url-ltle" ] ;
+     fhir:Extension.valueUrl [ fhir:value "https://Logiciel_LTLE.fr/offre_pediatrique_Bordeaux" ]
+  ], [
+     fhir:index 1 ;
+     fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/patient-consent" ] ;
+     fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+  ] ;
+  fhir:ServiceRequest.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.value [ fhir:value "8ac3a9f7-0416-4801-88e0-8db454b4fc80" ]
+  ] ;
+  fhir:ServiceRequest.status [ fhir:value "draft"] ;
+  fhir:ServiceRequest.intent [ fhir:value "proposal"] ;
+  fhir:ServiceRequest.subject [
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/Patient/CFLPatientExample> ;
+     fhir:Reference.reference [ fhir:value "Patient/CFLPatientExample" ] ;
+     fhir:Reference.type [ fhir:value "CFLPatientProfile" ]
+  ] ;
+  fhir:ServiceRequest.authoredOn [ fhir:value "2026-09-29"^^xsd:date] ;
+  fhir:ServiceRequest.requester [
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/PractitionerRole/CFLPractitionerRoleRequerantExample> ;
+     fhir:Reference.reference [ fhir:value "PractitionerRole/CFLPractitionerRoleRequerantExample" ] ;
+     fhir:Reference.type [ fhir:value "CFLPractitionnerRoleProfile" ]
+  ] ;
+  fhir:ServiceRequest.performer [
+     fhir:index 0 ;
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/PractitionerRole/CFLPractitionerRoleRequisExample> ;
+     fhir:Reference.reference [ fhir:value "PractitionerRole/CFLPractitionerRoleRequisExample" ] ;
+     fhir:Reference.type [ fhir:value "CFLPractitionnerRoleProfile" ]
+  ] ;
+  fhir:ServiceRequest.supportingInfo [
+     fhir:index 0 ;
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/HealthcareService/CFLHealthcareServiceExample> ;
+     fhir:Reference.reference [ fhir:value "HealthcareService/CFLHealthcareServiceExample" ] ;
+     fhir:Reference.type [ fhir:value "CFLHealthcareServiceProfile" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/ServiceRequest/CFLServiceRequestLtleExample.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

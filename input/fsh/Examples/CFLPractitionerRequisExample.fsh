@@ -14,7 +14,8 @@ Description: "Exemple de ressource Practitioner dans une pré-demande de télée
 * name.given = "Clark"
 * name.text = "Clark KENT"
 
-
+* telecom[mailbox-mss].extension[emailType].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R256-TypeMessagerie/FHIR/TRE-R256-TypeMessagerie"
+* telecom[mailbox-mss].extension[emailType].valueCoding.code = #MSSANTE
 * telecom[mailbox-mss].system = #email
 * telecom[mailbox-mss].value = "klark.kent@chubordeaux.mssante.fr"
 

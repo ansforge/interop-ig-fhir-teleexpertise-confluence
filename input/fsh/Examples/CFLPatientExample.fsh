@@ -20,7 +20,7 @@ Description: "Exemple de ressource Patient dans une pré-demande de téléexpert
 
 * gender = #male
 
-* birthDate = "1974-12-25"
+* birthDate = "2020-12-25"
 * extension[birthPlace].valueAddress.extension[inseeCode].valueCoding.code = #33063
 * extension[birthPlace].valueAddress.extension[inseeCode].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM"
 * extension[birthPlace].valueAddress.extension[inseeCode].valueCoding.display = "Bordeaux"

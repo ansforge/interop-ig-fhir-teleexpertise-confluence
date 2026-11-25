@@ -15,7 +15,7 @@ Description: "Exemple de ressource PractitionerRole dans une pré-demande de té
   * type = "CFLPractitionerProfile"
 
 * organization = Reference(CFLOrganizationRequerantExample)
-  * type = "CFLOrganizationeProfile"
+  * type = "CFLOrganizationProfile"
 	
 
 

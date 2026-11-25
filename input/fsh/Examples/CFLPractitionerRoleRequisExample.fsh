@@ -12,7 +12,7 @@ Description: "Exemple de ressource PractitionerRole dans une pré-demande de té
 
 
 * practitioner = Reference(CFLPractitionerRequisExample)
-  * type = "CFLPatientProfile"
+  * type = "CFLPractitionerProfile"
 
 * organization = Reference(CFLOrganizationRequisExample)
   * type = "CFLOrganizationeProfile"

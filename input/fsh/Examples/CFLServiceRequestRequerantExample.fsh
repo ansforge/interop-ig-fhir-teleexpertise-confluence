@@ -15,7 +15,7 @@ Description: "Exemple de ressource ServiceRequest : pré-demande de téléexpert
   * type = "CFLPatientProfile"
 
 * requester = Reference(CFLPractitionerRoleRequerantExample)
-  * type = "CFLPractitionnerRoleProfile"
+  * type = "CFLPractitionerRoleProfile"
 	
 
 * extension[PatientConsent].valueBoolean = true

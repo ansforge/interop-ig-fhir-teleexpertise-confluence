@@ -14,10 +14,10 @@ Description: "Exemple de ressource ServiceRequest : demande de téléexpertise t
   * type = "CFLPatientProfile"
 
 * requester = Reference(CFLPractitionerRoleRequerantExample)
-  * type = "CFLPractitionnerRoleProfile"
+  * type = "CFLPractitionerRoleProfile"
 	
 * performer = Reference(CFLPractitionerRoleRequisExample)
-  * type = "CFLPractitionnerRoleProfile"
+  * type = "CFLPractitionerRoleProfile"
 
 * supportingInfo = Reference(CFLHealthcareServiceExample)
   * type = "CFLHealthcareServiceProfile"

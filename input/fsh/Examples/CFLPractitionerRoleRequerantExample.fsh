@@ -23,5 +23,5 @@ Description: "Exemple de ressource PractitionerRole dans une pré-demande de té
 	
 * code[fonction] = https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction#FON-01 "Titulaire de cabinet"
 
-* code[modeExercice] = https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice#L "Libéral"		
+* code[modeExercice] = https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice#L "Libéral, indépendant, artisan, commerçant"		
 

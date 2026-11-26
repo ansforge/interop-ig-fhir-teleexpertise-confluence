@@ -12,10 +12,10 @@ Description: "Exemple de ressource PractitionerRole dans une pré-demande de té
 
 
 * practitioner = Reference(CFLPractitionerRequisExample)
-  * type = "CFLPractitionerProfile"
+  * type = "Practitioner"
 
 * organization = Reference(CFLOrganizationRequisExample)
-  * type = "CFLOrganizationProfile"
+  * type = "Organization"
 	
 
 * code[genreActivite] = https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite#GENR01 "Activité de soin et de pharmacie"

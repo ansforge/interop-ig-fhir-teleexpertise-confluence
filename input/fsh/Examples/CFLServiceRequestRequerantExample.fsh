@@ -12,10 +12,10 @@ Description: "Exemple de ressource ServiceRequest : pré-demande de téléexpert
 * authoredOn = "2026-09-29"
 
 * subject = Reference(CFLPatientExample)
-  * type = "CFLPatientProfile"
+  * type = "Patient"
 
 * requester = Reference(CFLPractitionerRoleRequerantExample)
-  * type = "CFLPractitionerRoleProfile"
+  * type = "PractitionerRole"
 	
 
 * extension[PatientConsent].valueBoolean = true

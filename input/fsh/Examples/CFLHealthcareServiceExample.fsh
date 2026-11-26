@@ -14,7 +14,7 @@ Description: "Exemple de ressource HealthcareService dans une pré-demande de t�
 * type = https://mos.esante.gouv.fr/NOS/TRE_R227-ChampActivite/FHIR/TRE-R227-ChampActivite#01 "Médecine, Chirurgie, Obstétrique (MCO)"
 
 * providedBy = Reference(CFLOrganizationRequisExample)
-		* type = "CFLOrganizationProfile"
+		* type = "Organization"
 
 * extension[ror-healthcareservice-sensitive-unit].valueBoolean = true
 

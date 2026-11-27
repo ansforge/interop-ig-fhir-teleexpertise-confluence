@@ -1,0 +1,61 @@
+# CFLOrganizationRequerantExample - Confluences Téléexpertise v0.1.0
+
+## Example Organization: CFLOrganizationRequerantExample
+
+-------
+
+**English**
+
+-------
+
+Profile: [CFL Organization Profile](StructureDefinition-cfl-organization.md)
+
+Cabinet du dr Wayne (Identifiant interne: 10001389462001 (use: official))
+
+-------
+
+| | |
+| :--- | :--- |
+| Active: | true |
+| Contact Detail | null Bordeaux |
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "Organization",
+  "id" : "CFLOrganizationRequerantExample",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/StructureDefinition/cfl-organization"]
+  },
+  "identifier" : [{
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203",
+        "code" : "INTRN"
+      }]
+    },
+    "system" : "https://rppsrang.esante.gouv.fr",
+    "value" : "10001389462001"
+  }],
+  "active" : true,
+  "name" : "Cabinet du dr Wayne",
+  "address" : [{
+    "_line" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameBase",
+        "valueString" : "Villeneuve"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/iso21090-ADXP-streetNameType",
+        "valueString" : "R"
+      }]
+    }],
+    "city" : "Bordeaux"
+  }]
+}
+
+```

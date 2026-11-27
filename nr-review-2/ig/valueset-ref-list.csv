@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-practitioner-specialty,2.2.0,active,,FRCoreValueSetPractitionerSpecialty,FR Core ValueSet Practitioner specialty,"The modalities of exercice of the practitioner, registered by an official organization for a period of time.","StructureDefinition/cfl-practitioner-role,StructureDefinition/cfl-practitioner","ans.fr.terminologies"
+https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/ValueSet/active-status,0.1.0,draft,,ActiveStatus,,"","StructureDefinition/split-active-status","Internal"
+https://interop.esante.gouv.fr/ig/fhir/teleexpertise-confluence/ValueSet/name-use-usual-or-official,0.1.0,active,,NameUseUsualOrOfficial,NameUse Usual Or Official,"Types de noms autorisés pour un patient ou un professionnel : nom usuel (usual) ou nom officiel (official).","StructureDefinition/cfl-patient,StructureDefinition/cfl-practitioner","hl7.fhir.r4.core"

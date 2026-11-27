@@ -1,0 +1,402 @@
+"Id","specmetier-to-RORHealthcareService","specmetier-to-RORHealthcareService comments","rim","w5"
+"","","","",""
+"HealthcareService","OffreOperationnelle","Profils ayant Accès","Entity. Role, or Act
+act[classCode=ACT][moodCode=DEF]",""
+"HealthcareService.id","metadonnee.identifiant","Tous les profils si uniteSensible = Non  
+Uniquement Profil 1 et Profil 4 si uniteSensible = Oui","",""
+"HealthcareService.meta","metadonnee","Similaire aux accès de metadonnee.identifiant","n/a
+N/A",""
+"HealthcareService.meta.id","","","n/a",""
+"HealthcareService.meta.extension","","","n/a
+N/A",""
+"HealthcareService.meta.versionId","","","n/a",""
+"HealthcareService.meta.lastUpdated","dateMiseJour","Similaire aux accès de metadonnee.identifiant","n/a",""
+"HealthcareService.meta.source","","","n/a",""
+"HealthcareService.meta.profile","","","n/a",""
+"HealthcareService.meta.security","","","n/a
+CV",""
+"HealthcareService.meta.tag","","","n/a
+CV",""
+"HealthcareService.meta.tag:codeRegion","regionSource","Similaire aux accès de metadonnee.identifiant","n/a
+CV",""
+"HealthcareService.implicitRules","","","n/a",""
+"HealthcareService.language","","","n/a",""
+"HealthcareService.text","","","n/a
+N/A
+Act.text?",""
+"HealthcareService.contained","","","Entity. Role, or Act
+N/A",""
+"HealthcareService.extension","","","",""
+"HealthcareService.extension:ror-territorial-division","zoneIntervention","Similaire aux accès de metadonnee.identifiant","",""
+"HealthcareService.extension:ror-territorial-division.id","","","n/a",""
+"HealthcareService.extension:ror-territorial-division.extension","","","",""
+"HealthcareService.extension:ror-territorial-division.extension:typeTerritorialDivision","","","",""
+"HealthcareService.extension:ror-territorial-division.extension:typeTerritorialDivision.id","","","n/a",""
+"HealthcareService.extension:ror-territorial-division.extension:typeTerritorialDivision.extension","","","",""
+"HealthcareService.extension:ror-territorial-division.extension:typeTerritorialDivision.url","","","N/A",""
+"HealthcareService.extension:ror-territorial-division.extension:typeTerritorialDivision.value[x]","","","n/a
+N/A",""
+"HealthcareService.extension:ror-territorial-division.extension:codeTerritorialDivision","","","",""
+"HealthcareService.extension:ror-territorial-division.extension:codeTerritorialDivision.id","","","n/a",""
+"HealthcareService.extension:ror-territorial-division.extension:codeTerritorialDivision.extension","","","",""
+"HealthcareService.extension:ror-territorial-division.extension:codeTerritorialDivision.url","","","N/A",""
+"HealthcareService.extension:ror-territorial-division.extension:codeTerritorialDivision.value[x]","","","n/a
+N/A",""
+"HealthcareService.extension:ror-territorial-division.url","","","N/A",""
+"HealthcareService.extension:ror-territorial-division.value[x]","","","n/a
+N/A",""
+"HealthcareService.extension:ror-healthcareservice-sensitive-unit","uniteSensible","Similaire aux accès de metadonnee.identifiant","",""
+"HealthcareService.extension:ror-healthcareservice-no-consent-habilitation","habilitationAuxSoinsSansConsentement","Similaire aux accès de metadonnee.identifiant","",""
+"HealthcareService.extension:ror-healthcareservice-psychiatric-sector","secteurPsychiatrique","Similaire aux accès de metadonnee.identifiant","",""
+"HealthcareService.extension:ror-healthcareservice-patient-type","publicPrisEnCharge","Similaire aux accès de metadonnee.identifiant","",""
+"HealthcareService.extension:ror-healthcareservice-contact","contact","Profil 1,  
+Profil 2 et Profil 5 si niveau de confidentialité du contact différent de 'très restreint' et si uniteSensible = non  
+Profil 3 si champ d'activité MS et si niveau de confidentialité  du contact différent de 'très restreint' et si uniteSensible = non sinon, pour les autres champs d'activité, uniquement accès si niveau de confidentialité  du contact= 'public'  
+Profil 4 si niveau de confidentialité  du contact= 'public'  
+Profil 0 si niveau de confidentialité  du contact= 'public' et si uniteSensible = non  ","",""
+"HealthcareService.extension:ror-healthcareservice-contact.id","","","n/a",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension","","","",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension:name","","","",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension:name.id","","","n/a",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension:name.extension","","","",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension:name.url","","","N/A",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension:name.value[x]","","","n/a
+N/A",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension:ror-function-contact","","","",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension:purposeContact","","","",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension:purposeContact.id","","","n/a",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension:purposeContact.extension","","","",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension:purposeContact.url","","","N/A",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension:purposeContact.value[x]","","","n/a
+N/A",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension:description","","","",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension:description.id","","","n/a",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension:description.extension","","","",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension:description.url","","","N/A",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension:description.value[x]","","","n/a
+N/A",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension:ror-confidentiality-level","","","",""
+"HealthcareService.extension:ror-healthcareservice-contact.extension:ror-healthcareservice-contact-telecom","contact.telecommunication","Profil 1,  
+Profil 2 et Profil 5 si niveaux de confidentialité du contact et du contact.telecommunication différents de 'très restreint' et si uniteSensible = non  
+Profil 3 si champ d'activité MS et si niveaux de confidentialité du contact et du contact.telecommunication différents de 'très restreint' et si uniteSensible = non, sinon, pour les autres champs d'activité, uniquement accès si niveau de confidentialité  du contact= 'public'  
+Profil 4 si niveaux de confidentialité du contact et du contact.telecommunication = 'public'  
+Profil 0 si niveaux de confidentialité du contact et du contact.telecommunication = 'public' et si uniteSensible = non  ","",""
+"HealthcareService.extension:ror-healthcareservice-contact.url","","","N/A",""
+"HealthcareService.extension:ror-healthcareservice-contact.value[x]","","","n/a
+N/A",""
+"HealthcareService.extension:ror-meta-creation-date","metadonnee.dateCreation","Similaire aux accès de metadonnee.identifiant","",""
+"HealthcareService.extension:ror-meta-questionnaire-used-as-a-template","metadonnee.modeleSaisie","Similaire aux accès de metadonnee.identifiant","",""
+"HealthcareService.modifierExtension","","","n/a
+N/A",""
+"HealthcareService.identifier","identifiantOffre","Similaire aux accès de metadonnee.identifiant","n/a
+II - The Identifier class is a little looser than the v3 type II because it allows URIs as well as registered OIDs or GUIDs.  Also maps to Role[classCode=IDENT]
+.id","FiveWs.identifier"
+"HealthcareService.active","Pas d'équivalent","","n/a
+.statusCode","FiveWs.status"
+"HealthcareService.providedBy","EntiteJuridique
+EntiteGeographique
+OrganisationInterne","","n/a
+The target of a resource reference is a RIM entry point (Act, Role, or Entity)
+.scopingRole.Organization",""
+"HealthcareService.category","typeOffre","Similaire aux accès de metadonnee.identifiant","n/a
+CD
+.code","FiveWs.class"
+"HealthcareService.type","champActivite","Similaire aux accès de metadonnee.identifiant","n/a
+CD
+.actrelationship[typeCode=COMP.act[classCode=ACT][moodCode=DEF].code",""
+"HealthcareService.specialty","","","n/a
+CD
+.actrelationship[typeCode=COMP.act[classCode=ACT][moodCode=DEF].code",""
+"HealthcareService.specialty:operationalActivity","ActiviteOperationnelle.activiteOperationnelle","Similaire aux accès de metadonnee.identifiant","n/a
+CD
+.actrelationship[typeCode=COMP.act[classCode=ACT][moodCode=DEF].code",""
+"HealthcareService.specialty:operationalActivity.id","","","n/a",""
+"HealthcareService.specialty:operationalActivity.extension","","","n/a",""
+"HealthcareService.specialty:operationalActivity.coding","","","union(., ./translation)",""
+"HealthcareService.specialty:operationalActivity.coding.id","","","n/a",""
+"HealthcareService.specialty:operationalActivity.coding.extension","","","n/a",""
+"HealthcareService.specialty:operationalActivity.coding.system","","","./codeSystem",""
+"HealthcareService.specialty:operationalActivity.coding.version","","","./codeSystemVersion",""
+"HealthcareService.specialty:operationalActivity.coding.code","","","./code",""
+"HealthcareService.specialty:operationalActivity.coding.display","","","CV.displayName",""
+"HealthcareService.specialty:operationalActivity.coding.userSelected","","","CD.codingRationale",""
+"HealthcareService.specialty:operationalActivity.text","","","./originalText[mediaType/code=""text/plain""]/data",""
+"HealthcareService.specialty:operationalActivityFamily","ActiviteOperationnelle.familleActiviteOperationnelle","Similaire aux accès de metadonnee.identifiant","n/a
+CD
+.actrelationship[typeCode=COMP.act[classCode=ACT][moodCode=DEF].code",""
+"HealthcareService.location","LieuRealisationOffre","","n/a
+The target of a resource reference is a RIM entry point (Act, Role, or Entity)
+.location.role[classCode=SDLOC]","FiveWs.where[x]"
+"HealthcareService.name","nomOffre","Similaire aux accès de metadonnee.identifiant","n/a
+.name",""
+"HealthcareService.comment","metadonnee.commentaire","Similaire aux accès de metadonnee.identifiant","n/a
+.location.role[classCode=SDLOC].desc",""
+"HealthcareService.extraDetails","","","n/a
+.actrelationship[typeCode=COMP.act[classCode=ACT][moodCode=DEF].text",""
+"HealthcareService.photo","","","n/a
+ED
+.actrelationship[typeCode=SBJ].observation.value",""
+"HealthcareService.telecom","boiteLettreMSS.adresseMSS","Similaire aux accès de metadonnee.identifiant","n/a
+TEL
+.telecom",""
+"HealthcareService.telecom.id","","","n/a",""
+"HealthcareService.telecom.extension","","","",""
+"HealthcareService.telecom.extension:ror-telecom-communication-channel","","","",""
+"HealthcareService.telecom.extension:ror-telecom-usage","","","",""
+"HealthcareService.telecom.extension:ror-telecom-confidentiality-level","","","",""
+"HealthcareService.telecom.system","","","n/a
+./scheme",""
+"HealthcareService.telecom.value","","","n/a
+./url",""
+"HealthcareService.telecom.use","","","n/a
+unique(./use)",""
+"HealthcareService.telecom.rank","","","n/a",""
+"HealthcareService.telecom.period","","","n/a
+IVL<TS>[lowClosed=""true"" and highClosed=""true""] or URG<TS>[lowClosed=""true"" and highClosed=""true""]
+./usablePeriod[type=""IVL<TS>""]",""
+"HealthcareService.coverageArea","","","n/a
+The target of a resource reference is a RIM entry point (Act, Role, or Entity)
+.location.role[classCode=SDLOC].subjectOf.A_SpatialCoordinate",""
+"HealthcareService.serviceProvisionCode","","","n/a
+CD
+.actrelationship[typeCode=PRCN].observation[moodCode=EVN.CRT]",""
+"HealthcareService.eligibility","","","n/a",""
+"HealthcareService.eligibility.id","","","n/a",""
+"HealthcareService.eligibility.extension","","","n/a
+N/A",""
+"HealthcareService.eligibility.modifierExtension","","","n/a
+N/A",""
+"HealthcareService.eligibility.code","","","n/a
+CD
+.actrelationship[typeCode=PRCN].observation[moodCode=EVN.CRT]",""
+"HealthcareService.eligibility.comment","","","n/a
+.actrelationship[typeCode=PRCN].observation[moodCode=EVN.CRT].text",""
+"HealthcareService.program","","","n/a
+CD
+.actrelationship[typeCode=PERT].observation",""
+"HealthcareService.characteristic","","","n/a
+CD
+.actrelationship[typeCode=PERT].observation",""
+"HealthcareService.characteristic.id","","","n/a",""
+"HealthcareService.characteristic.extension","","","n/a
+N/A",""
+"HealthcareService.characteristic.extension:ror-act-type","","","",""
+"HealthcareService.characteristic.coding","","","n/a
+CV
+union(., ./translation)",""
+"HealthcareService.characteristic.text","","","n/a
+./originalText[mediaType/code=""text/plain""]/data",""
+"HealthcareService.characteristic:receptionType","temporaliteAccueil","Similaire aux accès de metadonnee.identifiant","n/a
+CD
+.actrelationship[typeCode=PERT].observation",""
+"HealthcareService.characteristic:receptionType.id","","","n/a",""
+"HealthcareService.characteristic:receptionType.extension","","","n/a
+N/A",""
+"HealthcareService.characteristic:receptionType.extension:ror-act-type","","","",""
+"HealthcareService.characteristic:receptionType.coding","","","n/a
+CV
+union(., ./translation)",""
+"HealthcareService.characteristic:receptionType.text","","","n/a
+./originalText[mediaType/code=""text/plain""]/data",""
+"HealthcareService.characteristic:careMode","modePriseEnCharge","Similaire aux accès de metadonnee.identifiant","n/a
+CD
+.actrelationship[typeCode=PERT].observation",""
+"HealthcareService.characteristic:careMode.id","","","n/a",""
+"HealthcareService.characteristic:careMode.extension","","","n/a
+N/A",""
+"HealthcareService.characteristic:careMode.extension:ror-act-type","","","",""
+"HealthcareService.characteristic:careMode.coding","","","n/a
+CV
+union(., ./translation)",""
+"HealthcareService.characteristic:careMode.text","","","n/a
+./originalText[mediaType/code=""text/plain""]/data",""
+"HealthcareService.characteristic:receptionModality","modaliteAccueil","Similaire aux accès de metadonnee.identifiant","n/a
+CD
+.actrelationship[typeCode=PERT].observation",""
+"HealthcareService.characteristic:receptionModality.id","","","n/a",""
+"HealthcareService.characteristic:receptionModality.extension","","","n/a
+N/A",""
+"HealthcareService.characteristic:receptionModality.extension:ror-act-type","","","",""
+"HealthcareService.characteristic:receptionModality.coding","","","n/a
+CV
+union(., ./translation)",""
+"HealthcareService.characteristic:receptionModality.text","","","n/a
+./originalText[mediaType/code=""text/plain""]/data",""
+"HealthcareService.characteristic:managementType","modeGestion","Similaire aux accès de metadonnee.identifiant","n/a
+CD
+.actrelationship[typeCode=PERT].observation",""
+"HealthcareService.characteristic:managementType.id","","","n/a",""
+"HealthcareService.characteristic:managementType.extension","","","n/a
+N/A",""
+"HealthcareService.characteristic:managementType.extension:ror-act-type","","","",""
+"HealthcareService.characteristic:managementType.coding","","","n/a
+CV
+union(., ./translation)",""
+"HealthcareService.characteristic:managementType.text","","","n/a
+./originalText[mediaType/code=""text/plain""]/data",""
+"HealthcareService.characteristic:specificAct","acteSpecifique","Profil 1,  
+Profil 4,  
+Profil 5,  
+Profil 2 (sauf si uniteSensible = Oui),  
+Profil 3 si champ d'activité = MS (sauf si uniteSensible = Oui)  ","n/a
+CD
+.actrelationship[typeCode=PERT].observation",""
+"HealthcareService.characteristic:specificAct.id","","","n/a",""
+"HealthcareService.characteristic:specificAct.extension","","","",""
+"HealthcareService.characteristic:specificAct.extension:ror-act-type","","","",""
+"HealthcareService.characteristic:specificAct.extension:ror-act-type.id","","","n/a",""
+"HealthcareService.characteristic:specificAct.extension:ror-act-type.extension","","","",""
+"HealthcareService.characteristic:specificAct.extension:ror-act-type.url","","","N/A",""
+"HealthcareService.characteristic:specificAct.extension:ror-act-type.value[x]","","","n/a
+N/A",""
+"HealthcareService.characteristic:specificAct.coding","","","n/a
+CV
+union(., ./translation)",""
+"HealthcareService.characteristic:specificAct.text","","","n/a
+./originalText[mediaType/code=""text/plain""]/data",""
+"HealthcareService.characteristic:outsideOfficeAct","acteRealiseHorsCabinet","Similaire aux accès de acteSpecifique","n/a
+CD
+.actrelationship[typeCode=PERT].observation",""
+"HealthcareService.characteristic:outsideOfficeAct.id","","","n/a",""
+"HealthcareService.characteristic:outsideOfficeAct.extension","","","",""
+"HealthcareService.characteristic:outsideOfficeAct.extension:ror-act-type","","","",""
+"HealthcareService.characteristic:outsideOfficeAct.extension:ror-act-type.id","","","n/a",""
+"HealthcareService.characteristic:outsideOfficeAct.extension:ror-act-type.extension","","","",""
+"HealthcareService.characteristic:outsideOfficeAct.extension:ror-act-type.url","","","N/A",""
+"HealthcareService.characteristic:outsideOfficeAct.extension:ror-act-type.value[x]","","","n/a
+N/A",""
+"HealthcareService.characteristic:outsideOfficeAct.coding","","","n/a
+CV
+union(., ./translation)",""
+"HealthcareService.characteristic:outsideOfficeAct.text","","","n/a
+./originalText[mediaType/code=""text/plain""]/data",""
+"HealthcareService.characteristic:takingCareSpeciality","specialisationPriseEnCharge","Similaire aux accès de acteSpecifique","n/a
+CD
+.actrelationship[typeCode=PERT].observation",""
+"HealthcareService.characteristic:takingCareSpeciality.id","","","n/a",""
+"HealthcareService.characteristic:takingCareSpeciality.extension","","","n/a
+N/A",""
+"HealthcareService.characteristic:takingCareSpeciality.extension:ror-act-type","","","",""
+"HealthcareService.characteristic:takingCareSpeciality.coding","","","n/a
+CV
+union(., ./translation)",""
+"HealthcareService.characteristic:takingCareSpeciality.text","","","n/a
+./originalText[mediaType/code=""text/plain""]/data",""
+"HealthcareService.characteristic:annualOpening","ouvertureAnnuelle","Similaire aux accès de metadonnee.identifiant","n/a
+CD
+.actrelationship[typeCode=PERT].observation",""
+"HealthcareService.characteristic:annualOpening.id","","","n/a",""
+"HealthcareService.characteristic:annualOpening.extension","","","n/a
+N/A",""
+"HealthcareService.characteristic:annualOpening.extension:ror-act-type","","","",""
+"HealthcareService.characteristic:annualOpening.coding","","","n/a
+CV
+union(., ./translation)",""
+"HealthcareService.characteristic:annualOpening.text","","","n/a
+./originalText[mediaType/code=""text/plain""]/data",""
+"HealthcareService.characteristic:ressourceProfession","professionRessource","Similaire aux accès de acteSpecifique","n/a
+CD
+.actrelationship[typeCode=PERT].observation",""
+"HealthcareService.characteristic:ressourceProfession.id","","","n/a",""
+"HealthcareService.characteristic:ressourceProfession.extension","","","n/a
+N/A",""
+"HealthcareService.characteristic:ressourceProfession.extension:ror-act-type","","","",""
+"HealthcareService.characteristic:ressourceProfession.coding","","","n/a
+CV
+union(., ./translation)",""
+"HealthcareService.characteristic:ressourceProfession.text","","","n/a
+./originalText[mediaType/code=""text/plain""]/data",""
+"HealthcareService.characteristic:specificCompetence","competenceSpecifique","Similaire aux accès de acteSpecifique","n/a
+CD
+.actrelationship[typeCode=PERT].observation",""
+"HealthcareService.characteristic:specificCompetence.id","","","n/a",""
+"HealthcareService.characteristic:specificCompetence.extension","","","n/a
+N/A",""
+"HealthcareService.characteristic:specificCompetence.extension:ror-act-type","","","",""
+"HealthcareService.characteristic:specificCompetence.coding","","","n/a
+CV
+union(., ./translation)",""
+"HealthcareService.characteristic:specificCompetence.text","","","n/a
+./originalText[mediaType/code=""text/plain""]/data",""
+"HealthcareService.characteristic:expertiseLevel","niveauExpertise","Similaire aux accès de metadonnee.identifiant","n/a
+CD
+.actrelationship[typeCode=PERT].observation",""
+"HealthcareService.characteristic:expertiseLevel.id","","","n/a",""
+"HealthcareService.characteristic:expertiseLevel.extension","","","n/a
+N/A",""
+"HealthcareService.characteristic:expertiseLevel.extension:ror-act-type","","","",""
+"HealthcareService.characteristic:expertiseLevel.coding","","","n/a
+CV
+union(., ./translation)",""
+"HealthcareService.characteristic:expertiseLevel.text","","","n/a
+./originalText[mediaType/code=""text/plain""]/data",""
+"HealthcareService.characteristic:temporalityStopService","typeFermeture","Similaire aux accès de metadonnee.identifiant","n/a
+CD
+.actrelationship[typeCode=PERT].observation",""
+"HealthcareService.characteristic:temporalityStopService.id","","","n/a",""
+"HealthcareService.characteristic:temporalityStopService.extension","","","n/a
+N/A",""
+"HealthcareService.characteristic:temporalityStopService.extension:ror-act-type","","","",""
+"HealthcareService.characteristic:temporalityStopService.coding","","","n/a
+CV
+union(., ./translation)",""
+"HealthcareService.characteristic:temporalityStopService.text","","","n/a
+./originalText[mediaType/code=""text/plain""]/data",""
+"HealthcareService.communication","","","n/a
+CD",""
+"HealthcareService.referralMethod","","","n/a
+CD
+.actrelationship[typeCode=PERT].observation",""
+"HealthcareService.appointmentRequired","","","n/a
+.actrelationship[typeCode=PERT].observation",""
+"HealthcareService.availableTime","horaire","Similaire aux accès de metadonnee.identifiant","n/a
+.effectiveTime",""
+"HealthcareService.availableTime.id","","","n/a",""
+"HealthcareService.availableTime.extension","","","n/a
+N/A",""
+"HealthcareService.availableTime.extension:ror-available-time-type-of-time","","","",""
+"HealthcareService.availableTime.extension:ror-available-time-effective-opening-closing-date","","","",""
+"HealthcareService.availableTime.extension:ror-available-time-number-days-of-week","","","",""
+"HealthcareService.availableTime.modifierExtension","","","n/a
+N/A",""
+"HealthcareService.availableTime.daysOfWeek","","","n/a
+.effectiveTime",""
+"HealthcareService.availableTime.allDay","","","n/a
+.effectiveTime",""
+"HealthcareService.availableTime.availableStartTime","heureDebut","Similaire aux accès de metadonnee.identifiant","n/a
+.effectiveTime",""
+"HealthcareService.availableTime.availableEndTime","heureFin","Similaire aux accès de metadonnee.identifiant","n/a
+.effectiveTime",""
+"HealthcareService.notAvailable","","","n/a
+.effectiveTime",""
+"HealthcareService.notAvailable.id","","","n/a",""
+"HealthcareService.notAvailable.extension","","","n/a
+N/A",""
+"HealthcareService.notAvailable.modifierExtension","","","n/a
+N/A",""
+"HealthcareService.notAvailable.description","","","n/a",""
+"HealthcareService.notAvailable.during","","","n/a
+IVL<TS>[lowClosed=""true"" and highClosed=""true""] or URG<TS>[lowClosed=""true"" and highClosed=""true""]
+.effectiveTime",""
+"HealthcareService.notAvailable:closingReopeningDate","","","n/a
+.effectiveTime",""
+"HealthcareService.notAvailable:closingReopeningDate.id","","","n/a",""
+"HealthcareService.notAvailable:closingReopeningDate.extension","","","n/a
+N/A",""
+"HealthcareService.notAvailable:closingReopeningDate.modifierExtension","","","n/a
+N/A",""
+"HealthcareService.notAvailable:closingReopeningDate.description","","","n/a",""
+"HealthcareService.notAvailable:closingReopeningDate.during","","","n/a
+IVL<TS>[lowClosed=""true"" and highClosed=""true""] or URG<TS>[lowClosed=""true"" and highClosed=""true""]
+.effectiveTime",""
+"HealthcareService.notAvailable:closingReopeningDate.during.id","","","n/a",""
+"HealthcareService.notAvailable:closingReopeningDate.during.extension","","","n/a
+N/A",""
+"HealthcareService.notAvailable:closingReopeningDate.during.start","dateFermeture","Similaire aux accès de metadonnee.identifiant","n/a
+./low",""
+"HealthcareService.notAvailable:closingReopeningDate.during.end","datePrevisionnelleReouverture","Similaire aux accès de metadonnee.identifiant","n/a
+./high",""
+"HealthcareService.availabilityExceptions","","","n/a
+.effectiveTime",""
+"HealthcareService.endpoint","","","n/a
+The target of a resource reference is a RIM entry point (Act, Role, or Entity)",""

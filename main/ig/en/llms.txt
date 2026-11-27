@@ -1,0 +1,47 @@
+# ans.fhir.fr.teleexpertise-confluence#0.1.0: Confluences Téléexpertise(en)
+
+## Pages
+
+* [Accueil](index.md)
+* [Informations sur la traduction](translationinfo.md)
+* [Sécurité](annexe-securite.md)
+* [Autres Ressources](autres_ressources.md)
+* [Vue d'ensemble](spec-fonctionnelle-intro.md)
+* [Introduction](spec-technique-intro.md)
+* [Alimentation](spec-fonctionnelle-alimentation.md)
+* [Flux d'alimentation](spec-technique-flux-alimentation.md)
+* [Artifacts Summary](artifacts.md)
+* [Historique des versions](change-log.md)
+* [Vue d'ensemble](spec-technique-vue-ensemble.md)
+* [Flux de consommation](spec-technique-flux-consommation.md)
+* [Téléchargements et usages](annexe-downloads.md)
+
+## Resources
+
+### CodeSystems
+
+* [Compétences CodeSystem](CodeSystem-competence-code-system.md)
+* [Type de carte](CodeSystem-type-carte-code-system.md)
+
+### ValueSets
+
+* [EyeColor Value Set](ValueSet-EyeColorVS.md)
+* [Melting Pot Value Set](ValueSet-MeltingPotVS.md)
+* [ModifiedAdministrativeGender](ValueSet-ModifiedAdministrativeGender.md)
+* [Type Carte Value Set](ValueSet-TypeCarteVS.md)
+
+### Resource Profiles
+
+* [Patient français](StructureDefinition-fr-patient.md)
+
+### Extensions
+
+* [EyeColor](StructureDefinition-EyeColor.md)
+
+### ImplementationGuides
+
+* [Confluences Téléexpertise](ImplementationGuide-ans.fhir.fr.teleexpertise-confluence.md)
+
+### Examples
+
+* [frpatient-exemple (Patient)](Patient-frpatient-exemple.md)

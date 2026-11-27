@@ -2,7 +2,7 @@ Profile: CFLOrganizationProfile
 Parent: AsOrganizationProfile
 Id: cfl-organization
 Title: "CFL Organization Profile"
-Description: "Profil issu de AsOrganizationProfile"
+Description: "Profil d'une structure relié à un requérant"
 
 
 * identifier 1..1
